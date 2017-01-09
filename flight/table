@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+
+function average () {
+awk 'BEGIN{sum=0} {sum+=$1} END{printf("  %4d  ",sum/NR)}'
+}
+
+function min () {
+awk 'BEGIN{sum=0;min=8000;max=0} {if($1<min){min=$1} if($1>max){max=$1}sum+=$1} END{printf("  %4d  ",min)}'
+}
+
+
+function dollars(){
+	grep '^    "saleTotal' $file | grep -o 'USD[0-9.]\+' | sed 's/USD//' | average
+}
+
+function hours(){
+	sed -nE 's/^      "duration": ([0-9]+)/\1/;Tend;p;:end' $file | awk '{print $1/60}' | average
+}
+
+function country(){
+	grep -m 1 "^$1" airports.tab | cut -d'	' -f5
+}
+
+function pair (){
+  file=$1/$2.json
+  if [ -f $file ]; then
+		echo "$(dollars $file) | $(hours $file)"
+	else
+		echo '   ...  ' '|' '   ...  '
+	fi
+}
+
+(
+
+echo 'The currently collected data from [flights](./flights/):'
+echo 
+echo '| Airport | JFK Cost | JFK Time | SFO Cost | SFO Time | LHR Cost | LHR Time | SYD Cost | SYD Time | Country |'
+echo '| ------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | ------- |'
+
+airports=$(echo */* | sed -E 's,[A-Z]*/([A-Z]+)\.json ?,\1\n,g' | sort -u)
+
+for airport in $airports; do
+	echo "|   $airport   | $(pair JFK $airport) | $(pair SFO $airport) | $(pair LHR $airport) | $(pair SYD $airport) | $(country $airport) |"
+done | sort -t'|' -k 11
+) | tee ../flights.md
