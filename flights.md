@@ -1,4 +1,5 @@
 The currently collected data from [flights](./flights/):
+Time (hours) and Cost (USD) are averages of the ten cheapest flights on 2017-06-15.
 
 | Airport | JFK Cost | JFK Time | SFO Cost | SFO Time | LHR Cost | LHR Time | SYD Cost | SYD Time | Country |
 | ------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | ------- |

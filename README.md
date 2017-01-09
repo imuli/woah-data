@@ -1,4 +1,4 @@
 # Semi-automated Data Collection for Woah.
 
-* Flight data collection is in [flight](./flight/) [output](./flight.md).
+* [Flight data](./flight.md), tools are in [flight](./flight/).
 
