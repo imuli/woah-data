@@ -1,0 +1,60 @@
+#!/usr/bin/env bash
+
+function check() {
+	if ! echo $1 | grep -q '^[A-Z][A-Z][A-Z]$'; then
+		echo Bad airport code "'$1'".
+		exit 1
+	fi
+	if ! grep -q "^$1" airports.tab; then
+		echo Unknown airport "'$1'".
+		exit 1
+	fi
+}
+
+check "$1"
+check "$2"
+
+if [ "$1" '=' "$2" ]; then
+	echo Airports must be different.
+	exit 1
+fi
+if [ ! -d $1 ]; then
+	echo Directory does not exist.
+	echo Please create "'$1/'" and try again to continue.
+	exit 1
+fi
+if [ -f $1/$2.json ]; then
+	echo Flight information for $1 to $2 already exists.
+	echo Please remove and try again to continue.
+	exit 1
+fi
+
+key="$(cat .key)"
+if [ "$(echo -n $key | wc -c)" != "39" ]; then
+	echo Keyfile invalid.
+	exit 1
+fi
+
+curl --header "Content-Type: application/json" --request POST --data-binary @- "https://www.googleapis.com/qpxExpress/v1/trips/search?key=$key" > $1/$2.json <<- END
+{
+  "request": {
+    "slice": [
+      {
+        "origin": "$1",
+        "destination": "$2",
+        "date": "2017-06-15"
+      }
+    ],
+    "passengers": {
+      "adultCount": 1,
+      "infantInLapCount": 0,
+      "infantInSeatCount": 0,
+      "childCount": 0,
+      "seniorCount": 0
+    },
+    "solutions": 10,
+    "saleCountry": "US",
+    "refundable": false
+  }
+}
+END

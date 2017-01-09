@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+function stats () {
+awk 'BEGIN{sum=0;min=8000;max=0} {if($1<min){min=$1} if($1>max){max=$1}sum+=$1} END{print min,sum/NR,max}'
+}
+
+for a in */$1.json; do
+	echo $(dirname $a) $(grep '^    "saleTotal' $a | grep -o 'USD[0-9.]\+' | sed 's/USD//' | stats)
+done

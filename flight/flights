@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+for a in */; do
+	./flight ${a/\//} $1
+done

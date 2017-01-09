@@ -1,0 +1,1108 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "nVohD38vaediMUiOb0Pmjg",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "LHR",
+     "city": "LON",
+     "name": "London Heathrow"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "MUC",
+     "city": "MUC",
+     "name": "Munich Franz Joseph Strauss Int'l"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "LON",
+     "name": "London"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "MUC",
+     "name": "Munich"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "319",
+     "name": "Airbus A319"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "320",
+     "name": "Airbus A320"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "321",
+     "name": "Airbus A321"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "32A",
+     "name": "Airbus A320"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "UB_001",
+     "name": "United Kingdom Passenger Service Charge Departures"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YR_I",
+     "name": "LH YR surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "GB_001",
+     "name": "United Kingdom Air Passenger Duty Apd"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_I",
+     "name": "LH YQ surcharge"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "BA",
+     "name": "British Airways"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "LH",
+     "name": "Deutsche Lufthansa AG"
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD107.70",
+    "id": "V4ZMIn0zEbCRO1uFZnx2eK002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 105,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 105,
+        "flight": {
+         "carrier": "LH",
+         "number": "2475"
+        },
+        "id": "Go-d8SKlfZV0hN1e",
+        "cabin": "COACH",
+        "bookingCode": "K",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LNWO++NcKxQTunZC",
+          "aircraft": "321",
+          "arrivalTime": "2017-06-15T16:35+02:00",
+          "departureTime": "2017-06-15T13:50+01:00",
+          "origin": "LHR",
+          "destination": "MUC",
+          "originTerminal": "2",
+          "destinationTerminal": "2",
+          "duration": 105,
+          "mileage": 584,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A2AdG68rVjOOLMC42tTngJDaOEzEzyHtPrAn567/kPjQ",
+        "carrier": "LH",
+        "origin": "LON",
+        "destination": "MUC",
+        "basisCode": "K31CLS9A"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A2AdG68rVjOOLMC42tTngJDaOEzEzyHtPrAn567/kPjQ",
+        "segmentId": "Go-d8SKlfZV0hN1e"
+       }
+      ],
+      "baseFareTotal": "GBP34.00",
+      "saleFareTotal": "USD42.00",
+      "saleTaxTotal": "USD65.70",
+      "saleTotal": "USD107.70",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD5.30"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "USD13.90"
+       }
+      ],
+      "fareCalculation": "LON LH MUC 43.05K31CLS9A NUC 43.05 END ROE 0.789732 FARE GBP 34.00 EQU USD 42.00 XT 16.00GB 30.50UB 5.30YQ 13.90YR",
+      "latestTicketingTime": "2017-01-10T16:44-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD107.70",
+    "id": "V4ZMIn0zEbCRO1uFZnx2eK001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 105,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 105,
+        "flight": {
+         "carrier": "LH",
+         "number": "2471"
+        },
+        "id": "Gm4ytDtP7avZVKvs",
+        "cabin": "COACH",
+        "bookingCode": "K",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LvYkm+o8PDXN0gnV",
+          "aircraft": "32A",
+          "arrivalTime": "2017-06-15T11:40+02:00",
+          "departureTime": "2017-06-15T08:55+01:00",
+          "origin": "LHR",
+          "destination": "MUC",
+          "originTerminal": "2",
+          "destinationTerminal": "2",
+          "duration": 105,
+          "mileage": 584,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A2AdG68rVjOOLMC42tTngJDaOEzEzyHtPrAn567/kPjQ",
+        "carrier": "LH",
+        "origin": "LON",
+        "destination": "MUC",
+        "basisCode": "K31CLS9A"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A2AdG68rVjOOLMC42tTngJDaOEzEzyHtPrAn567/kPjQ",
+        "segmentId": "Gm4ytDtP7avZVKvs"
+       }
+      ],
+      "baseFareTotal": "GBP34.00",
+      "saleFareTotal": "USD42.00",
+      "saleTaxTotal": "USD65.70",
+      "saleTotal": "USD107.70",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD5.30"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "USD13.90"
+       }
+      ],
+      "fareCalculation": "LON LH MUC 43.05K31CLS9A NUC 43.05 END ROE 0.789732 FARE GBP 34.00 EQU USD 42.00 XT 16.00GB 30.50UB 5.30YQ 13.90YR",
+      "latestTicketingTime": "2017-01-10T16:44-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD112.90",
+    "id": "V4ZMIn0zEbCRO1uFZnx2eK003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 105,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 105,
+        "flight": {
+         "carrier": "LH",
+         "number": "2485"
+        },
+        "id": "Gxzs4CE636lA4wVQ",
+        "cabin": "COACH",
+        "bookingCode": "L",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LXrqRL+ULELKJZu4",
+          "aircraft": "321",
+          "arrivalTime": "2017-06-15T10:10+02:00",
+          "departureTime": "2017-06-15T07:25+01:00",
+          "origin": "LHR",
+          "destination": "MUC",
+          "originTerminal": "2",
+          "destinationTerminal": "2",
+          "duration": 105,
+          "mileage": 584,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AGlMc5nTQjp5lGKgk5/dlBolicbzudBQhnZzmUBRvUTo",
+        "carrier": "LH",
+        "origin": "LON",
+        "destination": "MUC",
+        "basisCode": "L31CLS9A"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AGlMc5nTQjp5lGKgk5/dlBolicbzudBQhnZzmUBRvUTo",
+        "segmentId": "Gxzs4CE636lA4wVQ"
+       }
+      ],
+      "baseFareTotal": "GBP35.00",
+      "saleFareTotal": "USD43.00",
+      "saleTaxTotal": "USD69.90",
+      "saleTotal": "USD112.90",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD9.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "USD13.90"
+       }
+      ],
+      "fareCalculation": "LON LH MUC 44.31L31CLS9A NUC 44.31 END ROE 0.789732 FARE GBP 35.00 EQU USD 43.00 XT 16.00GB 30.50UB 9.50YQ 13.90YR",
+      "latestTicketingTime": "2017-01-10T16:44-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD129.50",
+    "id": "V4ZMIn0zEbCRO1uFZnx2eK004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 110,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 110,
+        "flight": {
+         "carrier": "BA",
+         "number": "948"
+        },
+        "id": "GHfD3Jo5id8McK29",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LQT-2yrYjEG28gGA",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T09:45+02:00",
+          "departureTime": "2017-06-15T06:55+01:00",
+          "origin": "LHR",
+          "destination": "MUC",
+          "originTerminal": "5",
+          "destinationTerminal": "1",
+          "duration": 110,
+          "mileage": 584,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A7GZkbVHA0OiMqb1Ab1w/ckcjMfrHlhImCdf/8/tgZVo",
+        "carrier": "BA",
+        "origin": "LON",
+        "destination": "MUC",
+        "basisCode": "OV2RO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A7GZkbVHA0OiMqb1Ab1w/ckcjMfrHlhImCdf/8/tgZVo",
+        "segmentId": "GHfD3Jo5id8McK29"
+       }
+      ],
+      "baseFareTotal": "GBP67.00",
+      "saleFareTotal": "USD83.00",
+      "saleTaxTotal": "USD46.50",
+      "saleTotal": "USD129.50",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       }
+      ],
+      "fareCalculation": "LON BA MUC 84.83OV2RO NUC 84.83 END ROE 0.789732 FARE GBP 67.00 EQU USD 83.00 XT 16.00GB 30.50UB",
+      "latestTicketingTime": "2017-01-12T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD132.10",
+    "id": "V4ZMIn0zEbCRO1uFZnx2eK006",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 105,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 105,
+        "flight": {
+         "carrier": "LH",
+         "number": "2477"
+        },
+        "id": "G7TRAZSHfByFIkuH",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LliQtUOsEYoiCGWz",
+          "aircraft": "32A",
+          "arrivalTime": "2017-06-15T19:10+02:00",
+          "departureTime": "2017-06-15T16:25+01:00",
+          "origin": "LHR",
+          "destination": "MUC",
+          "originTerminal": "2",
+          "destinationTerminal": "2",
+          "duration": 105,
+          "mileage": 584,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A3z1H+pj0JWfBEN5wV9KF0K12hHo2Gj45yyJ7hcWgw7Q",
+        "carrier": "LH",
+        "origin": "LON",
+        "destination": "MUC",
+        "basisCode": "T31CLS9A"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A3z1H+pj0JWfBEN5wV9KF0K12hHo2Gj45yyJ7hcWgw7Q",
+        "segmentId": "G7TRAZSHfByFIkuH"
+       }
+      ],
+      "baseFareTotal": "GBP47.00",
+      "saleFareTotal": "USD58.00",
+      "saleTaxTotal": "USD74.10",
+      "saleTotal": "USD132.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD13.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "USD13.90"
+       }
+      ],
+      "fareCalculation": "LON LH MUC 59.51T31CLS9A NUC 59.51 END ROE 0.789732 FARE GBP 47.00 EQU USD 58.00 XT 16.00GB 30.50UB 13.70YQ 13.90YR",
+      "latestTicketingTime": "2017-01-10T16:44-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD132.10",
+    "id": "V4ZMIn0zEbCRO1uFZnx2eK005",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 105,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 105,
+        "flight": {
+         "carrier": "LH",
+         "number": "2483"
+        },
+        "id": "GIjA2DkWqp1ogrq9",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lc1Le4Bg4vmSYLuf",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T09:40+02:00",
+          "departureTime": "2017-06-15T06:55+01:00",
+          "origin": "LHR",
+          "destination": "MUC",
+          "originTerminal": "2",
+          "destinationTerminal": "2",
+          "duration": 105,
+          "mileage": 584,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A3z1H+pj0JWfBEN5wV9KF0K12hHo2Gj45yyJ7hcWgw7Q",
+        "carrier": "LH",
+        "origin": "LON",
+        "destination": "MUC",
+        "basisCode": "T31CLS9A"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A3z1H+pj0JWfBEN5wV9KF0K12hHo2Gj45yyJ7hcWgw7Q",
+        "segmentId": "GIjA2DkWqp1ogrq9"
+       }
+      ],
+      "baseFareTotal": "GBP47.00",
+      "saleFareTotal": "USD58.00",
+      "saleTaxTotal": "USD74.10",
+      "saleTotal": "USD132.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD13.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "USD13.90"
+       }
+      ],
+      "fareCalculation": "LON LH MUC 59.51T31CLS9A NUC 59.51 END ROE 0.789732 FARE GBP 47.00 EQU USD 58.00 XT 16.00GB 30.50UB 13.70YQ 13.90YR",
+      "latestTicketingTime": "2017-01-10T16:44-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD132.10",
+    "id": "V4ZMIn0zEbCRO1uFZnx2eK007",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 105,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 105,
+        "flight": {
+         "carrier": "LH",
+         "number": "2473"
+        },
+        "id": "GD72zM7TnYjyLF7X",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+NvDo55tBnv9uaM",
+          "aircraft": "321",
+          "arrivalTime": "2017-06-15T13:40+02:00",
+          "departureTime": "2017-06-15T10:55+01:00",
+          "origin": "LHR",
+          "destination": "MUC",
+          "originTerminal": "2",
+          "destinationTerminal": "2",
+          "duration": 105,
+          "mileage": 584,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A3z1H+pj0JWfBEN5wV9KF0K12hHo2Gj45yyJ7hcWgw7Q",
+        "carrier": "LH",
+        "origin": "LON",
+        "destination": "MUC",
+        "basisCode": "T31CLS9A"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A3z1H+pj0JWfBEN5wV9KF0K12hHo2Gj45yyJ7hcWgw7Q",
+        "segmentId": "GD72zM7TnYjyLF7X"
+       }
+      ],
+      "baseFareTotal": "GBP47.00",
+      "saleFareTotal": "USD58.00",
+      "saleTaxTotal": "USD74.10",
+      "saleTotal": "USD132.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD13.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "USD13.90"
+       }
+      ],
+      "fareCalculation": "LON LH MUC 59.51T31CLS9A NUC 59.51 END ROE 0.789732 FARE GBP 47.00 EQU USD 58.00 XT 16.00GB 30.50UB 13.70YQ 13.90YR",
+      "latestTicketingTime": "2017-01-10T16:44-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD166.50",
+    "id": "V4ZMIn0zEbCRO1uFZnx2eK008",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 115,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 115,
+        "flight": {
+         "carrier": "BA",
+         "number": "952"
+        },
+        "id": "GEUjwJzMRnX2ulZK",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 3,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LVlR8Ej-9r55j0jx",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T15:35+02:00",
+          "departureTime": "2017-06-15T12:40+01:00",
+          "origin": "LHR",
+          "destination": "MUC",
+          "originTerminal": "5",
+          "destinationTerminal": "1",
+          "duration": 115,
+          "mileage": 584,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AebEFLMLaEAy40tvetu8c3wz5rr6eGiy+ZRrmdmViD96",
+        "carrier": "BA",
+        "origin": "LON",
+        "destination": "MUC",
+        "basisCode": "QV2RO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AebEFLMLaEAy40tvetu8c3wz5rr6eGiy+ZRrmdmViD96",
+        "segmentId": "GEUjwJzMRnX2ulZK"
+       }
+      ],
+      "baseFareTotal": "GBP97.00",
+      "saleFareTotal": "USD120.00",
+      "saleTaxTotal": "USD46.50",
+      "saleTotal": "USD166.50",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       }
+      ],
+      "fareCalculation": "LON BA MUC 122.82QV2RO NUC 122.82 END ROE 0.789732 FARE GBP 97.00 EQU USD 120.00 XT 16.00GB 30.50UB",
+      "latestTicketingTime": "2017-01-12T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD166.50",
+    "id": "V4ZMIn0zEbCRO1uFZnx2eK009",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 115,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 115,
+        "flight": {
+         "carrier": "BA",
+         "number": "958"
+        },
+        "id": "GcRnZVxnvNux-rGp",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LDuQQT-mX3+QDtUX",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T23:25+02:00",
+          "departureTime": "2017-06-15T20:30+01:00",
+          "origin": "LHR",
+          "destination": "MUC",
+          "originTerminal": "5",
+          "destinationTerminal": "1",
+          "duration": 115,
+          "mileage": 584,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AebEFLMLaEAy40tvetu8c3wz5rr6eGiy+ZRrmdmViD96",
+        "carrier": "BA",
+        "origin": "LON",
+        "destination": "MUC",
+        "basisCode": "QV2RO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AebEFLMLaEAy40tvetu8c3wz5rr6eGiy+ZRrmdmViD96",
+        "segmentId": "GcRnZVxnvNux-rGp"
+       }
+      ],
+      "baseFareTotal": "GBP97.00",
+      "saleFareTotal": "USD120.00",
+      "saleTaxTotal": "USD46.50",
+      "saleTotal": "USD166.50",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       }
+      ],
+      "fareCalculation": "LON BA MUC 122.82QV2RO NUC 122.82 END ROE 0.789732 FARE GBP 97.00 EQU USD 120.00 XT 16.00GB 30.50UB",
+      "latestTicketingTime": "2017-01-12T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD166.50",
+    "id": "V4ZMIn0zEbCRO1uFZnx2eK00A",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 115,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 115,
+        "flight": {
+         "carrier": "BA",
+         "number": "956"
+        },
+        "id": "GyuogY+kkLBo8E0X",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 3,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LZ-2lzRKH9KJBrzL",
+          "aircraft": "319",
+          "arrivalTime": "2017-06-15T20:15+02:00",
+          "departureTime": "2017-06-15T17:20+01:00",
+          "origin": "LHR",
+          "destination": "MUC",
+          "originTerminal": "5",
+          "destinationTerminal": "1",
+          "duration": 115,
+          "mileage": 584,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AebEFLMLaEAy40tvetu8c3wz5rr6eGiy+ZRrmdmViD96",
+        "carrier": "BA",
+        "origin": "LON",
+        "destination": "MUC",
+        "basisCode": "QV2RO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AebEFLMLaEAy40tvetu8c3wz5rr6eGiy+ZRrmdmViD96",
+        "segmentId": "GyuogY+kkLBo8E0X"
+       }
+      ],
+      "baseFareTotal": "GBP97.00",
+      "saleFareTotal": "USD120.00",
+      "saleTaxTotal": "USD46.50",
+      "saleTotal": "USD166.50",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       }
+      ],
+      "fareCalculation": "LON BA MUC 122.82QV2RO NUC 122.82 END ROE 0.789732 FARE GBP 97.00 EQU USD 120.00 XT 16.00GB 30.50UB",
+      "latestTicketingTime": "2017-01-12T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}
