@@ -1,0 +1,1307 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "khOtSqMMOEV9uCjqZ0Pmzz",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "BNE",
+     "city": "BNE",
+     "name": "Brisbane International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "MEL",
+     "city": "MEL",
+     "name": "Melbourne Airport"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "OOL",
+     "city": "OOL",
+     "name": "Gold Coast Coolangatta"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "PER",
+     "city": "PER",
+     "name": "Perth International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "SYD",
+     "city": "SYD",
+     "name": "Sydney Kingsford Smith"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "BNE",
+     "name": "Brisbane"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "MEL",
+     "name": "Melbourne"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "OOL",
+     "name": "Gold Coast"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "PER",
+     "name": "Perth"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "SYD",
+     "name": "Sydney"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "320",
+     "name": "Airbus A320"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "332",
+     "name": "Airbus A330"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "73H",
+     "name": "Boeing 737"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "QR_002",
+     "name": "Australia Passenger Service Charge Domestic Arrival"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "QR_001",
+     "name": "Australia Passenger Service Charge Domestic Departure"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "WG_001",
+     "name": "Australia Safety And Security Charge Departure"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "JQ",
+     "name": "Jetstar Airways Pty Limited"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "VA",
+     "name": "Virgin Australia International"
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD145.50",
+    "id": "efNJpwsa8e7Mpx5b5j4fRG002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "VA",
+         "number": "555"
+        },
+        "id": "Gxez-jqM4ehzFnU9",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L0r7g14LN29pqL47",
+          "aircraft": "332",
+          "arrivalTime": "2017-06-15T12:45+08:00",
+          "departureTime": "2017-06-15T09:35+10:00",
+          "origin": "SYD",
+          "destination": "PER",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 310,
+          "mileage": 2035,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A1UCHmq3hykKd1xjXiLxtiwACO+KnQUtk+VNVga/RAryt",
+        "carrier": "VA",
+        "origin": "SYD",
+        "destination": "PER",
+        "basisCode": "SZGW2A60"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A1UCHmq3hykKd1xjXiLxtiwACO+KnQUtk+VNVga/RAryt",
+        "segmentId": "Gxez-jqM4ehzFnU9"
+       }
+      ],
+      "baseFareTotal": "AUD184.00",
+      "saleFareTotal": "USD134.00",
+      "saleTaxTotal": "USD11.50",
+      "saleTotal": "USD145.50",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD2.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD3.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD5.40"
+       }
+      ],
+      "fareCalculation": "SYD VA PER 183.12SZGW2A60 AUD 183.12 END FARE AUD 184.00 EQU USD 134.00 XT 8.80QR 2.70WG",
+      "latestTicketingTime": "2017-01-10T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD145.50",
+    "id": "efNJpwsa8e7Mpx5b5j4fRG003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "VA",
+         "number": "551"
+        },
+        "id": "GSjLa0P+bYe6F9km",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LbpO7p7JvtGIOvZo",
+          "aircraft": "332",
+          "arrivalTime": "2017-06-15T10:25+08:00",
+          "departureTime": "2017-06-15T07:15+10:00",
+          "origin": "SYD",
+          "destination": "PER",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 310,
+          "mileage": 2035,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A1UCHmq3hykKd1xjXiLxtiwACO+KnQUtk+VNVga/RAryt",
+        "carrier": "VA",
+        "origin": "SYD",
+        "destination": "PER",
+        "basisCode": "SZGW2A60"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A1UCHmq3hykKd1xjXiLxtiwACO+KnQUtk+VNVga/RAryt",
+        "segmentId": "GSjLa0P+bYe6F9km"
+       }
+      ],
+      "baseFareTotal": "AUD184.00",
+      "saleFareTotal": "USD134.00",
+      "saleTaxTotal": "USD11.50",
+      "saleTotal": "USD145.50",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD2.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD3.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD5.40"
+       }
+      ],
+      "fareCalculation": "SYD VA PER 183.12SZGW2A60 AUD 183.12 END FARE AUD 184.00 EQU USD 134.00 XT 8.80QR 2.70WG",
+      "latestTicketingTime": "2017-01-10T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD145.50",
+    "id": "efNJpwsa8e7Mpx5b5j4fRG001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 310,
+        "flight": {
+         "carrier": "VA",
+         "number": "567"
+        },
+        "id": "GAvRg4u8ITb64hI2",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LHHUqBKBkPoa9L8w",
+          "aircraft": "332",
+          "arrivalTime": "2017-06-15T21:25+08:00",
+          "departureTime": "2017-06-15T18:15+10:00",
+          "origin": "SYD",
+          "destination": "PER",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 310,
+          "mileage": 2035,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A1UCHmq3hykKd1xjXiLxtiwACO+KnQUtk+VNVga/RAryt",
+        "carrier": "VA",
+        "origin": "SYD",
+        "destination": "PER",
+        "basisCode": "SZGW2A60"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A1UCHmq3hykKd1xjXiLxtiwACO+KnQUtk+VNVga/RAryt",
+        "segmentId": "GAvRg4u8ITb64hI2"
+       }
+      ],
+      "baseFareTotal": "AUD184.00",
+      "saleFareTotal": "USD134.00",
+      "saleTaxTotal": "USD11.50",
+      "saleTotal": "USD145.50",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD2.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD3.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD5.40"
+       }
+      ],
+      "fareCalculation": "SYD VA PER 183.12SZGW2A60 AUD 183.12 END FARE AUD 184.00 EQU USD 134.00 XT 8.80QR 2.70WG",
+      "latestTicketingTime": "2017-01-10T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD145.50",
+    "id": "efNJpwsa8e7Mpx5b5j4fRG004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 315,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 315,
+        "flight": {
+         "carrier": "VA",
+         "number": "559"
+        },
+        "id": "GzGuyiJl3A22I6Uj",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L-h7nCWYTQWFapOa",
+          "aircraft": "73H",
+          "arrivalTime": "2017-06-15T16:20+08:00",
+          "departureTime": "2017-06-15T13:05+10:00",
+          "origin": "SYD",
+          "destination": "PER",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 315,
+          "mileage": 2035,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A1UCHmq3hykKd1xjXiLxtiwACO+KnQUtk+VNVga/RAryt",
+        "carrier": "VA",
+        "origin": "SYD",
+        "destination": "PER",
+        "basisCode": "SZGW2A60"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A1UCHmq3hykKd1xjXiLxtiwACO+KnQUtk+VNVga/RAryt",
+        "segmentId": "GzGuyiJl3A22I6Uj"
+       }
+      ],
+      "baseFareTotal": "AUD184.00",
+      "saleFareTotal": "USD134.00",
+      "saleTaxTotal": "USD11.50",
+      "saleTotal": "USD145.50",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD2.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD3.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD5.40"
+       }
+      ],
+      "fareCalculation": "SYD VA PER 183.12SZGW2A60 AUD 183.12 END FARE AUD 184.00 EQU USD 134.00 XT 8.80QR 2.70WG",
+      "latestTicketingTime": "2017-01-10T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD158.10",
+    "id": "efNJpwsa8e7Mpx5b5j4fRG005",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 305,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 305,
+        "flight": {
+         "carrier": "JQ",
+         "number": "988"
+        },
+        "id": "GK6SkUCF+gfoL66D",
+        "cabin": "COACH",
+        "bookingCode": "H",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LPo-ItiJ4+XhtMhT",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T23:35+08:00",
+          "departureTime": "2017-06-15T20:30+10:00",
+          "origin": "SYD",
+          "destination": "PER",
+          "originTerminal": "2",
+          "destinationTerminal": "3",
+          "duration": 305,
+          "mileage": 2035
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A6r9fXRIK1u3bfxG2exEKSkLiBAsvtYJEenwvHgsL",
+        "carrier": "JQ",
+        "origin": "SYD",
+        "destination": "PER",
+        "basisCode": "HLOW"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A6r9fXRIK1u3bfxG2exEKSkLiBAsvtYJEenwvHgsL",
+        "segmentId": "GK6SkUCF+gfoL66D"
+       }
+      ],
+      "baseFareTotal": "AUD202.00",
+      "saleFareTotal": "USD148.00",
+      "saleTaxTotal": "USD10.10",
+      "saleTotal": "USD158.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD1.30"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD3.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD5.40"
+       }
+      ],
+      "fareCalculation": "SYD JQ PER 201.49HLOW AUD 201.49 END FARE AUD 202.00 EQU USD 148.00 XT 8.80QR 1.30WG",
+      "latestTicketingTime": "2017-06-13T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD203.10",
+    "id": "efNJpwsa8e7Mpx5b5j4fRG007",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 500,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "JQ",
+         "number": "414"
+        },
+        "id": "GwgYEJGQ-bltBDXH",
+        "cabin": "COACH",
+        "bookingCode": "H",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L7A0bkAY6SVUseD8",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T17:50+10:00",
+          "departureTime": "2017-06-15T16:30+10:00",
+          "origin": "SYD",
+          "destination": "OOL",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 80,
+          "mileage": 422
+         }
+        ],
+        "connectionDuration": 90
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 330,
+        "flight": {
+         "carrier": "JQ",
+         "number": "982"
+        },
+        "id": "GEjJAwH8D19qwyOr",
+        "cabin": "COACH",
+        "bookingCode": "H",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L7UEVj13z+EDmctf",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T22:50+08:00",
+          "departureTime": "2017-06-15T19:20+10:00",
+          "origin": "OOL",
+          "destination": "PER",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 330,
+          "mileage": 2247
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AaKRCxviOEj1mOKxcoiqyIbSMHc9UIeJypfSfjnsX",
+        "carrier": "JQ",
+        "origin": "SYD",
+        "destination": "OOL",
+        "basisCode": "HLOW"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AGIblRyg2CN+zaX0wVpUqhM0GBj5QQW9DDT//ooLt",
+        "carrier": "JQ",
+        "origin": "OOL",
+        "destination": "PER",
+        "basisCode": "HLOW"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AaKRCxviOEj1mOKxcoiqyIbSMHc9UIeJypfSfjnsX",
+        "segmentId": "GwgYEJGQ-bltBDXH"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AGIblRyg2CN+zaX0wVpUqhM0GBj5QQW9DDT//ooLt",
+        "segmentId": "GEjJAwH8D19qwyOr"
+       }
+      ],
+      "baseFareTotal": "AUD264.00",
+      "saleFareTotal": "USD193.00",
+      "saleTaxTotal": "USD10.10",
+      "saleTotal": "USD203.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD1.30"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD5.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD3.40"
+       }
+      ],
+      "fareCalculation": "SYD JQ X/OOL 81.29HLOW JQ PER 181.93HLOW AUD 263.22 END FARE AUD 264.00 EQU USD 193.00 XT 8.80QR 1.30WG",
+      "latestTicketingTime": "2017-06-13T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD218.30",
+    "id": "efNJpwsa8e7Mpx5b5j4fRG00A",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 510,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 95,
+        "flight": {
+         "carrier": "VA",
+         "number": "820"
+        },
+        "id": "G-UT8GdVyhE39t3D",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LQziickAFGNUpDQd",
+          "aircraft": "73H",
+          "arrivalTime": "2017-06-15T10:05+10:00",
+          "departureTime": "2017-06-15T08:30+10:00",
+          "origin": "SYD",
+          "destination": "MEL",
+          "originTerminal": "2",
+          "destinationTerminal": "3",
+          "duration": 95,
+          "mileage": 438,
+          "meal": "Snack or Brunch"
+         }
+        ],
+        "connectionDuration": 155
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 260,
+        "flight": {
+         "carrier": "VA",
+         "number": "683"
+        },
+        "id": "GEidahJY1FGOaAyI",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lkgl2K7+8V9kWrb1",
+          "aircraft": "332",
+          "arrivalTime": "2017-06-15T15:00+08:00",
+          "departureTime": "2017-06-15T12:40+10:00",
+          "origin": "MEL",
+          "destination": "PER",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 260,
+          "mileage": 1677,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AQWqSFxhQUwsNqA/2E7AbOS/EVqwVHFqZuy9nfvKsPVLQ",
+        "carrier": "VA",
+        "origin": "SYD",
+        "destination": "PER",
+        "basisCode": "TZGW2"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AQWqSFxhQUwsNqA/2E7AbOS/EVqwVHFqZuy9nfvKsPVLQ",
+        "segmentId": "G-UT8GdVyhE39t3D"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AQWqSFxhQUwsNqA/2E7AbOS/EVqwVHFqZuy9nfvKsPVLQ",
+        "segmentId": "GEidahJY1FGOaAyI"
+       }
+      ],
+      "baseFareTotal": "AUD267.00",
+      "saleFareTotal": "USD195.00",
+      "saleTaxTotal": "USD23.30",
+      "saleTotal": "USD218.30",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD2.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD9.30"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD11.30"
+       }
+      ],
+      "fareCalculation": "SYD VA X/MEL VA PER 267.06TZGW2 AUD 267.06 END FARE AUD 267.00 EQU USD 195.00 XT 20.60QR 2.70WG",
+      "latestTicketingTime": "2017-01-10T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD218.30",
+    "id": "efNJpwsa8e7Mpx5b5j4fRG006",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 420,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 95,
+        "flight": {
+         "carrier": "VA",
+         "number": "830"
+        },
+        "id": "GQeTcHp-nXB8cNrF",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LTy5zvphrepielnD",
+          "aircraft": "73H",
+          "arrivalTime": "2017-06-15T11:35+10:00",
+          "departureTime": "2017-06-15T10:00+10:00",
+          "origin": "SYD",
+          "destination": "MEL",
+          "originTerminal": "2",
+          "destinationTerminal": "3",
+          "duration": 95,
+          "mileage": 438,
+          "meal": "Snack or Brunch"
+         }
+        ],
+        "connectionDuration": 65
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 260,
+        "flight": {
+         "carrier": "VA",
+         "number": "683"
+        },
+        "id": "GEidahJY1FGOaAyI",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lkgl2K7+8V9kWrb1",
+          "aircraft": "332",
+          "arrivalTime": "2017-06-15T15:00+08:00",
+          "departureTime": "2017-06-15T12:40+10:00",
+          "origin": "MEL",
+          "destination": "PER",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 260,
+          "mileage": 1677,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AQWqSFxhQUwsNqA/2E7AbOS/EVqwVHFqZuy9nfvKsPVLQ",
+        "carrier": "VA",
+        "origin": "SYD",
+        "destination": "PER",
+        "basisCode": "TZGW2"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AQWqSFxhQUwsNqA/2E7AbOS/EVqwVHFqZuy9nfvKsPVLQ",
+        "segmentId": "GEidahJY1FGOaAyI"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AQWqSFxhQUwsNqA/2E7AbOS/EVqwVHFqZuy9nfvKsPVLQ",
+        "segmentId": "GQeTcHp-nXB8cNrF"
+       }
+      ],
+      "baseFareTotal": "AUD267.00",
+      "saleFareTotal": "USD195.00",
+      "saleTaxTotal": "USD23.30",
+      "saleTotal": "USD218.30",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD2.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD9.30"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD11.30"
+       }
+      ],
+      "fareCalculation": "SYD VA X/MEL VA PER 267.06TZGW2 AUD 267.06 END FARE AUD 267.00 EQU USD 195.00 XT 20.60QR 2.70WG",
+      "latestTicketingTime": "2017-01-10T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD218.30",
+    "id": "efNJpwsa8e7Mpx5b5j4fRG008",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 480,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 95,
+        "flight": {
+         "carrier": "VA",
+         "number": "824"
+        },
+        "id": "GMowth21cRtXdOXA",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L8rj4RU3Hl2tvEYA",
+          "aircraft": "73H",
+          "arrivalTime": "2017-06-15T10:35+10:00",
+          "departureTime": "2017-06-15T09:00+10:00",
+          "origin": "SYD",
+          "destination": "MEL",
+          "originTerminal": "2",
+          "destinationTerminal": "3",
+          "duration": 95,
+          "mileage": 438,
+          "meal": "Snack or Brunch"
+         }
+        ],
+        "connectionDuration": 125
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 260,
+        "flight": {
+         "carrier": "VA",
+         "number": "683"
+        },
+        "id": "GEidahJY1FGOaAyI",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lkgl2K7+8V9kWrb1",
+          "aircraft": "332",
+          "arrivalTime": "2017-06-15T15:00+08:00",
+          "departureTime": "2017-06-15T12:40+10:00",
+          "origin": "MEL",
+          "destination": "PER",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 260,
+          "mileage": 1677,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AQWqSFxhQUwsNqA/2E7AbOS/EVqwVHFqZuy9nfvKsPVLQ",
+        "carrier": "VA",
+        "origin": "SYD",
+        "destination": "PER",
+        "basisCode": "TZGW2"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AQWqSFxhQUwsNqA/2E7AbOS/EVqwVHFqZuy9nfvKsPVLQ",
+        "segmentId": "GMowth21cRtXdOXA"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AQWqSFxhQUwsNqA/2E7AbOS/EVqwVHFqZuy9nfvKsPVLQ",
+        "segmentId": "GEidahJY1FGOaAyI"
+       }
+      ],
+      "baseFareTotal": "AUD267.00",
+      "saleFareTotal": "USD195.00",
+      "saleTaxTotal": "USD23.30",
+      "saleTotal": "USD218.30",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD2.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD9.30"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD11.30"
+       }
+      ],
+      "fareCalculation": "SYD VA X/MEL VA PER 267.06TZGW2 AUD 267.06 END FARE AUD 267.00 EQU USD 195.00 XT 20.60QR 2.70WG",
+      "latestTicketingTime": "2017-01-10T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD218.90",
+    "id": "efNJpwsa8e7Mpx5b5j4fRG009",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 505,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 90,
+        "flight": {
+         "carrier": "VA",
+         "number": "901"
+        },
+        "id": "Gvc-SD97a1p14Zel",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LSl-cO1LPcwF-FPv",
+          "aircraft": "73H",
+          "arrivalTime": "2017-06-15T07:30+10:00",
+          "departureTime": "2017-06-15T06:00+10:00",
+          "origin": "SYD",
+          "destination": "BNE",
+          "originTerminal": "2",
+          "destinationTerminal": "D",
+          "duration": 90,
+          "mileage": 467,
+          "meal": "Snack or Brunch"
+         }
+        ],
+        "connectionDuration": 70
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 345,
+        "flight": {
+         "carrier": "VA",
+         "number": "464"
+        },
+        "id": "Gbw2br-rkGd3MEZx",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LK6nS3Ivptsevcel",
+          "aircraft": "73H",
+          "arrivalTime": "2017-06-15T12:25+08:00",
+          "departureTime": "2017-06-15T08:40+10:00",
+          "origin": "BNE",
+          "destination": "PER",
+          "originTerminal": "D",
+          "destinationTerminal": "1",
+          "duration": 345,
+          "mileage": 2240,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Au6jMcEvvpi6Ktx15LwAyqimSgeZKhBKTQGZH2XhSzgNp",
+        "carrier": "VA",
+        "origin": "SYD",
+        "destination": "PER",
+        "basisCode": "TZGW2"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Au6jMcEvvpi6Ktx15LwAyqimSgeZKhBKTQGZH2XhSzgNp",
+        "segmentId": "Gbw2br-rkGd3MEZx"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Au6jMcEvvpi6Ktx15LwAyqimSgeZKhBKTQGZH2XhSzgNp",
+        "segmentId": "Gvc-SD97a1p14Zel"
+       }
+      ],
+      "baseFareTotal": "AUD268.00",
+      "saleFareTotal": "USD196.00",
+      "saleTaxTotal": "USD22.90",
+      "saleTotal": "USD218.90",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD2.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD9.10"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD11.10"
+       }
+      ],
+      "fareCalculation": "SYD VA X/BNE VA PER 267.64TZGW2 AUD 267.64 END FARE AUD 268.00 EQU USD 196.00 XT 20.20QR 2.70WG",
+      "latestTicketingTime": "2017-01-10T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}

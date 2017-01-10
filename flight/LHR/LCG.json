@@ -1,0 +1,1529 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "xWJ7BJmdFgqUeLsEp0Pn07",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "LCG",
+     "city": "LCG",
+     "name": "A Coruna"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "LHR",
+     "city": "LON",
+     "name": "London Heathrow"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "MAD",
+     "city": "MAD",
+     "name": "Madrid Adolfo Suarez-Barajas"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "LCG",
+     "name": "La Coruna"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "LON",
+     "name": "London"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "MAD",
+     "name": "Madrid"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "319",
+     "name": "Airbus A319"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "320",
+     "name": "Airbus A320"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "321",
+     "name": "Airbus A321"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "767",
+     "name": "Boeing 767"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "UB_001",
+     "name": "United Kingdom Passenger Service Charge Departures"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_F",
+     "name": "VY YQ surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "QV_001",
+     "name": "Spain Security Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "OG_001",
+     "name": "Spain Aviation Safety And Security Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "GB_001",
+     "name": "United Kingdom Air Passenger Duty Apd"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_I",
+     "name": "IB YQ surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "JD_001",
+     "name": "Spain Departure Charge"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "IB",
+     "name": "Iberia Lineas Aereas de Espana S.A."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "VY",
+     "name": "Vueling Airlines S.A."
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD99.60",
+    "id": "T5YI7rzEOXRVBVvDuTOcN3001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 130,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 130,
+        "flight": {
+         "carrier": "IB",
+         "number": "5881"
+        },
+        "id": "GxLfc0o++pyFYqvn",
+        "cabin": "COACH",
+        "bookingCode": "F",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LoP59BDU7hQl8unf",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T23:40+02:00",
+          "departureTime": "2017-06-15T20:30+01:00",
+          "origin": "LHR",
+          "destination": "LCG",
+          "originTerminal": "3",
+          "duration": 130,
+          "operatingDisclosure": "OPERATED BY VUELING AIRLINES",
+          "mileage": 674,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AEHqrP5HXLoOY/BgSU3DWwrJQxMEdBNnEHmqjjPcbKXc",
+        "carrier": "IB",
+        "origin": "LON",
+        "destination": "LCG",
+        "basisCode": "FOWNVY"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AEHqrP5HXLoOY/BgSU3DWwrJQxMEdBNnEHmqjjPcbKXc",
+        "segmentId": "GxLfc0o++pyFYqvn"
+       }
+      ],
+      "baseFareTotal": "GBP40.00",
+      "saleFareTotal": "USD49.00",
+      "saleTaxTotal": "USD50.60",
+      "saleTotal": "USD99.60",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD4.20"
+       }
+      ],
+      "fareCalculation": "LON IB LCG 50.65FOWNVY NUC 50.65 END ROE 0.789732 FARE GBP 40.00 EQU USD 49.00 XT 16.00GB 30.40UB 4.20YQ",
+      "latestTicketingTime": "2017-01-11T09:43-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD118.20",
+    "id": "T5YI7rzEOXRVBVvDuTOcN300A",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 460,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "IB",
+         "number": "3169"
+        },
+        "id": "GbugOqyNg-vUd4dP",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LpyLdfGyqFU5mhih",
+          "aircraft": "321",
+          "arrivalTime": "2017-06-15T15:05+02:00",
+          "departureTime": "2017-06-15T11:35+01:00",
+          "origin": "LHR",
+          "destination": "MAD",
+          "originTerminal": "5",
+          "destinationTerminal": "4",
+          "duration": 150,
+          "operatingDisclosure": "OPERATED BY IBERIA",
+          "mileage": 772,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ],
+        "connectionDuration": 235
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "522"
+        },
+        "id": "GlPPuS5JyZ-I9eJZ",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L-jNTWabvmosHYfd",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T20:15+02:00",
+          "departureTime": "2017-06-15T19:00+02:00",
+          "origin": "MAD",
+          "destination": "LCG",
+          "originTerminal": "4",
+          "duration": 75,
+          "mileage": 314,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AA0GvG3ebUDjZ+2uRJTDuDTfFLM9w0XkKY7hEKkwtoGhsYoLc0oFoF9FgmB94dIDIqWtgFPf46Mj+F4K+TvUP1x0TqIb3IE",
+        "carrier": "IB",
+        "origin": "LON",
+        "destination": "LCG",
+        "basisCode": "OLV2SO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AA0GvG3ebUDjZ+2uRJTDuDTfFLM9w0XkKY7hEKkwtoGhsYoLc0oFoF9FgmB94dIDIqWtgFPf46Mj+F4K+TvUP1x0TqIb3IE",
+        "segmentId": "GbugOqyNg-vUd4dP"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AA0GvG3ebUDjZ+2uRJTDuDTfFLM9w0XkKY7hEKkwtoGhsYoLc0oFoF9FgmB94dIDIqWtgFPf46Mj+F4K+TvUP1x0TqIb3IE",
+        "segmentId": "GlPPuS5JyZ-I9eJZ"
+       }
+      ],
+      "baseFareTotal": "GBP46.00",
+      "saleFareTotal": "USD57.00",
+      "saleTaxTotal": "USD61.20",
+      "saleTotal": "USD118.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "USD11.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "USD0.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "USD2.60"
+       }
+      ],
+      "fareCalculation": "LON IB X/MAD IB LCG 58.24OLV2SO NUC 58.24 END ROE 0.789732 FARE GBP 46.00 EQU USD 57.00 XT 16.00GB 30.40UB 11.50JD 0.70OG 2.60QV",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD118.20",
+    "id": "T5YI7rzEOXRVBVvDuTOcN3003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 320,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "IB",
+         "number": "3175"
+        },
+        "id": "GWh-yC0vcLzldvBw",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LffKIawJEsqTUZhO",
+          "aircraft": "321",
+          "arrivalTime": "2017-06-15T14:10+02:00",
+          "departureTime": "2017-06-15T10:40+01:00",
+          "origin": "LHR",
+          "destination": "MAD",
+          "originTerminal": "5",
+          "destinationTerminal": "4",
+          "duration": 150,
+          "operatingDisclosure": "OPERATED BY IBERIA",
+          "mileage": 772,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ],
+        "connectionDuration": 95
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "524"
+        },
+        "id": "GnZWVmtGbi0x7+lo",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LLX26fbEmV2uHPKv",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T17:00+02:00",
+          "departureTime": "2017-06-15T15:45+02:00",
+          "origin": "MAD",
+          "destination": "LCG",
+          "originTerminal": "4",
+          "duration": 75,
+          "mileage": 314,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AA0GvG3ebUDjZ+2uRJTDuDTfFLM9w0XkKY7hEKkwtoGhsYoLc0oFoF9FgmB94dIDIqWtgFPf46Mj+F4K+TvUP1x0TqIb3IE",
+        "carrier": "IB",
+        "origin": "LON",
+        "destination": "LCG",
+        "basisCode": "OLV2SO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AA0GvG3ebUDjZ+2uRJTDuDTfFLM9w0XkKY7hEKkwtoGhsYoLc0oFoF9FgmB94dIDIqWtgFPf46Mj+F4K+TvUP1x0TqIb3IE",
+        "segmentId": "GnZWVmtGbi0x7+lo"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AA0GvG3ebUDjZ+2uRJTDuDTfFLM9w0XkKY7hEKkwtoGhsYoLc0oFoF9FgmB94dIDIqWtgFPf46Mj+F4K+TvUP1x0TqIb3IE",
+        "segmentId": "GWh-yC0vcLzldvBw"
+       }
+      ],
+      "baseFareTotal": "GBP46.00",
+      "saleFareTotal": "USD57.00",
+      "saleTaxTotal": "USD61.20",
+      "saleTotal": "USD118.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "USD11.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "USD0.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "USD2.60"
+       }
+      ],
+      "fareCalculation": "LON IB X/MAD IB LCG 58.24OLV2SO NUC 58.24 END ROE 0.789732 FARE GBP 46.00 EQU USD 57.00 XT 16.00GB 30.40UB 11.50JD 0.70OG 2.60QV",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD118.20",
+    "id": "T5YI7rzEOXRVBVvDuTOcN3005",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 335,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 140,
+        "flight": {
+         "carrier": "IB",
+         "number": "7441"
+        },
+        "id": "Gwbx2I7RuwA0aADT",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L0R1EevoywAhJcju",
+          "aircraft": "767",
+          "arrivalTime": "2017-06-15T09:40+02:00",
+          "departureTime": "2017-06-15T06:20+01:00",
+          "origin": "LHR",
+          "destination": "MAD",
+          "originTerminal": "5",
+          "destinationTerminal": "4S",
+          "duration": 140,
+          "operatingDisclosure": "OPERATED BY BRITISH AIRWAYS",
+          "mileage": 772
+         }
+        ],
+        "connectionDuration": 120
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "512"
+        },
+        "id": "Gtig5x-IdXNdtVQB",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LL9pY0SMsCY2OWa2",
+          "aircraft": "319",
+          "arrivalTime": "2017-06-15T12:55+02:00",
+          "departureTime": "2017-06-15T11:40+02:00",
+          "origin": "MAD",
+          "destination": "LCG",
+          "originTerminal": "4",
+          "duration": 75,
+          "mileage": 314,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AA0GvG3ebUDjZ+2uRJTDuDTfFLM9w0XkKY7hEKkwtoGhsYoLc0oFoF9FgmB94dIDIqWtgFPf46Mj+F4K+TvUP1x0TqIb3IE",
+        "carrier": "IB",
+        "origin": "LON",
+        "destination": "LCG",
+        "basisCode": "OLV2SO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AA0GvG3ebUDjZ+2uRJTDuDTfFLM9w0XkKY7hEKkwtoGhsYoLc0oFoF9FgmB94dIDIqWtgFPf46Mj+F4K+TvUP1x0TqIb3IE",
+        "segmentId": "Gwbx2I7RuwA0aADT"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AA0GvG3ebUDjZ+2uRJTDuDTfFLM9w0XkKY7hEKkwtoGhsYoLc0oFoF9FgmB94dIDIqWtgFPf46Mj+F4K+TvUP1x0TqIb3IE",
+        "segmentId": "Gtig5x-IdXNdtVQB"
+       }
+      ],
+      "baseFareTotal": "GBP46.00",
+      "saleFareTotal": "USD57.00",
+      "saleTaxTotal": "USD61.20",
+      "saleTotal": "USD118.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "USD11.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "USD0.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "USD2.60"
+       }
+      ],
+      "fareCalculation": "LON IB X/MAD IB LCG 58.24OLV2SO NUC 58.24 END ROE 0.789732 FARE GBP 46.00 EQU USD 57.00 XT 16.00GB 30.40UB 11.50JD 0.70OG 2.60QV",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD121.60",
+    "id": "T5YI7rzEOXRVBVvDuTOcN3002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 130,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 130,
+        "flight": {
+         "carrier": "VY",
+         "number": "7105"
+        },
+        "id": "G+ma05JG02gf3Chz",
+        "cabin": "COACH",
+        "bookingCode": "W",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LA7zMIgEkE4ky-nG",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T23:40+02:00",
+          "departureTime": "2017-06-15T20:30+01:00",
+          "origin": "LHR",
+          "destination": "LCG",
+          "originTerminal": "3",
+          "duration": 130,
+          "mileage": 674,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AZaJ1UlDF/LAthvgJ7wpNX6QaY4C2MAGChRTPNHqP8lo",
+        "carrier": "VY",
+        "origin": "LON",
+        "destination": "LCG",
+        "basisCode": "WOWVY"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AZaJ1UlDF/LAthvgJ7wpNX6QaY4C2MAGChRTPNHqP8lo",
+        "segmentId": "G+ma05JG02gf3Chz"
+       }
+      ],
+      "baseFareTotal": "GBP58.00",
+      "saleFareTotal": "USD71.00",
+      "saleTaxTotal": "USD50.60",
+      "saleTotal": "USD121.60",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD4.20"
+       }
+      ],
+      "fareCalculation": "LON VY LCG 73.44WOWVY NUC 73.44 END ROE 0.789732 FARE GBP 58.00 EQU USD 71.00 XT 16.00GB 30.40UB 4.20YQ",
+      "latestTicketingTime": "2017-01-11T09:43-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD122.20",
+    "id": "T5YI7rzEOXRVBVvDuTOcN3004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 310,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 145,
+        "flight": {
+         "carrier": "IB",
+         "number": "7445"
+        },
+        "id": "Gn5xz243xL-tqwQX",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LFQR5kRG+g8Butgl",
+          "aircraft": "321",
+          "arrivalTime": "2017-06-15T17:30+02:00",
+          "departureTime": "2017-06-15T14:05+01:00",
+          "origin": "LHR",
+          "destination": "MAD",
+          "originTerminal": "5",
+          "destinationTerminal": "4S",
+          "duration": 145,
+          "operatingDisclosure": "OPERATED BY BRITISH AIRWAYS",
+          "mileage": 772
+         }
+        ],
+        "connectionDuration": 90
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "522"
+        },
+        "id": "GlPPuS5JyZ-I9eJZ",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L-jNTWabvmosHYfd",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T20:15+02:00",
+          "departureTime": "2017-06-15T19:00+02:00",
+          "origin": "MAD",
+          "destination": "LCG",
+          "originTerminal": "4",
+          "duration": 75,
+          "mileage": 314,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AUap+0kjjncnkyXyeO3C3LLmETfctV+zMNfT5bCERQcIMW04zIJascahScm7KTiWmNXm4BSEIWqtrE2srftxtOVcef/bOw/",
+        "carrier": "IB",
+        "origin": "LON",
+        "destination": "LCG",
+        "basisCode": "QLV2SO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AUap+0kjjncnkyXyeO3C3LLmETfctV+zMNfT5bCERQcIMW04zIJascahScm7KTiWmNXm4BSEIWqtrE2srftxtOVcef/bOw/",
+        "segmentId": "Gn5xz243xL-tqwQX"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AUap+0kjjncnkyXyeO3C3LLmETfctV+zMNfT5bCERQcIMW04zIJascahScm7KTiWmNXm4BSEIWqtrE2srftxtOVcef/bOw/",
+        "segmentId": "GlPPuS5JyZ-I9eJZ"
+       }
+      ],
+      "baseFareTotal": "GBP50.00",
+      "saleFareTotal": "USD61.00",
+      "saleTaxTotal": "USD61.20",
+      "saleTotal": "USD122.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "USD11.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "USD0.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "USD2.60"
+       }
+      ],
+      "fareCalculation": "LON IB X/MAD IB LCG 63.31QLV2SO NUC 63.31 END ROE 0.789732 FARE GBP 50.00 EQU USD 61.00 XT 16.00GB 30.40UB 11.50JD 0.70OG 2.60QV",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD122.20",
+    "id": "T5YI7rzEOXRVBVvDuTOcN3008",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 405,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 145,
+        "flight": {
+         "carrier": "IB",
+         "number": "3163"
+        },
+        "id": "G4QX4nN3NnnbSoey",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LTpVUrcX28imOcYx",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T12:40+02:00",
+          "departureTime": "2017-06-15T09:15+01:00",
+          "origin": "LHR",
+          "destination": "MAD",
+          "originTerminal": "5",
+          "destinationTerminal": "4",
+          "duration": 145,
+          "operatingDisclosure": "OPERATED BY IBERIA",
+          "mileage": 772
+         }
+        ],
+        "connectionDuration": 185
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "524"
+        },
+        "id": "GnZWVmtGbi0x7+lo",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LLX26fbEmV2uHPKv",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T17:00+02:00",
+          "departureTime": "2017-06-15T15:45+02:00",
+          "origin": "MAD",
+          "destination": "LCG",
+          "originTerminal": "4",
+          "duration": 75,
+          "mileage": 314,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AUap+0kjjncnkyXyeO3C3LLmETfctV+zMNfT5bCERQcIMW04zIJascahScm7KTiWmNXm4BSEIWqtrE2srftxtOVcef/bOw/",
+        "carrier": "IB",
+        "origin": "LON",
+        "destination": "LCG",
+        "basisCode": "QLV2SO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AUap+0kjjncnkyXyeO3C3LLmETfctV+zMNfT5bCERQcIMW04zIJascahScm7KTiWmNXm4BSEIWqtrE2srftxtOVcef/bOw/",
+        "segmentId": "G4QX4nN3NnnbSoey"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AUap+0kjjncnkyXyeO3C3LLmETfctV+zMNfT5bCERQcIMW04zIJascahScm7KTiWmNXm4BSEIWqtrE2srftxtOVcef/bOw/",
+        "segmentId": "GnZWVmtGbi0x7+lo"
+       }
+      ],
+      "baseFareTotal": "GBP50.00",
+      "saleFareTotal": "USD61.00",
+      "saleTaxTotal": "USD61.20",
+      "saleTotal": "USD122.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "USD11.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "USD0.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "USD2.60"
+       }
+      ],
+      "fareCalculation": "LON IB X/MAD IB LCG 63.31QLV2SO NUC 63.31 END ROE 0.789732 FARE GBP 50.00 EQU USD 61.00 XT 16.00GB 30.40UB 11.50JD 0.70OG 2.60QV",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD134.20",
+    "id": "T5YI7rzEOXRVBVvDuTOcN3007",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 330,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 145,
+        "flight": {
+         "carrier": "IB",
+         "number": "7449"
+        },
+        "id": "Gsfen4ujNu0VeUX0",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LoGFxLpb8H79t-qy",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T20:10+02:00",
+          "departureTime": "2017-06-15T16:45+01:00",
+          "origin": "LHR",
+          "destination": "MAD",
+          "originTerminal": "5",
+          "destinationTerminal": "4S",
+          "duration": 145,
+          "operatingDisclosure": "OPERATED BY BRITISH AIRWAYS",
+          "mileage": 772
+         }
+        ],
+        "connectionDuration": 110
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "516"
+        },
+        "id": "Gd8mQ3jwfSBUzkQx",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L9yYmtlpGNFRCTM1",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T23:15+02:00",
+          "departureTime": "2017-06-15T22:00+02:00",
+          "origin": "MAD",
+          "destination": "LCG",
+          "originTerminal": "4",
+          "duration": 75,
+          "mileage": 314,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AsHM0Pjw04FZ/S/q1I0qL+Fbif1BW9X3pEeVMHxHh/hKEAchjzglVV2xkM1fbGqPAHGJsL+Ds2/sKJBvwaYcEXVko1feB9U",
+        "carrier": "IB",
+        "origin": "LON",
+        "destination": "LCG",
+        "basisCode": "NLV2SO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AsHM0Pjw04FZ/S/q1I0qL+Fbif1BW9X3pEeVMHxHh/hKEAchjzglVV2xkM1fbGqPAHGJsL+Ds2/sKJBvwaYcEXVko1feB9U",
+        "segmentId": "Gd8mQ3jwfSBUzkQx"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AsHM0Pjw04FZ/S/q1I0qL+Fbif1BW9X3pEeVMHxHh/hKEAchjzglVV2xkM1fbGqPAHGJsL+Ds2/sKJBvwaYcEXVko1feB9U",
+        "segmentId": "Gsfen4ujNu0VeUX0"
+       }
+      ],
+      "baseFareTotal": "GBP59.00",
+      "saleFareTotal": "USD73.00",
+      "saleTaxTotal": "USD61.20",
+      "saleTotal": "USD134.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "USD11.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "USD0.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "USD2.60"
+       }
+      ],
+      "fareCalculation": "LON IB X/MAD IB LCG 74.70NLV2SO NUC 74.70 END ROE 0.789732 FARE GBP 59.00 EQU USD 73.00 XT 16.00GB 30.40UB 11.50JD 0.70OG 2.60QV",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD134.20",
+    "id": "T5YI7rzEOXRVBVvDuTOcN3009",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 385,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "IB",
+         "number": "3177"
+        },
+        "id": "G3YXBXbTt00x0tE5",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LvpKR4gVODQGfMKG",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T19:20+02:00",
+          "departureTime": "2017-06-15T15:50+01:00",
+          "origin": "LHR",
+          "destination": "MAD",
+          "originTerminal": "5",
+          "destinationTerminal": "4",
+          "duration": 150,
+          "operatingDisclosure": "OPERATED BY IBERIA",
+          "mileage": 772
+         }
+        ],
+        "connectionDuration": 160
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "516"
+        },
+        "id": "Gd8mQ3jwfSBUzkQx",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L9yYmtlpGNFRCTM1",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T23:15+02:00",
+          "departureTime": "2017-06-15T22:00+02:00",
+          "origin": "MAD",
+          "destination": "LCG",
+          "originTerminal": "4",
+          "duration": 75,
+          "mileage": 314,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AsHM0Pjw04FZ/S/q1I0qL+Fbif1BW9X3pEeVMHxHh/hKEAchjzglVV2xkM1fbGqPAHGJsL+Ds2/sKJBvwaYcEXVko1feB9U",
+        "carrier": "IB",
+        "origin": "LON",
+        "destination": "LCG",
+        "basisCode": "NLV2SO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AsHM0Pjw04FZ/S/q1I0qL+Fbif1BW9X3pEeVMHxHh/hKEAchjzglVV2xkM1fbGqPAHGJsL+Ds2/sKJBvwaYcEXVko1feB9U",
+        "segmentId": "Gd8mQ3jwfSBUzkQx"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AsHM0Pjw04FZ/S/q1I0qL+Fbif1BW9X3pEeVMHxHh/hKEAchjzglVV2xkM1fbGqPAHGJsL+Ds2/sKJBvwaYcEXVko1feB9U",
+        "segmentId": "G3YXBXbTt00x0tE5"
+       }
+      ],
+      "baseFareTotal": "GBP59.00",
+      "saleFareTotal": "USD73.00",
+      "saleTaxTotal": "USD61.20",
+      "saleTotal": "USD134.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "USD11.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "USD0.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "USD2.60"
+       }
+      ],
+      "fareCalculation": "LON IB X/MAD IB LCG 74.70NLV2SO NUC 74.70 END ROE 0.789732 FARE GBP 59.00 EQU USD 73.00 XT 16.00GB 30.40UB 11.50JD 0.70OG 2.60QV",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD134.20",
+    "id": "T5YI7rzEOXRVBVvDuTOcN3006",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 300,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "IB",
+         "number": "3171"
+        },
+        "id": "G+cjD51sBGs-zw9m",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LWRG6csMJtUbO1JM",
+          "aircraft": "321",
+          "arrivalTime": "2017-06-15T20:45+02:00",
+          "departureTime": "2017-06-15T17:15+01:00",
+          "origin": "LHR",
+          "destination": "MAD",
+          "originTerminal": "5",
+          "destinationTerminal": "4",
+          "duration": 150,
+          "operatingDisclosure": "OPERATED BY IBERIA",
+          "mileage": 772
+         }
+        ],
+        "connectionDuration": 75
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "IB",
+         "number": "516"
+        },
+        "id": "Gd8mQ3jwfSBUzkQx",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L9yYmtlpGNFRCTM1",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T23:15+02:00",
+          "departureTime": "2017-06-15T22:00+02:00",
+          "origin": "MAD",
+          "destination": "LCG",
+          "originTerminal": "4",
+          "duration": 75,
+          "mileage": 314,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AsHM0Pjw04FZ/S/q1I0qL+Fbif1BW9X3pEeVMHxHh/hKEAchjzglVV2xkM1fbGqPAHGJsL+Ds2/sKJBvwaYcEXVko1feB9U",
+        "carrier": "IB",
+        "origin": "LON",
+        "destination": "LCG",
+        "basisCode": "NLV2SO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AsHM0Pjw04FZ/S/q1I0qL+Fbif1BW9X3pEeVMHxHh/hKEAchjzglVV2xkM1fbGqPAHGJsL+Ds2/sKJBvwaYcEXVko1feB9U",
+        "segmentId": "Gd8mQ3jwfSBUzkQx"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AsHM0Pjw04FZ/S/q1I0qL+Fbif1BW9X3pEeVMHxHh/hKEAchjzglVV2xkM1fbGqPAHGJsL+Ds2/sKJBvwaYcEXVko1feB9U",
+        "segmentId": "G+cjD51sBGs-zw9m"
+       }
+      ],
+      "baseFareTotal": "GBP59.00",
+      "saleFareTotal": "USD73.00",
+      "saleTaxTotal": "USD61.20",
+      "saleTotal": "USD134.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JD_001",
+        "chargeType": "GOVERNMENT",
+        "code": "JD",
+        "country": "ES",
+        "salePrice": "USD11.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OG",
+        "country": "ES",
+        "salePrice": "USD0.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QV",
+        "country": "ES",
+        "salePrice": "USD2.60"
+       }
+      ],
+      "fareCalculation": "LON IB X/MAD IB LCG 74.70NLV2SO NUC 74.70 END ROE 0.789732 FARE GBP 59.00 EQU USD 73.00 XT 16.00GB 30.40UB 11.50JD 0.70OG 2.60QV",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}

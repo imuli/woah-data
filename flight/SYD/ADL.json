@@ -1,0 +1,1143 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "D7ty7PViX5OLMdvb10Pmzz",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "ADL",
+     "city": "ADL",
+     "name": "Adelaide International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "MEL",
+     "city": "MEL",
+     "name": "Melbourne Airport"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "SYD",
+     "city": "SYD",
+     "name": "Sydney Kingsford Smith"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "ADL",
+     "name": "Adelaide"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "MEL",
+     "name": "Melbourne"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "SYD",
+     "name": "Sydney"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "320",
+     "name": "Airbus A320"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "321",
+     "name": "Airbus A321"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "73H",
+     "name": "Boeing 737"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "QR_002",
+     "name": "Australia Passenger Service Charge Domestic Arrival"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "QR_001",
+     "name": "Australia Passenger Service Charge Domestic Departure"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "WG_001",
+     "name": "Australia Safety And Security Charge Departure"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "JQ",
+     "name": "Jetstar Airways Pty Limited"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "VA",
+     "name": "Virgin Australia International"
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD92.70",
+    "id": "WcFioziMPC4OhIA73mml2G003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 130,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 130,
+        "flight": {
+         "carrier": "JQ",
+         "number": "764"
+        },
+        "id": "GlUc-kx44j7ZhMEo",
+        "cabin": "COACH",
+        "bookingCode": "H",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LOZT55gU+y1xC7Uu",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T11:40+09:30",
+          "departureTime": "2017-06-15T10:00+10:00",
+          "origin": "SYD",
+          "destination": "ADL",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 130,
+          "mileage": 723
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ASVU+URszL3LM1ISWiVBJ7ZMVTzOiJFxIeQbr3nXd",
+        "carrier": "JQ",
+        "origin": "SYD",
+        "destination": "ADL",
+        "basisCode": "HLOW"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ASVU+URszL3LM1ISWiVBJ7ZMVTzOiJFxIeQbr3nXd",
+        "segmentId": "GlUc-kx44j7ZhMEo"
+       }
+      ],
+      "baseFareTotal": "AUD108.00",
+      "saleFareTotal": "USD79.00",
+      "saleTaxTotal": "USD13.70",
+      "saleTotal": "USD92.70",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD1.30"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD5.40"
+       }
+      ],
+      "fareCalculation": "SYD JQ ADL 107.47HLOW AUD 107.47 END FARE AUD 108.00 EQU USD 79.00 XT 12.40QR 1.30WG",
+      "latestTicketingTime": "2017-06-13T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD92.70",
+    "id": "WcFioziMPC4OhIA73mml2G002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 130,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 130,
+        "flight": {
+         "carrier": "JQ",
+         "number": "768"
+        },
+        "id": "GtZ0bammAzK7+SNE",
+        "cabin": "COACH",
+        "bookingCode": "H",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LuKZYv6kPvw3iiOz",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T17:30+09:30",
+          "departureTime": "2017-06-15T15:50+10:00",
+          "origin": "SYD",
+          "destination": "ADL",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 130,
+          "mileage": 723
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ASVU+URszL3LM1ISWiVBJ7ZMVTzOiJFxIeQbr3nXd",
+        "carrier": "JQ",
+        "origin": "SYD",
+        "destination": "ADL",
+        "basisCode": "HLOW"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ASVU+URszL3LM1ISWiVBJ7ZMVTzOiJFxIeQbr3nXd",
+        "segmentId": "GtZ0bammAzK7+SNE"
+       }
+      ],
+      "baseFareTotal": "AUD108.00",
+      "saleFareTotal": "USD79.00",
+      "saleTaxTotal": "USD13.70",
+      "saleTotal": "USD92.70",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD1.30"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD5.40"
+       }
+      ],
+      "fareCalculation": "SYD JQ ADL 107.47HLOW AUD 107.47 END FARE AUD 108.00 EQU USD 79.00 XT 12.40QR 1.30WG",
+      "latestTicketingTime": "2017-06-13T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD92.70",
+    "id": "WcFioziMPC4OhIA73mml2G001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 130,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 130,
+        "flight": {
+         "carrier": "JQ",
+         "number": "770"
+        },
+        "id": "Gx8O2LIxmfmC6Yz-",
+        "cabin": "COACH",
+        "bookingCode": "H",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LvLiOWbjeEWwd2V+",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T18:40+09:30",
+          "departureTime": "2017-06-15T17:00+10:00",
+          "origin": "SYD",
+          "destination": "ADL",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 130,
+          "mileage": 723
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ASVU+URszL3LM1ISWiVBJ7ZMVTzOiJFxIeQbr3nXd",
+        "carrier": "JQ",
+        "origin": "SYD",
+        "destination": "ADL",
+        "basisCode": "HLOW"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ASVU+URszL3LM1ISWiVBJ7ZMVTzOiJFxIeQbr3nXd",
+        "segmentId": "Gx8O2LIxmfmC6Yz-"
+       }
+      ],
+      "baseFareTotal": "AUD108.00",
+      "saleFareTotal": "USD79.00",
+      "saleTaxTotal": "USD13.70",
+      "saleTotal": "USD92.70",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD1.30"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD5.40"
+       }
+      ],
+      "fareCalculation": "SYD JQ ADL 107.47HLOW AUD 107.47 END FARE AUD 108.00 EQU USD 79.00 XT 12.40QR 1.30WG",
+      "latestTicketingTime": "2017-06-13T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD109.10",
+    "id": "WcFioziMPC4OhIA73mml2G009",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 130,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 130,
+        "flight": {
+         "carrier": "VA",
+         "number": "402"
+        },
+        "id": "G1Ny5T3iHPPDlTh3",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LuPyE3zp6Q6iuPpd",
+          "aircraft": "73H",
+          "arrivalTime": "2017-06-15T08:25+09:30",
+          "departureTime": "2017-06-15T06:45+10:00",
+          "origin": "SYD",
+          "destination": "ADL",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 130,
+          "mileage": 723,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A4FK8Qyx5YM8DaDXVVFUri6J440vi42tByZJedCiKOg/J",
+        "carrier": "VA",
+        "origin": "SYD",
+        "destination": "ADL",
+        "basisCode": "SZGW2A60"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A4FK8Qyx5YM8DaDXVVFUri6J440vi42tByZJedCiKOg/J",
+        "segmentId": "G1Ny5T3iHPPDlTh3"
+       }
+      ],
+      "baseFareTotal": "AUD129.00",
+      "saleFareTotal": "USD94.00",
+      "saleTaxTotal": "USD15.10",
+      "saleTotal": "USD109.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD2.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD5.40"
+       }
+      ],
+      "fareCalculation": "SYD VA ADL 128.26SZGW2A60 AUD 128.26 END FARE AUD 129.00 EQU USD 94.00 XT 12.40QR 2.70WG",
+      "latestTicketingTime": "2017-01-10T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD109.10",
+    "id": "WcFioziMPC4OhIA73mml2G004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 130,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 130,
+        "flight": {
+         "carrier": "VA",
+         "number": "444"
+        },
+        "id": "GRLY6dlDesRpoH7Y",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LKVi75c+NrNp9IpJ",
+          "aircraft": "73H",
+          "arrivalTime": "2017-06-15T21:55+09:30",
+          "departureTime": "2017-06-15T20:15+10:00",
+          "origin": "SYD",
+          "destination": "ADL",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 130,
+          "mileage": 723,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A4FK8Qyx5YM8DaDXVVFUri6J440vi42tByZJedCiKOg/J",
+        "carrier": "VA",
+        "origin": "SYD",
+        "destination": "ADL",
+        "basisCode": "SZGW2A60"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A4FK8Qyx5YM8DaDXVVFUri6J440vi42tByZJedCiKOg/J",
+        "segmentId": "GRLY6dlDesRpoH7Y"
+       }
+      ],
+      "baseFareTotal": "AUD129.00",
+      "saleFareTotal": "USD94.00",
+      "saleTaxTotal": "USD15.10",
+      "saleTotal": "USD109.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD2.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD5.40"
+       }
+      ],
+      "fareCalculation": "SYD VA ADL 128.26SZGW2A60 AUD 128.26 END FARE AUD 129.00 EQU USD 94.00 XT 12.40QR 2.70WG",
+      "latestTicketingTime": "2017-01-10T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD109.10",
+    "id": "WcFioziMPC4OhIA73mml2G005",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 130,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 130,
+        "flight": {
+         "carrier": "VA",
+         "number": "436"
+        },
+        "id": "GMp9SydJMwGFYPtO",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LjggPyyErhveYJmn",
+          "aircraft": "73H",
+          "arrivalTime": "2017-06-15T19:55+09:30",
+          "departureTime": "2017-06-15T18:15+10:00",
+          "origin": "SYD",
+          "destination": "ADL",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 130,
+          "mileage": 723,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A4FK8Qyx5YM8DaDXVVFUri6J440vi42tByZJedCiKOg/J",
+        "carrier": "VA",
+        "origin": "SYD",
+        "destination": "ADL",
+        "basisCode": "SZGW2A60"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A4FK8Qyx5YM8DaDXVVFUri6J440vi42tByZJedCiKOg/J",
+        "segmentId": "GMp9SydJMwGFYPtO"
+       }
+      ],
+      "baseFareTotal": "AUD129.00",
+      "saleFareTotal": "USD94.00",
+      "saleTaxTotal": "USD15.10",
+      "saleTotal": "USD109.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD2.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD5.40"
+       }
+      ],
+      "fareCalculation": "SYD VA ADL 128.26SZGW2A60 AUD 128.26 END FARE AUD 129.00 EQU USD 94.00 XT 12.40QR 2.70WG",
+      "latestTicketingTime": "2017-01-10T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD109.10",
+    "id": "WcFioziMPC4OhIA73mml2G006",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 130,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 130,
+        "flight": {
+         "carrier": "VA",
+         "number": "428"
+        },
+        "id": "GrqqXCK1z2l41fDo",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lmsh-u5dDyPvWZlr",
+          "aircraft": "73H",
+          "arrivalTime": "2017-06-15T17:50+09:30",
+          "departureTime": "2017-06-15T16:10+10:00",
+          "origin": "SYD",
+          "destination": "ADL",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 130,
+          "mileage": 723,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A4FK8Qyx5YM8DaDXVVFUri6J440vi42tByZJedCiKOg/J",
+        "carrier": "VA",
+        "origin": "SYD",
+        "destination": "ADL",
+        "basisCode": "SZGW2A60"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A4FK8Qyx5YM8DaDXVVFUri6J440vi42tByZJedCiKOg/J",
+        "segmentId": "GrqqXCK1z2l41fDo"
+       }
+      ],
+      "baseFareTotal": "AUD129.00",
+      "saleFareTotal": "USD94.00",
+      "saleTaxTotal": "USD15.10",
+      "saleTotal": "USD109.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD2.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD5.40"
+       }
+      ],
+      "fareCalculation": "SYD VA ADL 128.26SZGW2A60 AUD 128.26 END FARE AUD 129.00 EQU USD 94.00 XT 12.40QR 2.70WG",
+      "latestTicketingTime": "2017-01-10T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD109.10",
+    "id": "WcFioziMPC4OhIA73mml2G007",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 130,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 130,
+        "flight": {
+         "carrier": "VA",
+         "number": "422"
+        },
+        "id": "G7kF2dwQ35TH41OS",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LM0FilEjRuRTzjz1",
+          "aircraft": "73H",
+          "arrivalTime": "2017-06-15T14:35+09:30",
+          "departureTime": "2017-06-15T12:55+10:00",
+          "origin": "SYD",
+          "destination": "ADL",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 130,
+          "mileage": 723,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A4FK8Qyx5YM8DaDXVVFUri6J440vi42tByZJedCiKOg/J",
+        "carrier": "VA",
+        "origin": "SYD",
+        "destination": "ADL",
+        "basisCode": "SZGW2A60"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A4FK8Qyx5YM8DaDXVVFUri6J440vi42tByZJedCiKOg/J",
+        "segmentId": "G7kF2dwQ35TH41OS"
+       }
+      ],
+      "baseFareTotal": "AUD129.00",
+      "saleFareTotal": "USD94.00",
+      "saleTaxTotal": "USD15.10",
+      "saleTotal": "USD109.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD2.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD5.40"
+       }
+      ],
+      "fareCalculation": "SYD VA ADL 128.26SZGW2A60 AUD 128.26 END FARE AUD 129.00 EQU USD 94.00 XT 12.40QR 2.70WG",
+      "latestTicketingTime": "2017-01-10T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD109.10",
+    "id": "WcFioziMPC4OhIA73mml2G008",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 130,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 130,
+        "flight": {
+         "carrier": "VA",
+         "number": "412"
+        },
+        "id": "G57t1GcK7Cw-CkYa",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LYT7ZBgzpnYVQfTa",
+          "aircraft": "73H",
+          "arrivalTime": "2017-06-15T10:20+09:30",
+          "departureTime": "2017-06-15T08:40+10:00",
+          "origin": "SYD",
+          "destination": "ADL",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 130,
+          "mileage": 723,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A4FK8Qyx5YM8DaDXVVFUri6J440vi42tByZJedCiKOg/J",
+        "carrier": "VA",
+        "origin": "SYD",
+        "destination": "ADL",
+        "basisCode": "SZGW2A60"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A4FK8Qyx5YM8DaDXVVFUri6J440vi42tByZJedCiKOg/J",
+        "segmentId": "G57t1GcK7Cw-CkYa"
+       }
+      ],
+      "baseFareTotal": "AUD129.00",
+      "saleFareTotal": "USD94.00",
+      "saleTaxTotal": "USD15.10",
+      "saleTotal": "USD109.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD2.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD5.40"
+       }
+      ],
+      "fareCalculation": "SYD VA ADL 128.26SZGW2A60 AUD 128.26 END FARE AUD 129.00 EQU USD 94.00 XT 12.40QR 2.70WG",
+      "latestTicketingTime": "2017-01-10T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD152.70",
+    "id": "WcFioziMPC4OhIA73mml2G00A",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 270,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 95,
+        "flight": {
+         "carrier": "JQ",
+         "number": "503"
+        },
+        "id": "GgIYc0nV4phrWgeM",
+        "cabin": "COACH",
+        "bookingCode": "K",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LEJD8h9WFLVd0jPj",
+          "aircraft": "321",
+          "arrivalTime": "2017-06-15T08:35+10:00",
+          "departureTime": "2017-06-15T07:00+10:00",
+          "origin": "SYD",
+          "destination": "MEL",
+          "originTerminal": "2",
+          "destinationTerminal": "4",
+          "duration": 95,
+          "mileage": 438
+         }
+        ],
+        "connectionDuration": 95
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "JQ",
+         "number": "772"
+        },
+        "id": "GBlAXgB8cm+a-LO6",
+        "cabin": "COACH",
+        "bookingCode": "H",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LcVrJEzEEOUny3-d",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T11:00+09:30",
+          "departureTime": "2017-06-15T10:10+10:00",
+          "origin": "MEL",
+          "destination": "ADL",
+          "originTerminal": "4",
+          "destinationTerminal": "1",
+          "duration": 80,
+          "mileage": 398
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AaZpbL2ECfBYcsPySidwKaLiXox6KHV4hfkKG+ms/",
+        "carrier": "JQ",
+        "origin": "SYD",
+        "destination": "MEL",
+        "basisCode": "KLOW"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A5s/RY6r9byVYAsbt5bW5FJkuxF+JHSWU1EtR7Y+J",
+        "carrier": "JQ",
+        "origin": "MEL",
+        "destination": "ADL",
+        "basisCode": "HLOW"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AaZpbL2ECfBYcsPySidwKaLiXox6KHV4hfkKG+ms/",
+        "segmentId": "GgIYc0nV4phrWgeM"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A5s/RY6r9byVYAsbt5bW5FJkuxF+JHSWU1EtR7Y+J",
+        "segmentId": "GBlAXgB8cm+a-LO6"
+       }
+      ],
+      "baseFareTotal": "AUD191.00",
+      "saleFareTotal": "USD139.00",
+      "saleTaxTotal": "USD13.70",
+      "saleTotal": "USD152.70",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD1.30"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD5.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD7.00"
+       }
+      ],
+      "fareCalculation": "SYD JQ X/MEL 99.11KLOW JQ ADL 91.64HLOW AUD 190.75 END FARE AUD 191.00 EQU USD 139.00 XT 12.40QR 1.30WG",
+      "latestTicketingTime": "2017-06-13T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}

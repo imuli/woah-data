@@ -1,0 +1,2221 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "h4IieDUbOuukHoW6e0Pn01",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "ADL",
+     "city": "ADL",
+     "name": "Adelaide International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "AUH",
+     "city": "AUH",
+     "name": "Abu Dhabi International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "BRU",
+     "city": "BRU",
+     "name": "Brussels Airport"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "DOH",
+     "city": "DOH",
+     "name": "Doha Hamad International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "DXB",
+     "city": "DXB",
+     "name": "Dubai International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "FRA",
+     "city": "FRA",
+     "name": "Frankfurt International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "HKG",
+     "city": "HKG",
+     "name": "Hong Kong International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "LHR",
+     "city": "LON",
+     "name": "London Heathrow"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "SIN",
+     "city": "SIN",
+     "name": "Singapore Changi"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "SYD",
+     "city": "SYD",
+     "name": "Sydney Kingsford Smith"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "ZRH",
+     "city": "ZRH",
+     "name": "Zurich Airport"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "ADL",
+     "name": "Adelaide"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "AUH",
+     "name": "Abu Dhabi"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "BRU",
+     "name": "Brussels"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "DOH",
+     "name": "Doha"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "DXB",
+     "name": "Dubai"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "FRA",
+     "name": "Frankfurt"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "HKG",
+     "name": "Hong Kong"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "LON",
+     "name": "London"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "SIN",
+     "name": "Singapore"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "SYD",
+     "name": "Sydney"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "ZRH",
+     "name": "Zurich"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "319",
+     "name": "Airbus A319"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "320",
+     "name": "Airbus A320"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "332",
+     "name": "Airbus A330"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "359",
+     "name": "Airbus A350"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "388",
+     "name": "Airbus A380"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "73H",
+     "name": "Boeing 737"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "777",
+     "name": "Boeing 777"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "77W",
+     "name": "Boeing 777"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "CR9",
+     "name": "Canadair RJ 900"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "CH_001",
+     "name": "Switzerland Airport Passenger Security And Noise Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "AU_001",
+     "name": "Australia Passenger Movement Charge Pmc"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "OO_001",
+     "name": "Singapore Passenger Security Service Charge Pssc"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "UB_001",
+     "name": "United Kingdom Passenger Service Charge Departures"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "WG_001",
+     "name": "Australia Safety And Security Charge Departure"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YR_F",
+     "name": "CX YR surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YR_I",
+     "name": "LX YR surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_I",
+     "name": "LX YQ surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "RA_002",
+     "name": "German Passenger Service Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "G4_001",
+     "name": "Qatar Passenger Facility Charge Pfc"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "SG_001",
+     "name": "Singapore Passenger Service And Security Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "DE_001",
+     "name": "Germany Airport Security Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "WY_001",
+     "name": "Australia Passenger Services Charge Departure International"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "QR_002",
+     "name": "Australia Passenger Service Charge Domestic Arrival"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "QR_001",
+     "name": "Australia Passenger Service Charge Domestic Departure"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_F",
+     "name": "SQ YQ surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "F6_002",
+     "name": "United Arab Emirates Passenger Facilities Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "G3_001",
+     "name": "Hong Kong Airport Construction Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "PZ_002",
+     "name": "Qatar Passenger Service Charge Arrivals"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "BA",
+     "name": "British Airways"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "CX",
+     "name": "Cathay Pacific Airways Ltd."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "EK",
+     "name": "Emirates"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "EY",
+     "name": "Etihad Airways"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "LH",
+     "name": "Deutsche Lufthansa AG"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "LX",
+     "name": "SWISS"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "QF",
+     "name": "Qantas Airways Ltd."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "QR",
+     "name": "Qatar Airways"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "SQ",
+     "name": "Singapore Airlines Limited"
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD784.90",
+    "id": "5CD0SJA1ouSSwUkSKRCM4N002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1565,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 495,
+        "flight": {
+         "carrier": "BA",
+         "number": "16"
+        },
+        "id": "GGdaExwsltZ5LXyn",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LlH173roF5v9rfg5",
+          "aircraft": "777",
+          "arrivalTime": "2017-06-15T21:05+08:00",
+          "departureTime": "2017-06-15T14:50+10:00",
+          "origin": "SYD",
+          "destination": "SIN",
+          "originTerminal": "1",
+          "destinationTerminal": "1",
+          "duration": 495,
+          "mileage": 3909,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 145
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 760,
+        "flight": {
+         "carrier": "LX",
+         "number": "179"
+        },
+        "id": "GbCyCfr-pgFUFP7M",
+        "cabin": "COACH",
+        "bookingCode": "L",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LoBk37Gxu0s-r0ur",
+          "aircraft": "77W",
+          "arrivalTime": "2017-06-16T06:10+02:00",
+          "departureTime": "2017-06-15T23:30+08:00",
+          "origin": "SIN",
+          "destination": "ZRH",
+          "originTerminal": "2",
+          "duration": 760,
+          "operatingDisclosure": "OPERATED BY SWISS GLOBAL AIR LINES",
+          "mileage": 6400,
+          "meal": "Breakfast"
+         }
+        ],
+        "connectionDuration": 85
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "LX",
+         "number": "786"
+        },
+        "id": "GcPgx8ZEohgT3W75",
+        "cabin": "COACH",
+        "bookingCode": "L",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LiawWw7Bcjn5Siyr",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-16T08:55+02:00",
+          "departureTime": "2017-06-16T07:35+02:00",
+          "origin": "ZRH",
+          "destination": "BRU",
+          "duration": 80,
+          "mileage": 299,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AkzvBF3/IhQvk6Pv5EzVPel7GuIdOBI0yl1aPAdOQYL2",
+        "carrier": "LX",
+        "origin": "SYD",
+        "destination": "BRU",
+        "basisCode": "LRCOWAU"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AkzvBF3/IhQvk6Pv5EzVPel7GuIdOBI0yl1aPAdOQYL2",
+        "segmentId": "GGdaExwsltZ5LXyn"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AkzvBF3/IhQvk6Pv5EzVPel7GuIdOBI0yl1aPAdOQYL2",
+        "segmentId": "GbCyCfr-pgFUFP7M"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AkzvBF3/IhQvk6Pv5EzVPel7GuIdOBI0yl1aPAdOQYL2",
+        "segmentId": "GcPgx8ZEohgT3W75"
+       }
+      ],
+      "baseFareTotal": "AUD545.00",
+      "saleFareTotal": "USD398.00",
+      "saleTaxTotal": "USD386.90",
+      "saleTotal": "USD784.90",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD189.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CH_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CH",
+        "country": "CH",
+        "salePrice": "USD15.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SG",
+        "country": "SG",
+        "salePrice": "USD2.10"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OO",
+        "country": "SG",
+        "salePrice": "USD2.10"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AU_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AU",
+        "country": "AU",
+        "salePrice": "USD40.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD21.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD98.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "USD16.90"
+       }
+      ],
+      "fareCalculation": "SYD BA X/SIN LX X/ZRH LX BRU 406.24LRCOWAU NUC 406.24 END ROE 1.341547 FARE AUD 545.00 EQU USD 398.00 XT 40.20AU 21.70WY 2.10OO 2.10SG 15.70CH 288.20YQ 16.90YR",
+      "latestTicketingTime": "2017-06-15T00:49-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD881.40",
+    "id": "5CD0SJA1ouSSwUkSKRCM4N003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1635,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 570,
+        "flight": {
+         "carrier": "CX",
+         "number": "100"
+        },
+        "id": "GCDhNnIBlW9qJT1B",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LflW+4w5eoGlJzGk",
+          "aircraft": "77W",
+          "arrivalTime": "2017-06-15T21:35+08:00",
+          "departureTime": "2017-06-15T14:05+10:00",
+          "origin": "SYD",
+          "destination": "HKG",
+          "originTerminal": "1",
+          "destinationTerminal": "1",
+          "duration": 570,
+          "mileage": 4592,
+          "meal": "Lunch"
+         }
+        ],
+        "connectionDuration": 90
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 735,
+        "flight": {
+         "carrier": "LH",
+         "number": "797"
+        },
+        "id": "GtX9yUQ8O6vmmFJV",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lng43aVDEzwGN-mv",
+          "aircraft": "388",
+          "arrivalTime": "2017-06-16T05:20+02:00",
+          "departureTime": "2017-06-15T23:05+08:00",
+          "origin": "HKG",
+          "destination": "FRA",
+          "originTerminal": "1",
+          "destinationTerminal": "1",
+          "duration": 735,
+          "mileage": 5685,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 185
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 55,
+        "flight": {
+         "carrier": "LH",
+         "number": "1006"
+        },
+        "id": "GMDvtN6vYt589Es4",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lh3oYmEnCajO4h2V",
+          "aircraft": "CR9",
+          "arrivalTime": "2017-06-16T09:20+02:00",
+          "departureTime": "2017-06-16T08:25+02:00",
+          "origin": "FRA",
+          "destination": "BRU",
+          "originTerminal": "1",
+          "duration": 55,
+          "operatingDisclosure": "OPERATED BY LUFTHANSA CITYLINE GMBH",
+          "mileage": 189,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Am8fV/+D7xlbsifUGgYaERLVBUarzMTZo0lKpsrzdvk/",
+        "carrier": "LH",
+        "origin": "SYD",
+        "destination": "BRU",
+        "basisCode": "SRCOWAU"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Am8fV/+D7xlbsifUGgYaERLVBUarzMTZo0lKpsrzdvk/",
+        "segmentId": "GtX9yUQ8O6vmmFJV"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Am8fV/+D7xlbsifUGgYaERLVBUarzMTZo0lKpsrzdvk/",
+        "segmentId": "GMDvtN6vYt589Es4"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Am8fV/+D7xlbsifUGgYaERLVBUarzMTZo0lKpsrzdvk/",
+        "segmentId": "GCDhNnIBlW9qJT1B"
+       }
+      ],
+      "baseFareTotal": "AUD736.00",
+      "saleFareTotal": "USD537.00",
+      "saleTaxTotal": "USD344.40",
+      "saleTotal": "USD881.40",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "USD10.10"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RA_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RA",
+        "country": "DE",
+        "salePrice": "USD22.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD189.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "G3_001",
+        "chargeType": "GOVERNMENT",
+        "code": "G3",
+        "country": "HK",
+        "salePrice": "USD20.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AU_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AU",
+        "country": "AU",
+        "salePrice": "USD40.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD21.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "USD22.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "USD16.90"
+       }
+      ],
+      "fareCalculation": "SYD CX X/HKG LH X/FRA Q5.80 LH BRU 542.65SRCOWAU NUC 548.45 END ROE 1.341547 FARE AUD 736.00 EQU USD 537.00 XT 40.20AU 21.70WY 20.60G3 10.10DE 22.50RA 189.60YQ 39.70YR",
+      "latestTicketingTime": "2017-01-24T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD935.80",
+    "id": "5CD0SJA1ouSSwUkSKRCM4N005",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1650,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 495,
+        "flight": {
+         "carrier": "BA",
+         "number": "16"
+        },
+        "id": "GGdaExwsltZ5LXyn",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LlH173roF5v9rfg5",
+          "aircraft": "777",
+          "arrivalTime": "2017-06-15T21:05+08:00",
+          "departureTime": "2017-06-15T14:50+10:00",
+          "origin": "SYD",
+          "destination": "SIN",
+          "originTerminal": "1",
+          "destinationTerminal": "1",
+          "duration": 495,
+          "mileage": 3909,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 155
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 760,
+        "flight": {
+         "carrier": "LH",
+         "number": "779"
+        },
+        "id": "GcwTqVu8saZH27BU",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LKgCkWjndG4cgQ-f",
+          "aircraft": "388",
+          "arrivalTime": "2017-06-16T06:20+02:00",
+          "departureTime": "2017-06-15T23:40+08:00",
+          "origin": "SIN",
+          "destination": "FRA",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 760,
+          "mileage": 6383,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 185
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 55,
+        "flight": {
+         "carrier": "LH",
+         "number": "1008"
+        },
+        "id": "GETiV47tnDPieIAo",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Ly7mGv4GYQAKONip",
+          "aircraft": "319",
+          "arrivalTime": "2017-06-16T10:20+02:00",
+          "departureTime": "2017-06-16T09:25+02:00",
+          "origin": "FRA",
+          "destination": "BRU",
+          "originTerminal": "1",
+          "duration": 55,
+          "mileage": 189,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Am8fV/+D7xlbsifUGgYaERLVBUarzMTZo0lKpsrzdvk/",
+        "carrier": "LH",
+        "origin": "SYD",
+        "destination": "BRU",
+        "basisCode": "SRCOWAU"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Am8fV/+D7xlbsifUGgYaERLVBUarzMTZo0lKpsrzdvk/",
+        "segmentId": "GGdaExwsltZ5LXyn"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Am8fV/+D7xlbsifUGgYaERLVBUarzMTZo0lKpsrzdvk/",
+        "segmentId": "GETiV47tnDPieIAo"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Am8fV/+D7xlbsifUGgYaERLVBUarzMTZo0lKpsrzdvk/",
+        "segmentId": "GcwTqVu8saZH27BU"
+       }
+      ],
+      "baseFareTotal": "AUD728.00",
+      "saleFareTotal": "USD532.00",
+      "saleTaxTotal": "USD403.80",
+      "saleTotal": "USD935.80",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "USD10.10"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RA_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RA",
+        "country": "DE",
+        "salePrice": "USD22.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD189.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SG",
+        "country": "SG",
+        "salePrice": "USD2.10"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OO",
+        "country": "SG",
+        "salePrice": "USD2.10"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AU_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AU",
+        "country": "AU",
+        "salePrice": "USD40.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD21.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD98.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "USD16.90"
+       }
+      ],
+      "fareCalculation": "SYD BA X/SIN LH X/FRA LH BRU 542.65SRCOWAU NUC 542.65 END ROE 1.341547 FARE AUD 728.00 EQU USD 532.00 XT 40.20AU 21.70WY 2.10OO 2.10SG 10.10DE 22.50RA 288.20YQ 16.90YR",
+      "latestTicketingTime": "2017-01-24T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD945.00",
+    "id": "5CD0SJA1ouSSwUkSKRCM4N006",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1640,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 510,
+        "flight": {
+         "carrier": "SQ",
+         "number": "222"
+        },
+        "id": "Gfi+396APpG0KxBj",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LflSXMl-dFgRvm0o",
+          "aircraft": "388",
+          "arrivalTime": "2017-06-15T21:30+08:00",
+          "departureTime": "2017-06-15T15:00+10:00",
+          "origin": "SYD",
+          "destination": "SIN",
+          "originTerminal": "1",
+          "destinationTerminal": "0",
+          "duration": 510,
+          "mileage": 3909,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 130
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 760,
+        "flight": {
+         "carrier": "LH",
+         "number": "779"
+        },
+        "id": "GcwTqVu8saZH27BU",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LKgCkWjndG4cgQ-f",
+          "aircraft": "388",
+          "arrivalTime": "2017-06-16T06:20+02:00",
+          "departureTime": "2017-06-15T23:40+08:00",
+          "origin": "SIN",
+          "destination": "FRA",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 760,
+          "mileage": 6383,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 185
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 55,
+        "flight": {
+         "carrier": "LH",
+         "number": "1008"
+        },
+        "id": "GETiV47tnDPieIAo",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Ly7mGv4GYQAKONip",
+          "aircraft": "319",
+          "arrivalTime": "2017-06-16T10:20+02:00",
+          "departureTime": "2017-06-16T09:25+02:00",
+          "origin": "FRA",
+          "destination": "BRU",
+          "originTerminal": "1",
+          "duration": 55,
+          "mileage": 189,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Am8fV/+D7xlbsifUGgYaERLVBUarzMTZo0lKpsrzdvk/",
+        "carrier": "LH",
+        "origin": "SYD",
+        "destination": "BRU",
+        "basisCode": "SRCOWAU"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Am8fV/+D7xlbsifUGgYaERLVBUarzMTZo0lKpsrzdvk/",
+        "segmentId": "Gfi+396APpG0KxBj"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Am8fV/+D7xlbsifUGgYaERLVBUarzMTZo0lKpsrzdvk/",
+        "segmentId": "GETiV47tnDPieIAo"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Am8fV/+D7xlbsifUGgYaERLVBUarzMTZo0lKpsrzdvk/",
+        "segmentId": "GcwTqVu8saZH27BU"
+       }
+      ],
+      "baseFareTotal": "AUD728.00",
+      "saleFareTotal": "USD532.00",
+      "saleTaxTotal": "USD413.00",
+      "saleTotal": "USD945.00",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "USD10.10"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RA_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RA",
+        "country": "DE",
+        "salePrice": "USD22.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD189.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SG",
+        "country": "SG",
+        "salePrice": "USD2.10"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OO",
+        "country": "SG",
+        "salePrice": "USD2.10"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AU_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AU",
+        "country": "AU",
+        "salePrice": "USD40.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD3.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD18.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD108.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "USD16.90"
+       }
+      ],
+      "fareCalculation": "SYD SQ X/SIN LH X/FRA LH BRU 542.65SRCOWAU NUC 542.65 END ROE 1.341547 FARE AUD 728.00 EQU USD 532.00 XT 40.20AU 3.00WG 18.50WY 2.10OO 2.10SG 10.10DE 22.50RA 297.60YQ 16.90YR",
+      "latestTicketingTime": "2017-01-24T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD1001.80",
+    "id": "5CD0SJA1ouSSwUkSKRCM4N001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1475,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 895,
+        "flight": {
+         "carrier": "QR",
+         "number": "909"
+        },
+        "id": "GrQDh-9HvbmIle1C",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L1IGZl8tBLk7VIwX",
+          "aircraft": "388",
+          "arrivalTime": "2017-06-16T05:20+03:00",
+          "departureTime": "2017-06-15T21:25+10:00",
+          "origin": "SYD",
+          "destination": "DOH",
+          "originTerminal": "1",
+          "duration": 895,
+          "mileage": 7686,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 180
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 400,
+        "flight": {
+         "carrier": "QR",
+         "number": "193"
+        },
+        "id": "GKY7QtqJmdNUVw2x",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LG2Cn+J21F1xujQW",
+          "aircraft": "359",
+          "arrivalTime": "2017-06-16T14:00+02:00",
+          "departureTime": "2017-06-16T08:20+03:00",
+          "origin": "DOH",
+          "destination": "BRU",
+          "duration": 400,
+          "mileage": 3038,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AFoyB+V/7os2ZWCNueAW8iFQ5z6jgOBO14SSL/v8CQ2k",
+        "carrier": "QR",
+        "origin": "SYD",
+        "destination": "BRU",
+        "basisCode": "NHAUR1RO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AFoyB+V/7os2ZWCNueAW8iFQ5z6jgOBO14SSL/v8CQ2k",
+        "segmentId": "GrQDh-9HvbmIle1C"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AFoyB+V/7os2ZWCNueAW8iFQ5z6jgOBO14SSL/v8CQ2k",
+        "segmentId": "GKY7QtqJmdNUVw2x"
+       }
+      ],
+      "baseFareTotal": "AUD1015.00",
+      "saleFareTotal": "USD741.00",
+      "saleTaxTotal": "USD260.80",
+      "saleTotal": "USD1001.80",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "G4_001",
+        "chargeType": "GOVERNMENT",
+        "code": "G4",
+        "country": "QA",
+        "salePrice": "USD9.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AU_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AU",
+        "country": "AU",
+        "salePrice": "USD40.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD21.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "PZ_002",
+        "chargeType": "GOVERNMENT",
+        "code": "PZ",
+        "country": "QA",
+        "salePrice": "USD0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD184.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SYD QR X/DOH QR BRU 756.58NHAUR1RO NUC 756.58 END ROE 1.341547 FARE AUD 1015.00 EQU USD 741.00 XT 40.20AU 21.70WY 9.60G4 0.50PZ 184.80YQ 4.00YR",
+      "latestTicketingTime": "2017-06-15T07:24-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD1013.10",
+    "id": "5CD0SJA1ouSSwUkSKRCM4N008",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1660,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 130,
+        "flight": {
+         "carrier": "QF",
+         "number": "743"
+        },
+        "id": "Gopy0Po9nOsGvodk",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LplRum5yZdaM1Ya3",
+          "aircraft": "73H",
+          "arrivalTime": "2017-06-15T20:00+09:30",
+          "departureTime": "2017-06-15T18:20+10:00",
+          "origin": "SYD",
+          "destination": "ADL",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 130,
+          "mileage": 723,
+          "meal": "Dinner"
+         }
+        ],
+        "connectionDuration": 145
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 815,
+        "flight": {
+         "carrier": "QR",
+         "number": "915"
+        },
+        "id": "G87hJ6ul4dH7yyfR",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Ls52AggcZKsWiIfs",
+          "aircraft": "359",
+          "arrivalTime": "2017-06-16T05:30+03:00",
+          "departureTime": "2017-06-15T22:25+09:30",
+          "origin": "ADL",
+          "destination": "DOH",
+          "originTerminal": "1",
+          "duration": 815,
+          "mileage": 7031,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 170
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 400,
+        "flight": {
+         "carrier": "QR",
+         "number": "193"
+        },
+        "id": "GKY7QtqJmdNUVw2x",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LG2Cn+J21F1xujQW",
+          "aircraft": "359",
+          "arrivalTime": "2017-06-16T14:00+02:00",
+          "departureTime": "2017-06-16T08:20+03:00",
+          "origin": "DOH",
+          "destination": "BRU",
+          "duration": 400,
+          "mileage": 3038,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AFoyB+V/7os2ZWCNueAW8iFQ5z6jgOBO14SSL/v8CQ2k",
+        "carrier": "QR",
+        "origin": "SYD",
+        "destination": "BRU",
+        "basisCode": "NHAUR1RO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AFoyB+V/7os2ZWCNueAW8iFQ5z6jgOBO14SSL/v8CQ2k",
+        "segmentId": "Gopy0Po9nOsGvodk"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AFoyB+V/7os2ZWCNueAW8iFQ5z6jgOBO14SSL/v8CQ2k",
+        "segmentId": "G87hJ6ul4dH7yyfR"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AFoyB+V/7os2ZWCNueAW8iFQ5z6jgOBO14SSL/v8CQ2k",
+        "segmentId": "GKY7QtqJmdNUVw2x"
+       }
+      ],
+      "baseFareTotal": "AUD1015.00",
+      "saleFareTotal": "USD741.00",
+      "saleTaxTotal": "USD272.10",
+      "saleTotal": "USD1013.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "G4_001",
+        "chargeType": "GOVERNMENT",
+        "code": "G4",
+        "country": "QA",
+        "salePrice": "USD9.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AU_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AU",
+        "country": "AU",
+        "salePrice": "USD40.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD15.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "PZ_002",
+        "chargeType": "GOVERNMENT",
+        "code": "PZ",
+        "country": "QA",
+        "salePrice": "USD0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "USD4.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QR_002",
+        "chargeType": "GOVERNMENT",
+        "code": "QR",
+        "country": "AU",
+        "salePrice": "USD7.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD4.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD184.80"
+       }
+      ],
+      "fareCalculation": "SYD QF X/ADL QR X/DOH QR BRU 756.58NHAUR1RO NUC 756.58 END ROE 1.341547 FARE AUD 1015.00 EQU USD 741.00 XT 40.20AU 13.30QR 4.00WG 15.70WY 9.60G4 0.50PZ 184.80YQ 4.00YR",
+      "latestTicketingTime": "2017-06-15T04:19-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD1015.10",
+    "id": "5CD0SJA1ouSSwUkSKRCM4N007",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1555,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 510,
+        "flight": {
+         "carrier": "SQ",
+         "number": "222"
+        },
+        "id": "Gfi+396APpG0KxBj",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LflSXMl-dFgRvm0o",
+          "aircraft": "388",
+          "arrivalTime": "2017-06-15T21:30+08:00",
+          "departureTime": "2017-06-15T15:00+10:00",
+          "origin": "SYD",
+          "destination": "SIN",
+          "originTerminal": "1",
+          "destinationTerminal": "0",
+          "duration": 510,
+          "mileage": 3909,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 120
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 760,
+        "flight": {
+         "carrier": "LX",
+         "number": "179"
+        },
+        "id": "GbCyCfr-pgFUFP7M",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LoBk37Gxu0s-r0ur",
+          "aircraft": "77W",
+          "arrivalTime": "2017-06-16T06:10+02:00",
+          "departureTime": "2017-06-15T23:30+08:00",
+          "origin": "SIN",
+          "destination": "ZRH",
+          "originTerminal": "2",
+          "duration": 760,
+          "operatingDisclosure": "OPERATED BY SWISS GLOBAL AIR LINES",
+          "mileage": 6400,
+          "meal": "Breakfast"
+         }
+        ],
+        "connectionDuration": 85
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "LX",
+         "number": "786"
+        },
+        "id": "GcPgx8ZEohgT3W75",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LiawWw7Bcjn5Siyr",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-16T08:55+02:00",
+          "departureTime": "2017-06-16T07:35+02:00",
+          "origin": "ZRH",
+          "destination": "BRU",
+          "duration": 80,
+          "mileage": 299,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Asor/LgQEKLxap8WkmuBH9oOvWnxyXcYuAmkJ2ZR6VKc",
+        "carrier": "LX",
+        "origin": "SYD",
+        "destination": "BRU",
+        "basisCode": "SRCOWAU"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Asor/LgQEKLxap8WkmuBH9oOvWnxyXcYuAmkJ2ZR6VKc",
+        "segmentId": "Gfi+396APpG0KxBj"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Asor/LgQEKLxap8WkmuBH9oOvWnxyXcYuAmkJ2ZR6VKc",
+        "segmentId": "GbCyCfr-pgFUFP7M"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Asor/LgQEKLxap8WkmuBH9oOvWnxyXcYuAmkJ2ZR6VKc",
+        "segmentId": "GcPgx8ZEohgT3W75"
+       }
+      ],
+      "baseFareTotal": "AUD847.00",
+      "saleFareTotal": "USD619.00",
+      "saleTaxTotal": "USD396.10",
+      "saleTotal": "USD1015.10",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD189.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CH_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CH",
+        "country": "CH",
+        "salePrice": "USD15.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SG",
+        "country": "SG",
+        "salePrice": "USD2.10"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OO",
+        "country": "SG",
+        "salePrice": "USD2.10"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AU_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AU",
+        "country": "AU",
+        "salePrice": "USD40.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WG",
+        "country": "AU",
+        "salePrice": "USD3.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD18.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD108.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "USD16.90"
+       }
+      ],
+      "fareCalculation": "SYD SQ X/SIN LX X/ZRH LX BRU 631.36SRCOWAU NUC 631.36 END ROE 1.341547 FARE AUD 847.00 EQU USD 619.00 XT 40.20AU 3.00WG 18.50WY 2.10OO 2.10SG 15.70CH 297.60YQ 16.90YR",
+      "latestTicketingTime": "2017-06-15T00:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD1050.40",
+    "id": "5CD0SJA1ouSSwUkSKRCM4N004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1485,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 875,
+        "flight": {
+         "carrier": "EY",
+         "number": "451"
+        },
+        "id": "GI49E2yjj+w3DO5p",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LKJIYNTTBLAThjjn",
+          "aircraft": "77W",
+          "arrivalTime": "2017-06-15T23:55+04:00",
+          "departureTime": "2017-06-15T15:20+10:00",
+          "origin": "SYD",
+          "destination": "AUH",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 875,
+          "mileage": 7491,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 165
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 445,
+        "flight": {
+         "carrier": "EY",
+         "number": "57"
+        },
+        "id": "GUXsbP7Nr0shRfo-",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L-afyCtlte5w9KhT",
+          "aircraft": "332",
+          "arrivalTime": "2017-06-16T08:05+02:00",
+          "departureTime": "2017-06-16T02:40+04:00",
+          "origin": "AUH",
+          "destination": "BRU",
+          "originTerminal": "3",
+          "duration": 445,
+          "mileage": 3209,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A2u7/DeSXxi0jSzZdNTMJXbIyhDcMSlqfTejwPrPnswQ",
+        "carrier": "EY",
+        "origin": "SYD",
+        "destination": "BRU",
+        "basisCode": "THEBOWAU/YB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A2u7/DeSXxi0jSzZdNTMJXbIyhDcMSlqfTejwPrPnswQ",
+        "segmentId": "GUXsbP7Nr0shRfo-"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A2u7/DeSXxi0jSzZdNTMJXbIyhDcMSlqfTejwPrPnswQ",
+        "segmentId": "GI49E2yjj+w3DO5p"
+       }
+      ],
+      "baseFareTotal": "AUD1341.00",
+      "saleFareTotal": "USD979.00",
+      "saleTaxTotal": "USD71.40",
+      "saleTotal": "USD1050.40",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD21.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AU_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AU",
+        "country": "AU",
+        "salePrice": "USD40.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F6_002",
+        "chargeType": "GOVERNMENT",
+        "code": "F6",
+        "country": "AE",
+        "salePrice": "USD9.50"
+       }
+      ],
+      "fareCalculation": "SYD EY X/AUH EY BRU Q SYDBRU3.00 Q SYDBRU2.50 993.62THEBOWAU NUC 999.12 END ROE 1.341547 FARE AUD 1341.00 EQU USD 979.00 XT 40.20AU 21.70WY 9.50F6",
+      "latestTicketingTime": "2017-01-31T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD1231.60",
+    "id": "5CD0SJA1ouSSwUkSKRCM4N009",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1560,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 1395,
+        "flight": {
+         "carrier": "BA",
+         "number": "16"
+        },
+        "id": "G-6Ud-PRdGNjtHAF",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LlH173roF5v9rfg5",
+          "aircraft": "777",
+          "arrivalTime": "2017-06-15T21:05+08:00",
+          "departureTime": "2017-06-15T14:50+10:00",
+          "origin": "SYD",
+          "destination": "SIN",
+          "originTerminal": "1",
+          "destinationTerminal": "1",
+          "duration": 495,
+          "mileage": 3909,
+          "meal": "Meal",
+          "connectionDuration": 90
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lpc8dgvJBndYEqvw",
+          "aircraft": "777",
+          "arrivalTime": "2017-06-16T05:05+01:00",
+          "departureTime": "2017-06-15T22:35+08:00",
+          "origin": "SIN",
+          "destination": "LHR",
+          "originTerminal": "1",
+          "destinationTerminal": "5",
+          "duration": 810,
+          "mileage": 6758,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 90
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "BA",
+         "number": "388"
+        },
+        "id": "GsbDAKuipFGrB3kP",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LDWne6IFeygjCv-f",
+          "aircraft": "319",
+          "arrivalTime": "2017-06-16T08:50+02:00",
+          "departureTime": "2017-06-16T06:35+01:00",
+          "origin": "LHR",
+          "destination": "BRU",
+          "originTerminal": "5",
+          "duration": 75,
+          "mileage": 217,
+          "meal": "Food and Beverages for Purchase"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AGYsJM5KGCGNgAw7roUAMeGA6exo15ZS8ivnT2GjjdycwBV2L6pHtxxWnmnKwipMwLXHZ/288gGCLdvEieerKyOHFRQMZw/",
+        "carrier": "BA",
+        "origin": "SYD",
+        "destination": "BRU",
+        "basisCode": "SHX0O6C3"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AGYsJM5KGCGNgAw7roUAMeGA6exo15ZS8ivnT2GjjdycwBV2L6pHtxxWnmnKwipMwLXHZ/288gGCLdvEieerKyOHFRQMZw/",
+        "segmentId": "G-6Ud-PRdGNjtHAF"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AGYsJM5KGCGNgAw7roUAMeGA6exo15ZS8ivnT2GjjdycwBV2L6pHtxxWnmnKwipMwLXHZ/288gGCLdvEieerKyOHFRQMZw/",
+        "segmentId": "GsbDAKuipFGrB3kP"
+       }
+      ],
+      "baseFareTotal": "AUD1196.00",
+      "saleFareTotal": "USD873.00",
+      "saleTaxTotal": "USD358.60",
+      "saleTotal": "USD1231.60",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD22.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD27.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SG_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SG",
+        "country": "SG",
+        "salePrice": "USD2.10"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OO",
+        "country": "SG",
+        "salePrice": "USD2.10"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AU_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AU",
+        "country": "AU",
+        "salePrice": "USD40.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD21.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD242.10"
+       }
+      ],
+      "fareCalculation": "SYD BA X/LON BA BRU 891.50SHX0O6C3 NUC 891.50 END ROE 1.341547 FARE AUD 1196.00 EQU USD 873.00 XT 40.20AU 21.70WY 2.10OO 2.10SG 22.90UB 269.60YQ",
+      "latestTicketingTime": "2017-01-17T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD1307.40",
+    "id": "5CD0SJA1ouSSwUkSKRCM4N00A",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1455,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 870,
+        "flight": {
+         "carrier": "EK",
+         "number": "413"
+        },
+        "id": "GmU883vMc+GJzLGT",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LY5x99EN5y7oXD0t",
+          "aircraft": "388",
+          "arrivalTime": "2017-06-16T05:40+04:00",
+          "departureTime": "2017-06-15T21:10+10:00",
+          "origin": "SYD",
+          "destination": "DXB",
+          "originTerminal": "1",
+          "destinationTerminal": "3",
+          "duration": 870,
+          "mileage": 7480,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 160
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 425,
+        "flight": {
+         "carrier": "EK",
+         "number": "183"
+        },
+        "id": "G9pACPijyPCjGT7c",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LkqdbfsZXdXLZoYN",
+          "aircraft": "77W",
+          "arrivalTime": "2017-06-16T13:25+02:00",
+          "departureTime": "2017-06-16T08:20+04:00",
+          "origin": "DXB",
+          "destination": "BRU",
+          "originTerminal": "3",
+          "duration": 425,
+          "mileage": 3197,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Au8Ok88VjtUbkGEIeG0atCrbenSfgUOjgQF1y9Cs2NKE",
+        "carrier": "EK",
+        "origin": "SYD",
+        "destination": "BRU",
+        "basisCode": "UHXOSAU1"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Au8Ok88VjtUbkGEIeG0atCrbenSfgUOjgQF1y9Cs2NKE",
+        "segmentId": "GmU883vMc+GJzLGT"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Au8Ok88VjtUbkGEIeG0atCrbenSfgUOjgQF1y9Cs2NKE",
+        "segmentId": "G9pACPijyPCjGT7c"
+       }
+      ],
+      "baseFareTotal": "AUD1693.00",
+      "saleFareTotal": "USD1236.00",
+      "saleTaxTotal": "USD71.40",
+      "saleTotal": "USD1307.40",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD21.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AU_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AU",
+        "country": "AU",
+        "salePrice": "USD40.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F6_002",
+        "chargeType": "GOVERNMENT",
+        "code": "F6",
+        "country": "AE",
+        "salePrice": "USD9.50"
+       }
+      ],
+      "fareCalculation": "SYD EK X/DXB EK BRU 1261.97UHXOSAU1 NUC 1261.97 END ROE 1.341547 FARE AUD 1693.00 EQU USD 1236.00 XT 40.20AU 21.70WY 9.50F6",
+      "latestTicketingTime": "2017-01-24T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   }
+  ]
+ }
+}

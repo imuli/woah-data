@@ -1,0 +1,1751 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "RlpFF09NsCJVz4bIG0Pmzz",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "AUH",
+     "city": "AUH",
+     "name": "Abu Dhabi International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "BKK",
+     "city": "BKK",
+     "name": "Bangkok Suvarnabhumi International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "DXB",
+     "city": "DXB",
+     "name": "Dubai International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "LHR",
+     "city": "LON",
+     "name": "London Heathrow"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "PER",
+     "city": "PER",
+     "name": "Perth International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "TXL",
+     "city": "BER",
+     "name": "Berlin Tegel"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "AUH",
+     "name": "Abu Dhabi"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "BER",
+     "name": "Berlin"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "BKK",
+     "name": "Bangkok"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "DXB",
+     "name": "Dubai"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "LON",
+     "name": "London"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "PER",
+     "name": "Perth"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "319",
+     "name": "Airbus A319"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "332",
+     "name": "Airbus A330"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "380",
+     "name": "Airbus A380"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "388",
+     "name": "Airbus A380"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "77W",
+     "name": "Boeing 777"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "787",
+     "name": "Boeing 787"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "789",
+     "name": "Boeing 787"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "WY_002",
+     "name": "Australia Passenger Services Charge Arrival International"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "DE_001",
+     "name": "Germany Airport Security Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "E7_002",
+     "name": "Thailand Advance Passenger Processing User Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "UB_001",
+     "name": "United Kingdom Passenger Service Charge Departures"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_F",
+     "name": "EY YQ surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "F6_002",
+     "name": "United Arab Emirates Passenger Facilities Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "GB_001",
+     "name": "United Kingdom Air Passenger Duty Apd"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "RA_002",
+     "name": "German Passenger Service Charge"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "AB",
+     "name": "Air Berlin PLC & Co Luftverkehrs KG"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "EK",
+     "name": "Emirates"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "EY",
+     "name": "Etihad Airways"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "QF",
+     "name": "Qantas Airways Ltd."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "TG",
+     "name": "Thai Airways International Public"
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD578.30",
+    "id": "DlAfUe37UZVPmI0L3Z1m8N001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1225,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 440,
+        "flight": {
+         "carrier": "EY",
+         "number": "12"
+        },
+        "id": "GwxRWleLvsTYZ3ZA",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LOru-9bK46tS2Atw",
+          "aircraft": "388",
+          "arrivalTime": "2017-06-15T19:55+04:00",
+          "departureTime": "2017-06-15T09:35+01:00",
+          "origin": "LHR",
+          "destination": "AUH",
+          "originTerminal": "4",
+          "destinationTerminal": "3",
+          "duration": 440,
+          "mileage": 3426,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 140
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 645,
+        "flight": {
+         "carrier": "EY",
+         "number": "486"
+        },
+        "id": "GxCH5f5dW1xdmvQZ",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LKwFlknTpxPmSxIv",
+          "aircraft": "789",
+          "arrivalTime": "2017-06-16T13:00+08:00",
+          "departureTime": "2017-06-15T22:15+04:00",
+          "origin": "AUH",
+          "destination": "PER",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 645,
+          "mileage": 5611,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Ajno4gXq7EroW38lv/Mzh8aTntIIrWV3Tt9BU2j+iNHc",
+        "carrier": "EY",
+        "origin": "LON",
+        "destination": "PER",
+        "basisCode": "UPROWGB/YS"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Ajno4gXq7EroW38lv/Mzh8aTntIIrWV3Tt9BU2j+iNHc",
+        "segmentId": "GxCH5f5dW1xdmvQZ"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Ajno4gXq7EroW38lv/Mzh8aTntIIrWV3Tt9BU2j+iNHc",
+        "segmentId": "GwxRWleLvsTYZ3ZA"
+       }
+      ],
+      "baseFareTotal": "GBP331.00",
+      "saleFareTotal": "USD407.00",
+      "saleTaxTotal": "USD171.30",
+      "saleTotal": "USD578.30",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_002",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD12.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F6_002",
+        "chargeType": "GOVERNMENT",
+        "code": "F6",
+        "country": "AE",
+        "salePrice": "USD9.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD92.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD51.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD6.10"
+       }
+      ],
+      "fareCalculation": "LON EY X/AUH EY PER Q LONPER2.50 416.59UPROWGB NUC 419.09 END ROE 0.789732 FARE GBP 331.00 EQU USD 407.00 XT 92.20GB 51.00UB 9.50F6 12.50WY 6.10YQ",
+      "latestTicketingTime": "2017-01-13T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD664.60",
+    "id": "DlAfUe37UZVPmI0L3Z1m8N00A",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1415,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 110,
+        "flight": {
+         "carrier": "AB",
+         "number": "5008"
+        },
+        "id": "GSusyH6Zo1R+MB2s",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LbF52g7Co7vjrb1h",
+          "aircraft": "319",
+          "arrivalTime": "2017-06-15T10:05+02:00",
+          "departureTime": "2017-06-15T07:15+01:00",
+          "origin": "LHR",
+          "destination": "TXL",
+          "originTerminal": "5",
+          "duration": 110,
+          "operatingDisclosure": "OPERATED BY BRITISH AIRWAYS",
+          "mileage": 588
+         }
+        ],
+        "connectionDuration": 70
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 370,
+        "flight": {
+         "carrier": "AB",
+         "number": "7492"
+        },
+        "id": "G0R0F6xyrU9ziwl4",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L9GpPp276KwRGQ0g",
+          "aircraft": "332",
+          "arrivalTime": "2017-06-15T19:25+04:00",
+          "departureTime": "2017-06-15T11:15+02:00",
+          "origin": "TXL",
+          "destination": "AUH",
+          "destinationTerminal": "1",
+          "duration": 370,
+          "mileage": 2896,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 185
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 680,
+        "flight": {
+         "carrier": "AB",
+         "number": "4108"
+        },
+        "id": "GMSJlaQZqqZpLvqF",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LvfdDbsrSSrFotjR",
+          "aircraft": "789",
+          "arrivalTime": "2017-06-16T13:50+08:00",
+          "departureTime": "2017-06-15T22:30+04:00",
+          "origin": "AUH",
+          "destination": "PER",
+          "originTerminal": "3",
+          "destinationTerminal": "3",
+          "duration": 680,
+          "operatingDisclosure": "OPERATED BY ETIHAD AIRWAYS",
+          "mileage": 5611
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AawI1E3qUxILlnDhp+hn6YnQY9cVTyyG6SzzK5eA5FJ2",
+        "carrier": "AB",
+        "origin": "LON",
+        "destination": "PER",
+        "basisCode": "ONCB3GB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AawI1E3qUxILlnDhp+hn6YnQY9cVTyyG6SzzK5eA5FJ2",
+        "segmentId": "GSusyH6Zo1R+MB2s"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AawI1E3qUxILlnDhp+hn6YnQY9cVTyyG6SzzK5eA5FJ2",
+        "segmentId": "GMSJlaQZqqZpLvqF"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AawI1E3qUxILlnDhp+hn6YnQY9cVTyyG6SzzK5eA5FJ2",
+        "segmentId": "G0R0F6xyrU9ziwl4"
+       }
+      ],
+      "baseFareTotal": "GBP403.00",
+      "saleFareTotal": "USD495.00",
+      "saleTaxTotal": "USD169.60",
+      "saleTotal": "USD664.60",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_002",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD12.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F6_002",
+        "chargeType": "GOVERNMENT",
+        "code": "F6",
+        "country": "AE",
+        "salePrice": "USD9.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RA_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RA",
+        "country": "DE",
+        "salePrice": "USD10.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "USD8.10"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD92.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD30.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD6.10"
+       }
+      ],
+      "fareCalculation": "LON AB X/BER AB X/AUH AB PER Q LONPER6.33 Q LONPER2.50 501.43ONCB3GB NUC 510.26 END ROE 0.789732 FARE GBP 403.00 EQU USD 495.00 XT 92.20GB 30.40UB 8.10DE 10.80RA 9.50F6 12.50WY 6.10YQ",
+      "latestTicketingTime": "2017-01-13T09:35-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD738.20",
+    "id": "DlAfUe37UZVPmI0L3Z1m8N002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1175,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 410,
+        "flight": {
+         "carrier": "EK",
+         "number": "6"
+        },
+        "id": "GVQfHeFj3SiUhjRs",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LOjLPKYZliAeo78B",
+          "aircraft": "388",
+          "arrivalTime": "2017-06-16T08:05+04:00",
+          "departureTime": "2017-06-15T22:15+01:00",
+          "origin": "LHR",
+          "destination": "DXB",
+          "originTerminal": "3",
+          "destinationTerminal": "3",
+          "duration": 410,
+          "mileage": 3414,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 125
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 640,
+        "flight": {
+         "carrier": "EK",
+         "number": "424"
+        },
+        "id": "GhHzlhbZHfmoPVLp",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LKVZZJw3e4RnzZj2",
+          "aircraft": "77W",
+          "arrivalTime": "2017-06-17T00:50+08:00",
+          "departureTime": "2017-06-16T10:10+04:00",
+          "origin": "DXB",
+          "destination": "PER",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 640,
+          "mileage": 5615,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AHtuHqt4WLnD5hS+k7zrEWQEvOXb/dtgZHG5nbuE5FPw",
+        "carrier": "EK",
+        "origin": "LON",
+        "destination": "PER",
+        "basisCode": "ULSOSGB1"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AHtuHqt4WLnD5hS+k7zrEWQEvOXb/dtgZHG5nbuE5FPw",
+        "segmentId": "GVQfHeFj3SiUhjRs"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AHtuHqt4WLnD5hS+k7zrEWQEvOXb/dtgZHG5nbuE5FPw",
+        "segmentId": "GhHzlhbZHfmoPVLp"
+       }
+      ],
+      "baseFareTotal": "GBP284.00",
+      "saleFareTotal": "USD349.00",
+      "saleTaxTotal": "USD389.20",
+      "saleTotal": "USD738.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_002",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD12.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F6_002",
+        "chargeType": "GOVERNMENT",
+        "code": "F6",
+        "country": "AE",
+        "salePrice": "USD9.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD223.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD92.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD51.00"
+       }
+      ],
+      "fareCalculation": "LON EK X/DXB EK PER 359.61ULSOSGB1 NUC 359.61 END ROE 0.789732 FARE GBP 284.00 EQU USD 349.00 XT 92.20GB 51.00UB 9.50F6 12.80WY 223.70YQ",
+      "latestTicketingTime": "2017-02-09T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD738.20",
+    "id": "DlAfUe37UZVPmI0L3Z1m8N003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1175,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 410,
+        "flight": {
+         "carrier": "QF",
+         "number": "8006"
+        },
+        "id": "G7Za9B7oBXoes7YS",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lhuwg3LxAzM9xPIt",
+          "aircraft": "388",
+          "arrivalTime": "2017-06-16T08:05+04:00",
+          "departureTime": "2017-06-15T22:15+01:00",
+          "origin": "LHR",
+          "destination": "DXB",
+          "originTerminal": "3",
+          "destinationTerminal": "3",
+          "duration": 410,
+          "operatingDisclosure": "OPERATED BY EMIRATES",
+          "mileage": 3414,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 125
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 640,
+        "flight": {
+         "carrier": "QF",
+         "number": "8424"
+        },
+        "id": "G73zKunk1043SXir",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LV9+E8bfPybCTw3n",
+          "aircraft": "77W",
+          "arrivalTime": "2017-06-17T00:50+08:00",
+          "departureTime": "2017-06-16T10:10+04:00",
+          "origin": "DXB",
+          "destination": "PER",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 640,
+          "operatingDisclosure": "OPERATED BY EMIRATES",
+          "mileage": 5615,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AoN5c6Su+PyOpNORajZ9Laym7uE8RW6CZU1UjTXv6rXQ",
+        "carrier": "QF",
+        "origin": "LON",
+        "destination": "PER",
+        "basisCode": "SLOGB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AoN5c6Su+PyOpNORajZ9Laym7uE8RW6CZU1UjTXv6rXQ",
+        "segmentId": "G73zKunk1043SXir"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AoN5c6Su+PyOpNORajZ9Laym7uE8RW6CZU1UjTXv6rXQ",
+        "segmentId": "G7Za9B7oBXoes7YS"
+       }
+      ],
+      "baseFareTotal": "GBP284.00",
+      "saleFareTotal": "USD349.00",
+      "saleTaxTotal": "USD389.20",
+      "saleTotal": "USD738.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_002",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD12.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F6_002",
+        "chargeType": "GOVERNMENT",
+        "code": "F6",
+        "country": "AE",
+        "salePrice": "USD9.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD223.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD92.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD51.00"
+       }
+      ],
+      "fareCalculation": "LON QF X/DXB QF PER 359.61SLOGB NUC 359.61 END ROE 0.789732 FARE GBP 284.00 EQU USD 349.00 XT 92.20GB 51.00UB 9.50F6 12.80WY 223.70YQ",
+      "latestTicketingTime": "2017-02-09T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD738.20",
+    "id": "DlAfUe37UZVPmI0L3Z1m8N008",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1320,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 420,
+        "flight": {
+         "carrier": "EK",
+         "number": "32"
+        },
+        "id": "Ge3I6ImejhUTsw+R",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lv4mX1+-jAU7tK1J",
+          "aircraft": "388",
+          "arrivalTime": "2017-06-16T05:50+04:00",
+          "departureTime": "2017-06-15T19:50+01:00",
+          "origin": "LHR",
+          "destination": "DXB",
+          "originTerminal": "3",
+          "destinationTerminal": "3",
+          "duration": 420,
+          "mileage": 3414,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 260
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 640,
+        "flight": {
+         "carrier": "EK",
+         "number": "424"
+        },
+        "id": "GhHzlhbZHfmoPVLp",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LKVZZJw3e4RnzZj2",
+          "aircraft": "77W",
+          "arrivalTime": "2017-06-17T00:50+08:00",
+          "departureTime": "2017-06-16T10:10+04:00",
+          "origin": "DXB",
+          "destination": "PER",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 640,
+          "mileage": 5615,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AHtuHqt4WLnD5hS+k7zrEWQEvOXb/dtgZHG5nbuE5FPw",
+        "carrier": "EK",
+        "origin": "LON",
+        "destination": "PER",
+        "basisCode": "ULSOSGB1"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AHtuHqt4WLnD5hS+k7zrEWQEvOXb/dtgZHG5nbuE5FPw",
+        "segmentId": "GhHzlhbZHfmoPVLp"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AHtuHqt4WLnD5hS+k7zrEWQEvOXb/dtgZHG5nbuE5FPw",
+        "segmentId": "Ge3I6ImejhUTsw+R"
+       }
+      ],
+      "baseFareTotal": "GBP284.00",
+      "saleFareTotal": "USD349.00",
+      "saleTaxTotal": "USD389.20",
+      "saleTotal": "USD738.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_002",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD12.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F6_002",
+        "chargeType": "GOVERNMENT",
+        "code": "F6",
+        "country": "AE",
+        "salePrice": "USD9.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD223.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD92.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD51.00"
+       }
+      ],
+      "fareCalculation": "LON EK X/DXB EK PER 359.61ULSOSGB1 NUC 359.61 END ROE 0.789732 FARE GBP 284.00 EQU USD 349.00 XT 92.20GB 51.00UB 9.50F6 12.80WY 223.70YQ",
+      "latestTicketingTime": "2017-02-09T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD738.20",
+    "id": "DlAfUe37UZVPmI0L3Z1m8N007",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1270,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 415,
+        "flight": {
+         "carrier": "QF",
+         "number": "8004"
+        },
+        "id": "G0JToS7qOKT1RwFA",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LO-ealZfu6wDyNBa",
+          "aircraft": "388",
+          "arrivalTime": "2017-06-16T06:35+04:00",
+          "departureTime": "2017-06-15T20:40+01:00",
+          "origin": "LHR",
+          "destination": "DXB",
+          "originTerminal": "3",
+          "destinationTerminal": "3",
+          "duration": 415,
+          "operatingDisclosure": "OPERATED BY EMIRATES",
+          "mileage": 3414,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 215
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 640,
+        "flight": {
+         "carrier": "QF",
+         "number": "8424"
+        },
+        "id": "G73zKunk1043SXir",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LV9+E8bfPybCTw3n",
+          "aircraft": "77W",
+          "arrivalTime": "2017-06-17T00:50+08:00",
+          "departureTime": "2017-06-16T10:10+04:00",
+          "origin": "DXB",
+          "destination": "PER",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 640,
+          "operatingDisclosure": "OPERATED BY EMIRATES",
+          "mileage": 5615,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AoN5c6Su+PyOpNORajZ9Laym7uE8RW6CZU1UjTXv6rXQ",
+        "carrier": "QF",
+        "origin": "LON",
+        "destination": "PER",
+        "basisCode": "SLOGB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AoN5c6Su+PyOpNORajZ9Laym7uE8RW6CZU1UjTXv6rXQ",
+        "segmentId": "G73zKunk1043SXir"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AoN5c6Su+PyOpNORajZ9Laym7uE8RW6CZU1UjTXv6rXQ",
+        "segmentId": "G0JToS7qOKT1RwFA"
+       }
+      ],
+      "baseFareTotal": "GBP284.00",
+      "saleFareTotal": "USD349.00",
+      "saleTaxTotal": "USD389.20",
+      "saleTotal": "USD738.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_002",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD12.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F6_002",
+        "chargeType": "GOVERNMENT",
+        "code": "F6",
+        "country": "AE",
+        "salePrice": "USD9.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD223.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD92.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD51.00"
+       }
+      ],
+      "fareCalculation": "LON QF X/DXB QF PER 359.61SLOGB NUC 359.61 END ROE 0.789732 FARE GBP 284.00 EQU USD 349.00 XT 92.20GB 51.00UB 9.50F6 12.80WY 223.70YQ",
+      "latestTicketingTime": "2017-02-09T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD738.20",
+    "id": "DlAfUe37UZVPmI0L3Z1m8N006",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1270,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 415,
+        "flight": {
+         "carrier": "EK",
+         "number": "4"
+        },
+        "id": "GarJd0Vzv7nuCM5g",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L6uYgzb+zLKIBQGJ",
+          "aircraft": "388",
+          "arrivalTime": "2017-06-16T06:35+04:00",
+          "departureTime": "2017-06-15T20:40+01:00",
+          "origin": "LHR",
+          "destination": "DXB",
+          "originTerminal": "3",
+          "destinationTerminal": "3",
+          "duration": 415,
+          "mileage": 3414,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 215
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 640,
+        "flight": {
+         "carrier": "EK",
+         "number": "424"
+        },
+        "id": "GhHzlhbZHfmoPVLp",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LKVZZJw3e4RnzZj2",
+          "aircraft": "77W",
+          "arrivalTime": "2017-06-17T00:50+08:00",
+          "departureTime": "2017-06-16T10:10+04:00",
+          "origin": "DXB",
+          "destination": "PER",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 640,
+          "mileage": 5615,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AHtuHqt4WLnD5hS+k7zrEWQEvOXb/dtgZHG5nbuE5FPw",
+        "carrier": "EK",
+        "origin": "LON",
+        "destination": "PER",
+        "basisCode": "ULSOSGB1"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AHtuHqt4WLnD5hS+k7zrEWQEvOXb/dtgZHG5nbuE5FPw",
+        "segmentId": "GhHzlhbZHfmoPVLp"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AHtuHqt4WLnD5hS+k7zrEWQEvOXb/dtgZHG5nbuE5FPw",
+        "segmentId": "GarJd0Vzv7nuCM5g"
+       }
+      ],
+      "baseFareTotal": "GBP284.00",
+      "saleFareTotal": "USD349.00",
+      "saleTaxTotal": "USD389.20",
+      "saleTotal": "USD738.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_002",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD12.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F6_002",
+        "chargeType": "GOVERNMENT",
+        "code": "F6",
+        "country": "AE",
+        "salePrice": "USD9.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD223.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD92.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD51.00"
+       }
+      ],
+      "fareCalculation": "LON EK X/DXB EK PER 359.61ULSOSGB1 NUC 359.61 END ROE 0.789732 FARE GBP 284.00 EQU USD 349.00 XT 92.20GB 51.00UB 9.50F6 12.80WY 223.70YQ",
+      "latestTicketingTime": "2017-02-09T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD738.20",
+    "id": "DlAfUe37UZVPmI0L3Z1m8N005",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1220,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 420,
+        "flight": {
+         "carrier": "QF",
+         "number": "2"
+        },
+        "id": "GD4mWckfdZrsHK8V",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LAqinks-F1mreT8s",
+          "aircraft": "388",
+          "arrivalTime": "2017-06-16T07:30+04:00",
+          "departureTime": "2017-06-15T21:30+01:00",
+          "origin": "LHR",
+          "destination": "DXB",
+          "originTerminal": "3",
+          "destinationTerminal": "3",
+          "duration": 420,
+          "mileage": 3414,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 160
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 640,
+        "flight": {
+         "carrier": "QF",
+         "number": "8424"
+        },
+        "id": "G73zKunk1043SXir",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LV9+E8bfPybCTw3n",
+          "aircraft": "77W",
+          "arrivalTime": "2017-06-17T00:50+08:00",
+          "departureTime": "2017-06-16T10:10+04:00",
+          "origin": "DXB",
+          "destination": "PER",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 640,
+          "operatingDisclosure": "OPERATED BY EMIRATES",
+          "mileage": 5615,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AoN5c6Su+PyOpNORajZ9Laym7uE8RW6CZU1UjTXv6rXQ",
+        "carrier": "QF",
+        "origin": "LON",
+        "destination": "PER",
+        "basisCode": "SLOGB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AoN5c6Su+PyOpNORajZ9Laym7uE8RW6CZU1UjTXv6rXQ",
+        "segmentId": "G73zKunk1043SXir"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AoN5c6Su+PyOpNORajZ9Laym7uE8RW6CZU1UjTXv6rXQ",
+        "segmentId": "GD4mWckfdZrsHK8V"
+       }
+      ],
+      "baseFareTotal": "GBP284.00",
+      "saleFareTotal": "USD349.00",
+      "saleTaxTotal": "USD389.20",
+      "saleTotal": "USD738.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_002",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD12.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F6_002",
+        "chargeType": "GOVERNMENT",
+        "code": "F6",
+        "country": "AE",
+        "salePrice": "USD9.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD223.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD92.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD51.00"
+       }
+      ],
+      "fareCalculation": "LON QF X/DXB QF PER 359.61SLOGB NUC 359.61 END ROE 0.789732 FARE GBP 284.00 EQU USD 349.00 XT 92.20GB 51.00UB 9.50F6 12.80WY 223.70YQ",
+      "latestTicketingTime": "2017-02-09T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD738.20",
+    "id": "DlAfUe37UZVPmI0L3Z1m8N004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1220,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 420,
+        "flight": {
+         "carrier": "EK",
+         "number": "5102"
+        },
+        "id": "GUwy-ZH0bZ7c473v",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L90zehq4U8KAGrgF",
+          "aircraft": "388",
+          "arrivalTime": "2017-06-16T07:30+04:00",
+          "departureTime": "2017-06-15T21:30+01:00",
+          "origin": "LHR",
+          "destination": "DXB",
+          "originTerminal": "3",
+          "destinationTerminal": "3",
+          "duration": 420,
+          "operatingDisclosure": "OPERATED BY QANTAS",
+          "mileage": 3414
+         }
+        ],
+        "connectionDuration": 160
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 640,
+        "flight": {
+         "carrier": "EK",
+         "number": "424"
+        },
+        "id": "GhHzlhbZHfmoPVLp",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LKVZZJw3e4RnzZj2",
+          "aircraft": "77W",
+          "arrivalTime": "2017-06-17T00:50+08:00",
+          "departureTime": "2017-06-16T10:10+04:00",
+          "origin": "DXB",
+          "destination": "PER",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 640,
+          "mileage": 5615,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AHtuHqt4WLnD5hS+k7zrEWQEvOXb/dtgZHG5nbuE5FPw",
+        "carrier": "EK",
+        "origin": "LON",
+        "destination": "PER",
+        "basisCode": "ULSOSGB1"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AHtuHqt4WLnD5hS+k7zrEWQEvOXb/dtgZHG5nbuE5FPw",
+        "segmentId": "GUwy-ZH0bZ7c473v"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AHtuHqt4WLnD5hS+k7zrEWQEvOXb/dtgZHG5nbuE5FPw",
+        "segmentId": "GhHzlhbZHfmoPVLp"
+       }
+      ],
+      "baseFareTotal": "GBP284.00",
+      "saleFareTotal": "USD349.00",
+      "saleTaxTotal": "USD389.20",
+      "saleTotal": "USD738.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_002",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD12.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F6_002",
+        "chargeType": "GOVERNMENT",
+        "code": "F6",
+        "country": "AE",
+        "salePrice": "USD9.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD223.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD92.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD51.00"
+       }
+      ],
+      "fareCalculation": "LON EK X/DXB EK PER 359.61ULSOSGB1 NUC 359.61 END ROE 0.789732 FARE GBP 284.00 EQU USD 349.00 XT 92.20GB 51.00UB 9.50F6 12.80WY 223.70YQ",
+      "latestTicketingTime": "2017-02-09T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD804.70",
+    "id": "DlAfUe37UZVPmI0L3Z1m8N009",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1185,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 675,
+        "flight": {
+         "carrier": "TG",
+         "number": "911"
+        },
+        "id": "GmQ9eoGePunqaPk7",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LzBfigM6gPXAMFJM",
+          "aircraft": "380",
+          "arrivalTime": "2017-06-16T05:45+07:00",
+          "departureTime": "2017-06-15T12:30+01:00",
+          "origin": "LHR",
+          "destination": "BKK",
+          "originTerminal": "2",
+          "duration": 675,
+          "mileage": 5948,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 105
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 405,
+        "flight": {
+         "carrier": "TG",
+         "number": "481"
+        },
+        "id": "GojY6S39IEU0uxui",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L07iTojQelMCvv3a",
+          "aircraft": "787",
+          "arrivalTime": "2017-06-16T15:15+08:00",
+          "departureTime": "2017-06-16T07:30+07:00",
+          "origin": "BKK",
+          "destination": "PER",
+          "destinationTerminal": "1",
+          "duration": 405,
+          "mileage": 3308,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AX22MqJYWEaHBuaLzSIDOrsCM8BVLlndwmbcVN2jmi/g",
+        "carrier": "TG",
+        "origin": "LON",
+        "destination": "PER",
+        "basisCode": "QRLOWGB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AX22MqJYWEaHBuaLzSIDOrsCM8BVLlndwmbcVN2jmi/g",
+        "segmentId": "GmQ9eoGePunqaPk7"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AX22MqJYWEaHBuaLzSIDOrsCM8BVLlndwmbcVN2jmi/g",
+        "segmentId": "GojY6S39IEU0uxui"
+       }
+      ],
+      "baseFareTotal": "GBP527.00",
+      "saleFareTotal": "USD648.00",
+      "saleTaxTotal": "USD156.70",
+      "saleTotal": "USD804.70",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "E7_002",
+        "chargeType": "GOVERNMENT",
+        "code": "E7",
+        "country": "TH",
+        "salePrice": "USD1.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD51.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD92.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WY_002",
+        "chargeType": "GOVERNMENT",
+        "code": "WY",
+        "country": "AU",
+        "salePrice": "USD12.50"
+       }
+      ],
+      "fareCalculation": "LON TG X/BKK TG PER 667.31QRLOWGB NUC 667.31 END ROE 0.789732 FARE GBP 527.00 EQU USD 648.00 XT 92.20GB 51.00UB 1.00E7 12.50WY",
+      "latestTicketingTime": "2017-06-15T07:29-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   }
+  ]
+ }
+}

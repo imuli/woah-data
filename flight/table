@@ -18,7 +18,11 @@ function hours(){
 }
 
 function country(){
-	grep -m 1 "^$1" airports.tab | cut -d'	' -f5
+	grep -m 1 "^$1" airports.tab | cut -f5
+}
+
+function city(){
+	grep -m 1 "^$1" airports.tab | cut -f6
 }
 
 function pair (){
@@ -36,12 +40,12 @@ echo 'The currently collected data from [flight](./flight/):'
 echo
 echo 'Time (hours) and Cost (USD) are averages of the ten cheapest one-way flights on 2017-06-15.'
 echo 
-echo '| Airport | JFK Cost | JFK Time | SFO Cost | SFO Time | LHR Cost | LHR Time | SYD Cost | SYD Time | Country |'
-echo '| ------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | ------- |'
+echo '| Airport | JFK Cost | JFK Time | SFO Cost | SFO Time | LHR Cost | LHR Time | SYD Cost | SYD Time | Country | City |'
+echo '| ------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | ------- | ---- |'
 
 airports=$(echo */* | sed -E 's,[A-Z]*/([A-Z]+)\.json ?,\1\n,g' | sort -u)
 
 for airport in $airports; do
-	echo "|   $airport   | $(pair JFK $airport) | $(pair SFO $airport) | $(pair LHR $airport) | $(pair SYD $airport) | $(country $airport) |"
+	echo "|   $airport   | $(pair JFK $airport) | $(pair SFO $airport) | $(pair LHR $airport) | $(pair SYD $airport) | $(country $airport) | $(city $airport) |"
 done | sort -t'|' -k 11
 ) | tee ../flights.md

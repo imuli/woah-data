@@ -1,0 +1,1747 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "M88RHMiNusXa8n2jG0Pn00",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "BOS",
+     "city": "BOS",
+     "name": "Boston Edward L. Logan International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "FLL",
+     "city": "FLL",
+     "name": "Fort Lauderdale International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "JFK",
+     "city": "NYC",
+     "name": "New York John F Kennedy International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "MCO",
+     "city": "ORL",
+     "name": "Orlando International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "MEX",
+     "city": "MEX",
+     "name": "Mexico City Benito Juarez International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "SAL",
+     "city": "SAL",
+     "name": "San Salvador El Salvador International"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "BOS",
+     "name": "Boston"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "FLL",
+     "name": "Fort Lauderdale"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "MEX",
+     "name": "Mexico City"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "NYC",
+     "name": "New York"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "ORL",
+     "name": "Orlando"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "SAL",
+     "name": "San Salvador"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "319",
+     "name": "Airbus A319"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "320",
+     "name": "Airbus A320"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "321",
+     "name": "Airbus A321"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "E90",
+     "name": "Embraer RJ-190"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "UK_002",
+     "name": "Mexico Tourism Tax Derecho No Inmigrante"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "AY_001",
+     "name": "US September 11th Security Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "US_002",
+     "name": "US International Departure Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XF",
+     "name": "US Passenger Facility Charge"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "AV",
+     "name": "AVIANCA"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "B6",
+     "name": "Jetblue Airways Corporation"
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD146.94",
+    "id": "6knvfZB4J5VNT6niekBQdB002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 551,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 197,
+        "flight": {
+         "carrier": "B6",
+         "number": "1801"
+        },
+        "id": "GpuiHM4DbOETu-0F",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L2mn5-LIhC9ojmqV",
+          "aircraft": "321",
+          "arrivalTime": "2017-06-15T18:11-04:00",
+          "departureTime": "2017-06-15T14:54-04:00",
+          "origin": "JFK",
+          "destination": "FLL",
+          "originTerminal": "5",
+          "destinationTerminal": "3",
+          "duration": 197,
+          "onTimePerformance": 70,
+          "mileage": 1070,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 143
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 211,
+        "flight": {
+         "carrier": "B6",
+         "number": "1617"
+        },
+        "id": "GQwfeaXFBrbsWRRJ",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L17vyYjRRst0fHRL",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T23:05-05:00",
+          "departureTime": "2017-06-15T20:34-04:00",
+          "origin": "FLL",
+          "destination": "MEX",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 211,
+          "mileage": 1287,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AP2hRAez8N/La76uTueNhj8qpf0Io55tM6ik0GI/rkYA",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "FLL",
+        "basisCode": "PL7ABEN"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AyNKmaF8lyiy4J5aa4QItvf1OTqvlFmbdL9UpIQnIkAM0hFfcG+OMvbtdwsSmYRfqdh1fH72jXKu8GXQNfrtEzl6ZoR1R3UkBCU+GFnkhwyzRIcfVRO7w6MWvC1r8hnpRHpanQuJszCZQN/",
+        "carrier": "B6",
+        "origin": "FLL",
+        "destination": "MEX",
+        "basisCode": "PL2AUEN5",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AP2hRAez8N/La76uTueNhj8qpf0Io55tM6ik0GI/rkYA",
+        "segmentId": "GpuiHM4DbOETu-0F"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AyNKmaF8lyiy4J5aa4QItvf1OTqvlFmbdL9UpIQnIkAM0hFfcG+OMvbtdwsSmYRfqdh1fH72jXKu8GXQNfrtEzl6ZoR1R3UkBCU+GFnkhwyzRIcfVRO7w6MWvC1r8hnpRHpanQuJszCZQN/",
+        "segmentId": "GQwfeaXFBrbsWRRJ"
+       }
+      ],
+      "baseFareTotal": "USD90.00",
+      "saleFareTotal": "USD90.00",
+      "saleTaxTotal": "USD56.94",
+      "saleTotal": "USD146.94",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD18.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UK_002",
+        "chargeType": "GOVERNMENT",
+        "code": "UK",
+        "country": "MX",
+        "salePrice": "USD24.34"
+       }
+      ],
+      "fareCalculation": "JFK B6 X/FLL 50.23PL7ABEN B6 MEX 40.00PL2AUEN5 NUC 90.23 END ROE 1.00 FARE USD 90.00 XT 18.00US 5.60AY 24.34UK 9.00XF JFK4.50 FLL4.50",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD146.94",
+    "id": "6knvfZB4J5VNT6niekBQdB004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 778,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 184,
+        "flight": {
+         "carrier": "B6",
+         "number": "1"
+        },
+        "id": "GNEkw4oOG8OrBmpK",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LCidNVsWU0lmaNUM",
+          "aircraft": "321",
+          "arrivalTime": "2017-06-15T14:11-04:00",
+          "departureTime": "2017-06-15T11:07-04:00",
+          "origin": "JFK",
+          "destination": "FLL",
+          "originTerminal": "5",
+          "destinationTerminal": "3",
+          "duration": 184,
+          "mileage": 1070,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 383
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 211,
+        "flight": {
+         "carrier": "B6",
+         "number": "1617"
+        },
+        "id": "GQwfeaXFBrbsWRRJ",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L17vyYjRRst0fHRL",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T23:05-05:00",
+          "departureTime": "2017-06-15T20:34-04:00",
+          "origin": "FLL",
+          "destination": "MEX",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 211,
+          "mileage": 1287,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AP2hRAez8N/La76uTueNhj8qpf0Io55tM6ik0GI/rkYA",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "FLL",
+        "basisCode": "PL7ABEN"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AyNKmaF8lyiy4J5aa4QItvf1OTqvlFmbdL9UpIQnIkAM0hFfcG+OMvbtdwsSmYRfqdh1fH72jXKu8GXQNfrtEzl6ZoR1R3UkBCU+GFnkhwyzRIcfVRO7w6MWvC1r8hnpRHpanQuJszCZQN/",
+        "carrier": "B6",
+        "origin": "FLL",
+        "destination": "MEX",
+        "basisCode": "PL2AUEN5",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AP2hRAez8N/La76uTueNhj8qpf0Io55tM6ik0GI/rkYA",
+        "segmentId": "GNEkw4oOG8OrBmpK"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AyNKmaF8lyiy4J5aa4QItvf1OTqvlFmbdL9UpIQnIkAM0hFfcG+OMvbtdwsSmYRfqdh1fH72jXKu8GXQNfrtEzl6ZoR1R3UkBCU+GFnkhwyzRIcfVRO7w6MWvC1r8hnpRHpanQuJszCZQN/",
+        "segmentId": "GQwfeaXFBrbsWRRJ"
+       }
+      ],
+      "baseFareTotal": "USD90.00",
+      "saleFareTotal": "USD90.00",
+      "saleTaxTotal": "USD56.94",
+      "saleTotal": "USD146.94",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD18.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UK_002",
+        "chargeType": "GOVERNMENT",
+        "code": "UK",
+        "country": "MX",
+        "salePrice": "USD24.34"
+       }
+      ],
+      "fareCalculation": "JFK B6 X/FLL 50.23PL7ABEN B6 MEX 40.00PL2AUEN5 NUC 90.23 END ROE 1.00 FARE USD 90.00 XT 18.00US 5.60AY 24.34UK 9.00XF JFK4.50 FLL4.50",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD146.94",
+    "id": "6knvfZB4J5VNT6niekBQdB006",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 963,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 181,
+        "flight": {
+         "carrier": "B6",
+         "number": "201"
+        },
+        "id": "GjNLpLB1T50qDJiW",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L2SZolBeU+vxPZzM",
+          "aircraft": "321",
+          "arrivalTime": "2017-06-15T11:03-04:00",
+          "departureTime": "2017-06-15T08:02-04:00",
+          "origin": "JFK",
+          "destination": "FLL",
+          "originTerminal": "5",
+          "destinationTerminal": "3",
+          "duration": 181,
+          "onTimePerformance": 90,
+          "mileage": 1070,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 571
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 211,
+        "flight": {
+         "carrier": "B6",
+         "number": "1617"
+        },
+        "id": "GQwfeaXFBrbsWRRJ",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L17vyYjRRst0fHRL",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T23:05-05:00",
+          "departureTime": "2017-06-15T20:34-04:00",
+          "origin": "FLL",
+          "destination": "MEX",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 211,
+          "mileage": 1287,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AP2hRAez8N/La76uTueNhj8qpf0Io55tM6ik0GI/rkYA",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "FLL",
+        "basisCode": "PL7ABEN"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AyNKmaF8lyiy4J5aa4QItvf1OTqvlFmbdL9UpIQnIkAM0hFfcG+OMvbtdwsSmYRfqdh1fH72jXKu8GXQNfrtEzl6ZoR1R3UkBCU+GFnkhwyzRIcfVRO7w6MWvC1r8hnpRHpanQuJszCZQN/",
+        "carrier": "B6",
+        "origin": "FLL",
+        "destination": "MEX",
+        "basisCode": "PL2AUEN5",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AP2hRAez8N/La76uTueNhj8qpf0Io55tM6ik0GI/rkYA",
+        "segmentId": "GjNLpLB1T50qDJiW"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AyNKmaF8lyiy4J5aa4QItvf1OTqvlFmbdL9UpIQnIkAM0hFfcG+OMvbtdwsSmYRfqdh1fH72jXKu8GXQNfrtEzl6ZoR1R3UkBCU+GFnkhwyzRIcfVRO7w6MWvC1r8hnpRHpanQuJszCZQN/",
+        "segmentId": "GQwfeaXFBrbsWRRJ"
+       }
+      ],
+      "baseFareTotal": "USD90.00",
+      "saleFareTotal": "USD90.00",
+      "saleTaxTotal": "USD56.94",
+      "saleTotal": "USD146.94",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD18.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UK_002",
+        "chargeType": "GOVERNMENT",
+        "code": "UK",
+        "country": "MX",
+        "salePrice": "USD24.34"
+       }
+      ],
+      "fareCalculation": "JFK B6 X/FLL 50.23PL7ABEN B6 MEX 40.00PL2AUEN5 NUC 90.23 END ROE 1.00 FARE USD 90.00 XT 18.00US 5.60AY 24.34UK 9.00XF JFK4.50 FLL4.50",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD163.94",
+    "id": "6knvfZB4J5VNT6niekBQdB001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 509,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 185,
+        "flight": {
+         "carrier": "B6",
+         "number": "1183"
+        },
+        "id": "GX4A5pdu4IG4N1KS",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LLPjmE5YllUpUcmB",
+          "aircraft": "321",
+          "arrivalTime": "2017-06-15T19:00-04:00",
+          "departureTime": "2017-06-15T15:55-04:00",
+          "origin": "JFK",
+          "destination": "MCO",
+          "originTerminal": "5",
+          "duration": 185,
+          "onTimePerformance": 80,
+          "mileage": 944,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 108
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 216,
+        "flight": {
+         "carrier": "B6",
+         "number": "1725"
+        },
+        "id": "G4UFs36D8ETLxSbY",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 1,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LaVzuGGq7Z9z1Q5n",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T23:24-05:00",
+          "departureTime": "2017-06-15T20:48-04:00",
+          "origin": "MCO",
+          "destination": "MEX",
+          "destinationTerminal": "1",
+          "duration": 216,
+          "mileage": 1279,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AL+AWY6vNfQ//x7oKhTQi3kSKxmL5HGb2IHxsObbwhOw",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "ORL",
+        "basisCode": "PL4ABEN"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Ara5jKg0eFqalgmw82NWoyY+8Nn1PmvsKlY8h2c4mBoL4NTLYQ9D/aGDNaRUHKrfvUIqzcZ/89PiGGev/BifW7c6nsjxrNZw0AOx70CFob6QqNKbfzhEqk0y5psuFiO0pgiqjb16gBB8bpE",
+        "carrier": "B6",
+        "origin": "ORL",
+        "destination": "MEX",
+        "basisCode": "PL2AUEN5",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Ara5jKg0eFqalgmw82NWoyY+8Nn1PmvsKlY8h2c4mBoL4NTLYQ9D/aGDNaRUHKrfvUIqzcZ/89PiGGev/BifW7c6nsjxrNZw0AOx70CFob6QqNKbfzhEqk0y5psuFiO0pgiqjb16gBB8bpE",
+        "segmentId": "G4UFs36D8ETLxSbY"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AL+AWY6vNfQ//x7oKhTQi3kSKxmL5HGb2IHxsObbwhOw",
+        "segmentId": "GX4A5pdu4IG4N1KS"
+       }
+      ],
+      "baseFareTotal": "USD107.00",
+      "saleFareTotal": "USD107.00",
+      "saleTaxTotal": "USD56.94",
+      "saleTotal": "USD163.94",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD18.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UK_002",
+        "chargeType": "GOVERNMENT",
+        "code": "UK",
+        "country": "MX",
+        "salePrice": "USD24.34"
+       }
+      ],
+      "fareCalculation": "JFK B6 X/ORL 64.19PL4ABEN B6 MEX 43.00PL2AUEN5 NUC 107.19 END ROE 1.00 FARE USD 107.00 XT 18.00US 5.60AY 24.34UK 9.00XF JFK4.50 MCO4.50",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD163.94",
+    "id": "6knvfZB4J5VNT6niekBQdB00A",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 976,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 165,
+        "flight": {
+         "carrier": "B6",
+         "number": "289"
+        },
+        "id": "Ggm4O1VWyJyvnYvt",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LImf1p0m0Xv2z86f",
+          "aircraft": "321",
+          "arrivalTime": "2017-06-15T10:53-04:00",
+          "departureTime": "2017-06-15T08:08-04:00",
+          "origin": "JFK",
+          "destination": "MCO",
+          "originTerminal": "5",
+          "duration": 165,
+          "mileage": 944,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 595
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 216,
+        "flight": {
+         "carrier": "B6",
+         "number": "1725"
+        },
+        "id": "G4UFs36D8ETLxSbY",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 1,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LaVzuGGq7Z9z1Q5n",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T23:24-05:00",
+          "departureTime": "2017-06-15T20:48-04:00",
+          "origin": "MCO",
+          "destination": "MEX",
+          "destinationTerminal": "1",
+          "duration": 216,
+          "mileage": 1279,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AL+AWY6vNfQ//x7oKhTQi3kSKxmL5HGb2IHxsObbwhOw",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "ORL",
+        "basisCode": "PL4ABEN"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Ara5jKg0eFqalgmw82NWoyY+8Nn1PmvsKlY8h2c4mBoL4NTLYQ9D/aGDNaRUHKrfvUIqzcZ/89PiGGev/BifW7c6nsjxrNZw0AOx70CFob6QqNKbfzhEqk0y5psuFiO0pgiqjb16gBB8bpE",
+        "carrier": "B6",
+        "origin": "ORL",
+        "destination": "MEX",
+        "basisCode": "PL2AUEN5",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Ara5jKg0eFqalgmw82NWoyY+8Nn1PmvsKlY8h2c4mBoL4NTLYQ9D/aGDNaRUHKrfvUIqzcZ/89PiGGev/BifW7c6nsjxrNZw0AOx70CFob6QqNKbfzhEqk0y5psuFiO0pgiqjb16gBB8bpE",
+        "segmentId": "G4UFs36D8ETLxSbY"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AL+AWY6vNfQ//x7oKhTQi3kSKxmL5HGb2IHxsObbwhOw",
+        "segmentId": "Ggm4O1VWyJyvnYvt"
+       }
+      ],
+      "baseFareTotal": "USD107.00",
+      "saleFareTotal": "USD107.00",
+      "saleTaxTotal": "USD56.94",
+      "saleTotal": "USD163.94",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD18.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UK_002",
+        "chargeType": "GOVERNMENT",
+        "code": "UK",
+        "country": "MX",
+        "salePrice": "USD24.34"
+       }
+      ],
+      "fareCalculation": "JFK B6 X/ORL 64.19PL4ABEN B6 MEX 43.00PL2AUEN5 NUC 107.19 END ROE 1.00 FARE USD 107.00 XT 18.00US 5.60AY 24.34UK 9.00XF JFK4.50 MCO4.50",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD163.94",
+    "id": "6knvfZB4J5VNT6niekBQdB003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 656,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 171,
+        "flight": {
+         "carrier": "B6",
+         "number": "1089"
+        },
+        "id": "GKqdEcy5PeFevLrt",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LriNXeTtMw+YriV9",
+          "aircraft": "321",
+          "arrivalTime": "2017-06-15T16:19-04:00",
+          "departureTime": "2017-06-15T13:28-04:00",
+          "origin": "JFK",
+          "destination": "MCO",
+          "originTerminal": "5",
+          "duration": 171,
+          "onTimePerformance": 90,
+          "mileage": 944,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 269
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 216,
+        "flight": {
+         "carrier": "B6",
+         "number": "1725"
+        },
+        "id": "G4UFs36D8ETLxSbY",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 1,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LaVzuGGq7Z9z1Q5n",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T23:24-05:00",
+          "departureTime": "2017-06-15T20:48-04:00",
+          "origin": "MCO",
+          "destination": "MEX",
+          "destinationTerminal": "1",
+          "duration": 216,
+          "mileage": 1279,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AL+AWY6vNfQ//x7oKhTQi3kSKxmL5HGb2IHxsObbwhOw",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "ORL",
+        "basisCode": "PL4ABEN"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Ara5jKg0eFqalgmw82NWoyY+8Nn1PmvsKlY8h2c4mBoL4NTLYQ9D/aGDNaRUHKrfvUIqzcZ/89PiGGev/BifW7c6nsjxrNZw0AOx70CFob6QqNKbfzhEqk0y5psuFiO0pgiqjb16gBB8bpE",
+        "carrier": "B6",
+        "origin": "ORL",
+        "destination": "MEX",
+        "basisCode": "PL2AUEN5",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Ara5jKg0eFqalgmw82NWoyY+8Nn1PmvsKlY8h2c4mBoL4NTLYQ9D/aGDNaRUHKrfvUIqzcZ/89PiGGev/BifW7c6nsjxrNZw0AOx70CFob6QqNKbfzhEqk0y5psuFiO0pgiqjb16gBB8bpE",
+        "segmentId": "G4UFs36D8ETLxSbY"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AL+AWY6vNfQ//x7oKhTQi3kSKxmL5HGb2IHxsObbwhOw",
+        "segmentId": "GKqdEcy5PeFevLrt"
+       }
+      ],
+      "baseFareTotal": "USD107.00",
+      "saleFareTotal": "USD107.00",
+      "saleTaxTotal": "USD56.94",
+      "saleTotal": "USD163.94",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD18.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UK_002",
+        "chargeType": "GOVERNMENT",
+        "code": "UK",
+        "country": "MX",
+        "salePrice": "USD24.34"
+       }
+      ],
+      "fareCalculation": "JFK B6 X/ORL 64.19PL4ABEN B6 MEX 43.00PL2AUEN5 NUC 107.19 END ROE 1.00 FARE USD 107.00 XT 18.00US 5.60AY 24.34UK 9.00XF JFK4.50 MCO4.50",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD163.94",
+    "id": "6knvfZB4J5VNT6niekBQdB005",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 865,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 167,
+        "flight": {
+         "carrier": "B6",
+         "number": "789"
+        },
+        "id": "GlFq1GHFEvmY2nIW",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lcd2D0ydCiDs12Ew",
+          "aircraft": "321",
+          "arrivalTime": "2017-06-15T12:46-04:00",
+          "departureTime": "2017-06-15T09:59-04:00",
+          "origin": "JFK",
+          "destination": "MCO",
+          "originTerminal": "5",
+          "duration": 167,
+          "onTimePerformance": 80,
+          "mileage": 944,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 482
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 216,
+        "flight": {
+         "carrier": "B6",
+         "number": "1725"
+        },
+        "id": "G4UFs36D8ETLxSbY",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 1,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LaVzuGGq7Z9z1Q5n",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T23:24-05:00",
+          "departureTime": "2017-06-15T20:48-04:00",
+          "origin": "MCO",
+          "destination": "MEX",
+          "destinationTerminal": "1",
+          "duration": 216,
+          "mileage": 1279,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AL+AWY6vNfQ//x7oKhTQi3kSKxmL5HGb2IHxsObbwhOw",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "ORL",
+        "basisCode": "PL4ABEN"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Ara5jKg0eFqalgmw82NWoyY+8Nn1PmvsKlY8h2c4mBoL4NTLYQ9D/aGDNaRUHKrfvUIqzcZ/89PiGGev/BifW7c6nsjxrNZw0AOx70CFob6QqNKbfzhEqk0y5psuFiO0pgiqjb16gBB8bpE",
+        "carrier": "B6",
+        "origin": "ORL",
+        "destination": "MEX",
+        "basisCode": "PL2AUEN5",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AL+AWY6vNfQ//x7oKhTQi3kSKxmL5HGb2IHxsObbwhOw",
+        "segmentId": "GlFq1GHFEvmY2nIW"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Ara5jKg0eFqalgmw82NWoyY+8Nn1PmvsKlY8h2c4mBoL4NTLYQ9D/aGDNaRUHKrfvUIqzcZ/89PiGGev/BifW7c6nsjxrNZw0AOx70CFob6QqNKbfzhEqk0y5psuFiO0pgiqjb16gBB8bpE",
+        "segmentId": "G4UFs36D8ETLxSbY"
+       }
+      ],
+      "baseFareTotal": "USD107.00",
+      "saleFareTotal": "USD107.00",
+      "saleTaxTotal": "USD56.94",
+      "saleTotal": "USD163.94",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD18.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UK_002",
+        "chargeType": "GOVERNMENT",
+        "code": "UK",
+        "country": "MX",
+        "salePrice": "USD24.34"
+       }
+      ],
+      "fareCalculation": "JFK B6 X/ORL 64.19PL4ABEN B6 MEX 43.00PL2AUEN5 NUC 107.19 END ROE 1.00 FARE USD 107.00 XT 18.00US 5.60AY 24.34UK 9.00XF JFK4.50 MCO4.50",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD190.94",
+    "id": "6knvfZB4J5VNT6niekBQdB008",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 724,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 68,
+        "flight": {
+         "carrier": "B6",
+         "number": "1318"
+        },
+        "id": "GmRlrTXg+fP8ULVU",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LfytR0IredRwYTPk",
+          "aircraft": "E90",
+          "arrivalTime": "2017-06-15T13:28-04:00",
+          "departureTime": "2017-06-15T12:20-04:00",
+          "origin": "JFK",
+          "destination": "BOS",
+          "originTerminal": "5",
+          "destinationTerminal": "C",
+          "duration": 68,
+          "onTimePerformance": 70,
+          "mileage": 186,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 40
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 186,
+        "flight": {
+         "carrier": "B6",
+         "number": "1351"
+        },
+        "id": "GfAFVv4oAx4h1rGn",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LCU+21Ly8TFY-6oS",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T17:14-04:00",
+          "departureTime": "2017-06-15T14:08-04:00",
+          "origin": "BOS",
+          "destination": "MCO",
+          "originTerminal": "C",
+          "duration": 186,
+          "onTimePerformance": 90,
+          "mileage": 1121,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 214
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 216,
+        "flight": {
+         "carrier": "B6",
+         "number": "1725"
+        },
+        "id": "G4UFs36D8ETLxSbY",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 1,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LaVzuGGq7Z9z1Q5n",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T23:24-05:00",
+          "departureTime": "2017-06-15T20:48-04:00",
+          "origin": "MCO",
+          "destination": "MEX",
+          "destinationTerminal": "1",
+          "duration": 216,
+          "mileage": 1279,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AIIQdD0IAVFsIrABQzuZHsBW4pT8FtpO/uwmKxXMjVIo",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "BOS",
+        "basisCode": "PL4ACEN"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AORcouY3ZM1Sv7vC8iZIR1VpJ7I9OlU2eSqRZUUAXwNLILdP7bctkixkWd2js1SmjkXlA3C9azKJ0iBvEWGAJwbaXFnCXa0mXVf6oEeQxWq8D/zIuWSsHWLLE1SEDEYV4RMofXxgFTKiogU",
+        "carrier": "B6",
+        "origin": "BOS",
+        "destination": "ORL",
+        "basisCode": "PL2ABEN5",
+        "private": true
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Ara5jKg0eFqalgmw82NWoyY+8Nn1PmvsKlY8h2c4mBoL4NTLYQ9D/aGDNaRUHKrfvUIqzcZ/89PiGGev/BifW7c6nsjxrNZw0AOx70CFob6QqNKbfzhEqk0y5psuFiO0pgiqjb16gBB8bpE",
+        "carrier": "B6",
+        "origin": "ORL",
+        "destination": "MEX",
+        "basisCode": "PL2AUEN5",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Ara5jKg0eFqalgmw82NWoyY+8Nn1PmvsKlY8h2c4mBoL4NTLYQ9D/aGDNaRUHKrfvUIqzcZ/89PiGGev/BifW7c6nsjxrNZw0AOx70CFob6QqNKbfzhEqk0y5psuFiO0pgiqjb16gBB8bpE",
+        "segmentId": "G4UFs36D8ETLxSbY"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AIIQdD0IAVFsIrABQzuZHsBW4pT8FtpO/uwmKxXMjVIo",
+        "segmentId": "GmRlrTXg+fP8ULVU"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AORcouY3ZM1Sv7vC8iZIR1VpJ7I9OlU2eSqRZUUAXwNLILdP7bctkixkWd2js1SmjkXlA3C9azKJ0iBvEWGAJwbaXFnCXa0mXVf6oEeQxWq8D/zIuWSsHWLLE1SEDEYV4RMofXxgFTKiogU",
+        "segmentId": "GfAFVv4oAx4h1rGn"
+       }
+      ],
+      "baseFareTotal": "USD134.00",
+      "saleFareTotal": "USD134.00",
+      "saleTaxTotal": "USD56.94",
+      "saleTotal": "USD190.94",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD18.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UK_002",
+        "chargeType": "GOVERNMENT",
+        "code": "UK",
+        "country": "MX",
+        "salePrice": "USD24.34"
+       }
+      ],
+      "fareCalculation": "JFK B6 X/BOS 31.63PL4ACEN B6 X/ORL 59.53PL2ABEN5 B6 MEX 43.00PL2AUEN5 NUC 134.16 END ROE 1.00 FARE USD 134.00 XT 18.00US 5.60AY 24.34UK 9.00XF JFK4.50 BOS4.50",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD238.94",
+    "id": "6knvfZB4J5VNT6niekBQdB009",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 615,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 77,
+        "flight": {
+         "carrier": "B6",
+         "number": "118"
+        },
+        "id": "Gb+dZ9c4OiGJ3xEr",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L3FCE-tipCXhuodV",
+          "aircraft": "E90",
+          "arrivalTime": "2017-06-15T15:07-04:00",
+          "departureTime": "2017-06-15T13:50-04:00",
+          "origin": "JFK",
+          "destination": "BOS",
+          "originTerminal": "5",
+          "destinationTerminal": "C",
+          "duration": 77,
+          "onTimePerformance": 80,
+          "mileage": 186,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 63
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 202,
+        "flight": {
+         "carrier": "B6",
+         "number": "69"
+        },
+        "id": "G+73rI8gGAvtyo43",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LGNbCaA+aFHYf1yZ",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T19:32-04:00",
+          "departureTime": "2017-06-15T16:10-04:00",
+          "origin": "BOS",
+          "destination": "FLL",
+          "originTerminal": "C",
+          "destinationTerminal": "3",
+          "duration": 202,
+          "onTimePerformance": 70,
+          "mileage": 1238,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 62
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 211,
+        "flight": {
+         "carrier": "B6",
+         "number": "1617"
+        },
+        "id": "GQwfeaXFBrbsWRRJ",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L17vyYjRRst0fHRL",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T23:05-05:00",
+          "departureTime": "2017-06-15T20:34-04:00",
+          "origin": "FLL",
+          "destination": "MEX",
+          "originTerminal": "3",
+          "destinationTerminal": "1",
+          "duration": 211,
+          "mileage": 1287,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AIIQdD0IAVFsIrABQzuZHsBW4pT8FtpO/uwmKxXMjVIo",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "BOS",
+        "basisCode": "PL4ACEN"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Axp2ZfESlaY6TgrZ/rmb9O0ibJ8MkfpI3xN0F9z3ZJryT2IqA1MtzAAKRAT+L3q4KIHaEAL4/NTsU3rvHryGes2F/9lGyeZpcu/pZlOIshhPnRr7ZbtM3plviM3LX1sunpKGc7ypnEWDoQ/",
+        "carrier": "B6",
+        "origin": "BOS",
+        "destination": "FLL",
+        "basisCode": "UI2AUEN5",
+        "private": true
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AyNKmaF8lyiy4J5aa4QItvf1OTqvlFmbdL9UpIQnIkAM0hFfcG+OMvbtdwsSmYRfqdh1fH72jXKu8GXQNfrtEzl6ZoR1R3UkBCU+GFnkhwyzRIcfVRO7w6MWvC1r8hnpRHpanQuJszCZQN/",
+        "carrier": "B6",
+        "origin": "FLL",
+        "destination": "MEX",
+        "basisCode": "PL2AUEN5",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Axp2ZfESlaY6TgrZ/rmb9O0ibJ8MkfpI3xN0F9z3ZJryT2IqA1MtzAAKRAT+L3q4KIHaEAL4/NTsU3rvHryGes2F/9lGyeZpcu/pZlOIshhPnRr7ZbtM3plviM3LX1sunpKGc7ypnEWDoQ/",
+        "segmentId": "G+73rI8gGAvtyo43"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AyNKmaF8lyiy4J5aa4QItvf1OTqvlFmbdL9UpIQnIkAM0hFfcG+OMvbtdwsSmYRfqdh1fH72jXKu8GXQNfrtEzl6ZoR1R3UkBCU+GFnkhwyzRIcfVRO7w6MWvC1r8hnpRHpanQuJszCZQN/",
+        "segmentId": "GQwfeaXFBrbsWRRJ"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AIIQdD0IAVFsIrABQzuZHsBW4pT8FtpO/uwmKxXMjVIo",
+        "segmentId": "Gb+dZ9c4OiGJ3xEr"
+       }
+      ],
+      "baseFareTotal": "USD182.00",
+      "saleFareTotal": "USD182.00",
+      "saleTaxTotal": "USD56.94",
+      "saleTotal": "USD238.94",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD18.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UK_002",
+        "chargeType": "GOVERNMENT",
+        "code": "UK",
+        "country": "MX",
+        "salePrice": "USD24.34"
+       }
+      ],
+      "fareCalculation": "JFK B6 X/BOS 31.63PL4ACEN B6 X/FLL 110.70UI2AUEN5 B6 MEX 40.00PL2AUEN5 NUC 182.33 END ROE 1.00 FARE USD 182.00 XT 18.00US 5.60AY 24.34UK 9.00XF JFK4.50 BOS4.50",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD306.44",
+    "id": "6knvfZB4J5VNT6niekBQdB007",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 490,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 300,
+        "flight": {
+         "carrier": "AV",
+         "number": "671"
+        },
+        "id": "G0WaKK94H+9nz7lM",
+        "cabin": "COACH",
+        "bookingCode": "K",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LkkinpmXFiofAaLt",
+          "aircraft": "320",
+          "arrivalTime": "2017-06-15T07:40-06:00",
+          "departureTime": "2017-06-15T04:40-04:00",
+          "origin": "JFK",
+          "destination": "SAL",
+          "originTerminal": "4",
+          "duration": 300,
+          "operatingDisclosure": "OPERATED BY LINEAS AEREAS COSTARRICENSES-LACSA",
+          "mileage": 2093,
+          "meal": "Breakfast",
+          "secure": true
+         }
+        ],
+        "connectionDuration": 45
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 145,
+        "flight": {
+         "carrier": "AV",
+         "number": "430"
+        },
+        "id": "GN7DR3DFua2x8TAh",
+        "cabin": "COACH",
+        "bookingCode": "K",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LU7sHNzZPNnMAyPM",
+          "aircraft": "319",
+          "arrivalTime": "2017-06-15T11:50-05:00",
+          "departureTime": "2017-06-15T08:25-06:00",
+          "origin": "SAL",
+          "destination": "MEX",
+          "destinationTerminal": "1",
+          "duration": 145,
+          "operatingDisclosure": "OPERATED BY TACA INTERNATIONAL AIRLINES - TACA",
+          "mileage": 781,
+          "meal": "Breakfast"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Ank5eaFY8asD/ONN4BAL30y6LhAl+tU1zEKjmjReFtEk",
+        "carrier": "AV",
+        "origin": "NYC",
+        "destination": "MEX",
+        "basisCode": "KEO00RI9"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Ank5eaFY8asD/ONN4BAL30y6LhAl+tU1zEKjmjReFtEk",
+        "segmentId": "G0WaKK94H+9nz7lM"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Ank5eaFY8asD/ONN4BAL30y6LhAl+tU1zEKjmjReFtEk",
+        "segmentId": "GN7DR3DFua2x8TAh"
+       }
+      ],
+      "baseFareTotal": "USD254.00",
+      "saleFareTotal": "USD254.00",
+      "saleTaxTotal": "USD52.44",
+      "saleTotal": "USD306.44",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD18.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UK_002",
+        "chargeType": "GOVERNMENT",
+        "code": "UK",
+        "country": "MX",
+        "salePrice": "USD24.34"
+       }
+      ],
+      "fareCalculation": "NYC AV X/SAL AV MEX 254.00KEO00RI9 NUC 254.00 END ROE 1.00 FARE USD 254.00 XT 18.00US 5.60AY 24.34UK 4.50XF JFK4.50",
+      "latestTicketingTime": "2017-01-13T09:36-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}
