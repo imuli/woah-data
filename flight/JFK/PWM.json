@@ -1,0 +1,2165 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "V6t5BrpeLrH3Jwn9h0PnND",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "EWR",
+     "city": "EWR",
+     "name": "Newark Liberty International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "IAD",
+     "city": "WAS",
+     "name": "Washington Dulles International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "JFK",
+     "city": "NYC",
+     "name": "New York John F Kennedy International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "PWM",
+     "city": "PWM",
+     "name": "Portland International Jetport"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "YOW",
+     "city": "YOW",
+     "name": "Ottawa McDonald Cartier Int'l"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "YQB",
+     "city": "YQB",
+     "name": "Quebec Jean Lesage International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "YUL",
+     "city": "YMQ",
+     "name": "Montreal Pierre E.Trudeau International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "YYZ",
+     "city": "YTO",
+     "name": "Toronto Lester B Pearson"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "EWR",
+     "name": "Newark"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "NYC",
+     "name": "New York"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "PWM",
+     "name": "Portland"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "WAS",
+     "name": "Washington"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "YMQ",
+     "name": "Montreal"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "YOW",
+     "name": "Ottawa"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "YQB",
+     "name": "Quebec"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "YTO",
+     "name": "Toronto"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "736",
+     "name": "Boeing 737"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "CR2",
+     "name": "Canadair RJ 200"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "CR9",
+     "name": "Canadair RJ 900"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "DH4",
+     "name": "De Havilland-Bombardier Dash-8"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "E90",
+     "name": "Embraer RJ-190"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "ERJ",
+     "name": "Embraer ERJ-135/145"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "RC",
+     "name": "Canadian Harmonized Sales Tax (ON)"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XY",
+     "name": "US Immigration Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "ZP",
+     "name": "US Flight Segment Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "AY_001",
+     "name": "US September 11th Security Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "US_001",
+     "name": "US Transportation Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XA",
+     "name": "USDA APHIS Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YC",
+     "name": "US Customs Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_I",
+     "name": "WS YQ surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XF",
+     "name": "US Passenger Facility Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "SQ",
+     "name": "Toronto Airport Improvement Fee"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "B6",
+     "name": "Jetblue Airways Corporation"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "UA",
+     "name": "United Airlines, Inc."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "WS",
+     "name": "WestJet"
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD98.20",
+    "id": "7IZuUu939m0Uik1IuFLhXO001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 77,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 77,
+        "flight": {
+         "carrier": "B6",
+         "number": "508"
+        },
+        "id": "GbiVMvcmCphhXYyU",
+        "cabin": "COACH",
+        "bookingCode": "U",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LV3uS6MDttQDihsX",
+          "aircraft": "E90",
+          "arrivalTime": "2017-06-15T09:07-04:00",
+          "departureTime": "2017-06-15T07:50-04:00",
+          "origin": "JFK",
+          "destination": "PWM",
+          "originTerminal": "5",
+          "duration": 77,
+          "mileage": 273,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Ax3f6lafWSjm27K5bpJ17eUgnYdxYjjVhh2RYrfv7wcjkFyLEtTo+N6nY0I8fmiEGkL8CKpnQpSfJ0xwp9iVNuSWb2dMu/q2bkofq9259r9kRTt6Cht1DGsSDCSr/QzA5sLwaXPAZe9DM9o",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "PWM",
+        "basisCode": "UL4AUEN5",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Ax3f6lafWSjm27K5bpJ17eUgnYdxYjjVhh2RYrfv7wcjkFyLEtTo+N6nY0I8fmiEGkL8CKpnQpSfJ0xwp9iVNuSWb2dMu/q2bkofq9259r9kRTt6Cht1DGsSDCSr/QzA5sLwaXPAZe9DM9o",
+        "segmentId": "GbiVMvcmCphhXYyU"
+       }
+      ],
+      "baseFareTotal": "USD78.14",
+      "saleFareTotal": "USD78.14",
+      "saleTaxTotal": "USD20.06",
+      "saleTotal": "USD98.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD5.86"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.10"
+       }
+      ],
+      "fareCalculation": "NYC B6 PWM 78.14UL4AUEN5 USD 78.14 END ZP JFK XT 5.86US 4.10ZP 5.60AY 4.50XF JFK4.50",
+      "latestTicketingTime": "2017-01-12T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD115.20",
+    "id": "7IZuUu939m0Uik1IuFLhXO003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 82,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 82,
+        "flight": {
+         "carrier": "B6",
+         "number": "108"
+        },
+        "id": "GjSNu9gp1wWBGy5I",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LOIaBK+OBYQyE4iZ",
+          "aircraft": "E90",
+          "arrivalTime": "2017-06-16T00:02-04:00",
+          "departureTime": "2017-06-15T22:40-04:00",
+          "origin": "JFK",
+          "destination": "PWM",
+          "originTerminal": "5",
+          "duration": 82,
+          "onTimePerformance": 80,
+          "mileage": 273,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AMsqVbpTvb0+y1Wd3+FZX5jAA0Ke7keCNkZqD9KMXP62",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "PWM",
+        "basisCode": "OI7AUEN"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AMsqVbpTvb0+y1Wd3+FZX5jAA0Ke7keCNkZqD9KMXP62",
+        "segmentId": "GjSNu9gp1wWBGy5I"
+       }
+      ],
+      "baseFareTotal": "USD93.95",
+      "saleFareTotal": "USD93.95",
+      "saleTaxTotal": "USD21.25",
+      "saleTotal": "USD115.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD7.05"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.10"
+       }
+      ],
+      "fareCalculation": "NYC B6 PWM 93.95OI7AUEN USD 93.95 END ZP JFK XT 7.05US 4.10ZP 5.60AY 4.50XF JFK4.50",
+      "latestTicketingTime": "2017-01-12T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD115.20",
+    "id": "7IZuUu939m0Uik1IuFLhXO002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 76,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 76,
+        "flight": {
+         "carrier": "B6",
+         "number": "208"
+        },
+        "id": "Gl+ObHf4N1i3aq1x",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LjQhzhqVGjSbgpkX",
+          "aircraft": "E90",
+          "arrivalTime": "2017-06-15T14:01-04:00",
+          "departureTime": "2017-06-15T12:45-04:00",
+          "origin": "JFK",
+          "destination": "PWM",
+          "originTerminal": "5",
+          "duration": 76,
+          "onTimePerformance": 80,
+          "mileage": 273,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AMsqVbpTvb0+y1Wd3+FZX5jAA0Ke7keCNkZqD9KMXP62",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "PWM",
+        "basisCode": "OI7AUEN"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AMsqVbpTvb0+y1Wd3+FZX5jAA0Ke7keCNkZqD9KMXP62",
+        "segmentId": "Gl+ObHf4N1i3aq1x"
+       }
+      ],
+      "baseFareTotal": "USD93.95",
+      "saleFareTotal": "USD93.95",
+      "saleTaxTotal": "USD21.25",
+      "saleTotal": "USD115.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD7.05"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.10"
+       }
+      ],
+      "fareCalculation": "NYC B6 PWM 93.95OI7AUEN USD 93.95 END ZP JFK XT 7.05US 4.10ZP 5.60AY 4.50XF JFK4.50",
+      "latestTicketingTime": "2017-01-12T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD153.20",
+    "id": "7IZuUu939m0Uik1IuFLhXO004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 89,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 89,
+        "flight": {
+         "carrier": "B6",
+         "number": "408"
+        },
+        "id": "GEzNr6pS8gB5Z2-n",
+        "cabin": "COACH",
+        "bookingCode": "M",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LPcaEsrwdQhuJq2S",
+          "aircraft": "E90",
+          "arrivalTime": "2017-06-15T18:02-04:00",
+          "departureTime": "2017-06-15T16:33-04:00",
+          "origin": "JFK",
+          "destination": "PWM",
+          "originTerminal": "5",
+          "duration": 89,
+          "mileage": 273,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ASL0/+VdhBBSEaSxdJuioU3UYePUKV2jfS2IfzaBpHVw",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "PWM",
+        "basisCode": "MI3JUEN"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ASL0/+VdhBBSEaSxdJuioU3UYePUKV2jfS2IfzaBpHVw",
+        "segmentId": "GEzNr6pS8gB5Z2-n"
+       }
+      ],
+      "baseFareTotal": "USD129.30",
+      "saleFareTotal": "USD129.30",
+      "saleTaxTotal": "USD23.90",
+      "saleTotal": "USD153.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD9.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.10"
+       }
+      ],
+      "fareCalculation": "NYC B6 PWM 129.30MI3JUEN USD 129.30 END ZP JFK XT 9.70US 4.10ZP 5.60AY 4.50XF JFK4.50",
+      "latestTicketingTime": "2017-01-12T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD1257.01",
+    "id": "7IZuUu939m0Uik1IuFLhXO008",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 782,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 94,
+        "flight": {
+         "carrier": "WS",
+         "number": "6429"
+        },
+        "id": "G+YmzKBI1XOCEAHr",
+        "cabin": "COACH",
+        "bookingCode": "M",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L3EzuxIYWRb-LBex",
+          "aircraft": "CR2",
+          "arrivalTime": "2017-06-15T11:14-04:00",
+          "departureTime": "2017-06-15T09:40-04:00",
+          "origin": "JFK",
+          "destination": "YUL",
+          "originTerminal": "4",
+          "duration": 94,
+          "operatingDisclosure": "OPERATED BY ENDEAVOR AIR DBA DELTA CONNECTION",
+          "mileage": 333,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 161
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 79,
+        "flight": {
+         "carrier": "WS",
+         "number": "589"
+        },
+        "id": "G9lR0JiRhoqOxoZc",
+        "cabin": "COACH",
+        "bookingCode": "M",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lya3IG4lrKxJwLqU",
+          "aircraft": "736",
+          "arrivalTime": "2017-06-15T15:14-04:00",
+          "departureTime": "2017-06-15T13:55-04:00",
+          "origin": "YUL",
+          "destination": "YYZ",
+          "destinationTerminal": "3",
+          "duration": 79,
+          "mileage": 315
+         }
+        ],
+        "connectionDuration": 166
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 107,
+        "flight": {
+         "carrier": "UA",
+         "number": "4216"
+        },
+        "id": "G2AcqgQTMD9e97Hs",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LgxRinz2t1g3tP+f",
+          "aircraft": "ERJ",
+          "arrivalTime": "2017-06-15T19:47-04:00",
+          "departureTime": "2017-06-15T18:00-04:00",
+          "origin": "YYZ",
+          "destination": "EWR",
+          "originTerminal": "1",
+          "destinationTerminal": "A",
+          "duration": 107,
+          "operatingDisclosure": "OPERATED BY EXPRESSJET AIRLINES DBA UNITED EXPRESS",
+          "mileage": 347,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 88
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 87,
+        "flight": {
+         "carrier": "UA",
+         "number": "3804"
+        },
+        "id": "GrdOAhWaNrvoaUaj",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LlH2DFnkvyWbmW9-",
+          "aircraft": "ERJ",
+          "arrivalTime": "2017-06-15T22:42-04:00",
+          "departureTime": "2017-06-15T21:15-04:00",
+          "origin": "EWR",
+          "destination": "PWM",
+          "originTerminal": "A",
+          "duration": 87,
+          "operatingDisclosure": "OPERATED BY EXPRESSJET AIRLINES DBA UNITED EXPRESS",
+          "mileage": 283,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AIxYtZAmNBMLjKJFBnycYRoUtk2hiG7qfnzhFbQnFC/",
+        "carrier": "WS",
+        "origin": "NYC",
+        "destination": "YTO",
+        "basisCode": "MO21"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A5Cm7XBSwMg3wPHNooTorUlKfdkAThiTZTyX3l8DP4qno/E",
+        "carrier": "UA",
+        "origin": "YTO",
+        "destination": "PWM",
+        "basisCode": "YNN0A9SY"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AIxYtZAmNBMLjKJFBnycYRoUtk2hiG7qfnzhFbQnFC/",
+        "segmentId": "G9lR0JiRhoqOxoZc"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A5Cm7XBSwMg3wPHNooTorUlKfdkAThiTZTyX3l8DP4qno/E",
+        "segmentId": "G2AcqgQTMD9e97Hs"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A5Cm7XBSwMg3wPHNooTorUlKfdkAThiTZTyX3l8DP4qno/E",
+        "segmentId": "GrdOAhWaNrvoaUaj"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AIxYtZAmNBMLjKJFBnycYRoUtk2hiG7qfnzhFbQnFC/",
+        "segmentId": "G+YmzKBI1XOCEAHr"
+       }
+      ],
+      "baseFareTotal": "USD1122.00",
+      "saleFareTotal": "USD1122.00",
+      "saleTaxTotal": "USD135.01",
+      "saleTotal": "USD1257.01",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD84.15"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD16.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RC",
+        "chargeType": "GOVERNMENT",
+        "code": "RC",
+        "country": "CA",
+        "salePrice": "USD0.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SQ",
+        "chargeType": "GOVERNMENT",
+        "code": "SQ",
+        "country": "CA",
+        "salePrice": "USD3.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YC",
+        "chargeType": "GOVERNMENT",
+        "code": "YC",
+        "country": "US",
+        "salePrice": "USD5.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XY",
+        "chargeType": "GOVERNMENT",
+        "code": "XY",
+        "country": "US",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XA",
+        "chargeType": "GOVERNMENT",
+        "code": "XA",
+        "country": "US",
+        "salePrice": "USD3.96"
+       }
+      ],
+      "fareCalculation": "JFK WS X/YMQ WS X/YTO 122.00MO21 UA X/EWR UA PWM Q YTOPWM100.00 900.00YNN0A9SY USD 1122.00 END ZP JFK YUL YYZ EWR XT 5.50YC 7.00XY 3.96XA 84.15US 16.40ZP 5.60AY 0.40RC 3.00SQ 9.00XF JFK4.50 EWR4.50",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD1257.01",
+    "id": "7IZuUu939m0Uik1IuFLhXO005",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 539,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 94,
+        "flight": {
+         "carrier": "WS",
+         "number": "6429"
+        },
+        "id": "G+YmzKBI1XOCEAHr",
+        "cabin": "COACH",
+        "bookingCode": "M",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L3EzuxIYWRb-LBex",
+          "aircraft": "CR2",
+          "arrivalTime": "2017-06-15T11:14-04:00",
+          "departureTime": "2017-06-15T09:40-04:00",
+          "origin": "JFK",
+          "destination": "YUL",
+          "originTerminal": "4",
+          "duration": 94,
+          "operatingDisclosure": "OPERATED BY ENDEAVOR AIR DBA DELTA CONNECTION",
+          "mileage": 333,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 181
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 113,
+        "flight": {
+         "carrier": "UA",
+         "number": "4722"
+        },
+        "id": "GOfaomczvn27arUg",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LESAWE1ypwcRQiZJ",
+          "aircraft": "ERJ",
+          "arrivalTime": "2017-06-15T16:08-04:00",
+          "departureTime": "2017-06-15T14:15-04:00",
+          "origin": "YUL",
+          "destination": "IAD",
+          "duration": 113,
+          "operatingDisclosure": "OPERATED BY TRANS STATES AIRLINES DBA UNITED EXPRESS",
+          "mileage": 489,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 57
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 94,
+        "flight": {
+         "carrier": "UA",
+         "number": "4790"
+        },
+        "id": "G+8EBy8rUFcpHB7H",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lpw3qW00bYi9o2Kb",
+          "aircraft": "ERJ",
+          "arrivalTime": "2017-06-15T18:39-04:00",
+          "departureTime": "2017-06-15T17:05-04:00",
+          "origin": "IAD",
+          "destination": "PWM",
+          "duration": 94,
+          "operatingDisclosure": "OPERATED BY TRANS STATES AIRLINES DBA UNITED EXPRESS",
+          "mileage": 492,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A6kD7Bukvrowr2pkE8yNOZWyzy5/dELZdsaaI97O1LE",
+        "carrier": "WS",
+        "origin": "NYC",
+        "destination": "YMQ",
+        "basisCode": "MO21"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A/cs76Sq+bR6pYOryv93TPfaJx3pmYuZIfGY5AouJtBiNgE",
+        "carrier": "UA",
+        "origin": "YMQ",
+        "destination": "PWM",
+        "basisCode": "YNN0A9SY"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A6kD7Bukvrowr2pkE8yNOZWyzy5/dELZdsaaI97O1LE",
+        "segmentId": "G+YmzKBI1XOCEAHr"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A/cs76Sq+bR6pYOryv93TPfaJx3pmYuZIfGY5AouJtBiNgE",
+        "segmentId": "G+8EBy8rUFcpHB7H"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A/cs76Sq+bR6pYOryv93TPfaJx3pmYuZIfGY5AouJtBiNgE",
+        "segmentId": "GOfaomczvn27arUg"
+       }
+      ],
+      "baseFareTotal": "USD1122.00",
+      "saleFareTotal": "USD1122.00",
+      "saleTaxTotal": "USD135.01",
+      "saleTotal": "USD1257.01",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD84.15"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XA",
+        "chargeType": "GOVERNMENT",
+        "code": "XA",
+        "country": "US",
+        "salePrice": "USD3.96"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XY",
+        "chargeType": "GOVERNMENT",
+        "code": "XY",
+        "country": "US",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YC",
+        "chargeType": "GOVERNMENT",
+        "code": "YC",
+        "country": "US",
+        "salePrice": "USD5.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD7.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD12.30"
+       }
+      ],
+      "fareCalculation": "JFK WS X/YMQ 132.00MO21 UA X/WAS UA PWM Q YMQPWM100.00 890.00YNN0A9SY USD 1122.00 END ZP JFK YUL IAD XT 5.50YC 7.00XY 3.96XA 84.15US 12.30ZP 5.60AY 7.50YQ 9.00XF JFK4.50 IAD4.50",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD1296.76",
+    "id": "7IZuUu939m0Uik1IuFLhXO006",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 652,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 101,
+        "flight": {
+         "carrier": "WS",
+         "number": "6335"
+        },
+        "id": "GVB13Mvr4TJahYGD",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LfAHSIk1bMqrJRfE",
+          "aircraft": "CR9",
+          "arrivalTime": "2017-06-15T13:31-04:00",
+          "departureTime": "2017-06-15T11:50-04:00",
+          "origin": "JFK",
+          "destination": "YYZ",
+          "originTerminal": "4",
+          "destinationTerminal": "3",
+          "duration": 101,
+          "operatingDisclosure": "OPERATED BY ENDEAVOR AIR DBA DELTA CONNECTION",
+          "mileage": 365,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 89
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 85,
+        "flight": {
+         "carrier": "WS",
+         "number": "3494"
+        },
+        "id": "GPqXt31aSsplo+lx",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LvlkNhlyhjboWTZ0",
+          "aircraft": "DH4",
+          "arrivalTime": "2017-06-15T16:25-04:00",
+          "departureTime": "2017-06-15T15:00-04:00",
+          "origin": "YYZ",
+          "destination": "YUL",
+          "originTerminal": "3",
+          "duration": 85,
+          "operatingDisclosure": "OPERATED BY WESTJET ENCORE",
+          "mileage": 315
+         }
+        ],
+        "connectionDuration": 90
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 92,
+        "flight": {
+         "carrier": "UA",
+         "number": "4194"
+        },
+        "id": "GmZsjS1x0pBB8lDn",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LnPqYlbQ3mmsJy76",
+          "aircraft": "ERJ",
+          "arrivalTime": "2017-06-15T19:27-04:00",
+          "departureTime": "2017-06-15T17:55-04:00",
+          "origin": "YUL",
+          "destination": "EWR",
+          "destinationTerminal": "A",
+          "duration": 92,
+          "operatingDisclosure": "OPERATED BY EXPRESSJET AIRLINES DBA UNITED EXPRESS",
+          "mileage": 330,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 108
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 87,
+        "flight": {
+         "carrier": "UA",
+         "number": "3804"
+        },
+        "id": "GrdOAhWaNrvoaUaj",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LlH2DFnkvyWbmW9-",
+          "aircraft": "ERJ",
+          "arrivalTime": "2017-06-15T22:42-04:00",
+          "departureTime": "2017-06-15T21:15-04:00",
+          "origin": "EWR",
+          "destination": "PWM",
+          "originTerminal": "A",
+          "duration": 87,
+          "operatingDisclosure": "OPERATED BY EXPRESSJET AIRLINES DBA UNITED EXPRESS",
+          "mileage": 283,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AF5qFd/h2bQfngkhPs4Kz8DSLfKJjVzw0ifF7OBsf+/",
+        "carrier": "WS",
+        "origin": "NYC",
+        "destination": "YMQ",
+        "basisCode": "QO14"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A/cs76Sq+bR6pYOryv93TPfaJx3pmYuZIfGY5AouJtBiNgE",
+        "carrier": "UA",
+        "origin": "YMQ",
+        "destination": "PWM",
+        "basisCode": "YNN0A9SY"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AF5qFd/h2bQfngkhPs4Kz8DSLfKJjVzw0ifF7OBsf+/",
+        "segmentId": "GPqXt31aSsplo+lx"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A/cs76Sq+bR6pYOryv93TPfaJx3pmYuZIfGY5AouJtBiNgE",
+        "segmentId": "GmZsjS1x0pBB8lDn"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A/cs76Sq+bR6pYOryv93TPfaJx3pmYuZIfGY5AouJtBiNgE",
+        "segmentId": "GrdOAhWaNrvoaUaj"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AF5qFd/h2bQfngkhPs4Kz8DSLfKJjVzw0ifF7OBsf+/",
+        "segmentId": "GVB13Mvr4TJahYGD"
+       }
+      ],
+      "baseFareTotal": "USD1152.00",
+      "saleFareTotal": "USD1152.00",
+      "saleTaxTotal": "USD144.76",
+      "saleTotal": "USD1296.76",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD86.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XA",
+        "chargeType": "GOVERNMENT",
+        "code": "XA",
+        "country": "US",
+        "salePrice": "USD3.96"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XY",
+        "chargeType": "GOVERNMENT",
+        "code": "XY",
+        "country": "US",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YC",
+        "chargeType": "GOVERNMENT",
+        "code": "YC",
+        "country": "US",
+        "salePrice": "USD5.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SQ",
+        "chargeType": "GOVERNMENT",
+        "code": "SQ",
+        "country": "CA",
+        "salePrice": "USD3.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RC",
+        "chargeType": "GOVERNMENT",
+        "code": "RC",
+        "country": "CA",
+        "salePrice": "USD0.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD7.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD16.40"
+       }
+      ],
+      "fareCalculation": "JFK WS X/YTO WS X/YMQ 162.00QO14 UA X/EWR UA PWM Q YMQPWM100.00 890.00YNN0A9SY USD 1152.00 END ZP JFK YYZ YUL EWR XT 5.50YC 7.00XY 3.96XA 86.40US 16.40ZP 5.60AY 0.40RC 3.00SQ 7.50YQ 9.00XF JFK4.50 EWR4.50",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD1298.94",
+    "id": "7IZuUu939m0Uik1IuFLhXO009",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 681,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 108,
+        "flight": {
+         "carrier": "WS",
+         "number": "6337"
+        },
+        "id": "GesR4wIghDmLayGB",
+        "cabin": "COACH",
+        "bookingCode": "M",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LUfrr0WMXF+OB62R",
+          "aircraft": "CR9",
+          "arrivalTime": "2017-06-15T09:17-04:00",
+          "departureTime": "2017-06-15T07:29-04:00",
+          "origin": "JFK",
+          "destination": "YYZ",
+          "originTerminal": "4",
+          "destinationTerminal": "3",
+          "duration": 108,
+          "operatingDisclosure": "OPERATED BY ENDEAVOR AIR DBA DELTA CONNECTION",
+          "mileage": 365,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 163
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 66,
+        "flight": {
+         "carrier": "WS",
+         "number": "3464"
+        },
+        "id": "GRZHGzqcK-xGv3Ng",
+        "cabin": "COACH",
+        "bookingCode": "I",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LT3xOzms3fzPxkjB",
+          "aircraft": "DH4",
+          "arrivalTime": "2017-06-15T13:06-04:00",
+          "departureTime": "2017-06-15T12:00-04:00",
+          "origin": "YYZ",
+          "destination": "YOW",
+          "originTerminal": "3",
+          "duration": 66,
+          "operatingDisclosure": "OPERATED BY WESTJET ENCORE",
+          "mileage": 225
+         }
+        ],
+        "connectionDuration": 121
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 93,
+        "flight": {
+         "carrier": "UA",
+         "number": "4439"
+        },
+        "id": "Gg1LvsgtE8VW8y-l",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lfr3WHOTjmjQ5xaq",
+          "aircraft": "ERJ",
+          "arrivalTime": "2017-06-15T16:40-04:00",
+          "departureTime": "2017-06-15T15:07-04:00",
+          "origin": "YOW",
+          "destination": "EWR",
+          "destinationTerminal": "A",
+          "duration": 93,
+          "operatingDisclosure": "OPERATED BY EXPRESSJET AIRLINES DBA UNITED EXPRESS",
+          "mileage": 328,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 38
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 92,
+        "flight": {
+         "carrier": "UA",
+         "number": "3970"
+        },
+        "id": "GuT3UF2fGMJWxWs1",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LuFWK1AJBVJGuwdm",
+          "aircraft": "ERJ",
+          "arrivalTime": "2017-06-15T18:50-04:00",
+          "departureTime": "2017-06-15T17:18-04:00",
+          "origin": "EWR",
+          "destination": "PWM",
+          "originTerminal": "A",
+          "duration": 92,
+          "operatingDisclosure": "OPERATED BY EXPRESSJET AIRLINES DBA UNITED EXPRESS",
+          "onTimePerformance": 70,
+          "mileage": 283,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AIxYtZAmNBMLjKJFBnycYRoUtk2hiG7qfnzhFbQnFC/",
+        "carrier": "WS",
+        "origin": "NYC",
+        "destination": "YTO",
+        "basisCode": "MO21"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ADbq8IMp/HJ4cryYvb3vefZ78fPrFddzjVW8+Rg2PEKfzNoCR",
+        "carrier": "WS",
+        "origin": "YTO",
+        "destination": "YOW",
+        "basisCode": "IA14UM"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A3m21MjwFbz21wil9C/GVkZjhCXLltHuwF2eog3Esv0Bj+o",
+        "carrier": "UA",
+        "origin": "YOW",
+        "destination": "PWM",
+        "basisCode": "YNN0A9SY"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AIxYtZAmNBMLjKJFBnycYRoUtk2hiG7qfnzhFbQnFC/",
+        "segmentId": "GesR4wIghDmLayGB"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A3m21MjwFbz21wil9C/GVkZjhCXLltHuwF2eog3Esv0Bj+o",
+        "segmentId": "GuT3UF2fGMJWxWs1"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ADbq8IMp/HJ4cryYvb3vefZ78fPrFddzjVW8+Rg2PEKfzNoCR",
+        "segmentId": "GRZHGzqcK-xGv3Ng"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A3m21MjwFbz21wil9C/GVkZjhCXLltHuwF2eog3Esv0Bj+o",
+        "segmentId": "Gg1LvsgtE8VW8y-l"
+       }
+      ],
+      "baseFareTotal": "USD1161.00",
+      "saleFareTotal": "USD1161.00",
+      "saleTaxTotal": "USD137.94",
+      "saleTotal": "USD1298.94",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD83.01"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD4.07"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD16.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RC",
+        "chargeType": "GOVERNMENT",
+        "code": "RC",
+        "country": "CA",
+        "salePrice": "USD0.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SQ",
+        "chargeType": "GOVERNMENT",
+        "code": "SQ",
+        "country": "CA",
+        "salePrice": "USD3.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YC",
+        "chargeType": "GOVERNMENT",
+        "code": "YC",
+        "country": "US",
+        "salePrice": "USD5.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XY",
+        "chargeType": "GOVERNMENT",
+        "code": "XY",
+        "country": "US",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XA",
+        "chargeType": "GOVERNMENT",
+        "code": "XA",
+        "country": "US",
+        "salePrice": "USD3.96"
+       }
+      ],
+      "fareCalculation": "JFK WS X/YTO 122.00MO21 WS X/YOW 54.33IA14UM UA X/EWR UA PWM Q YOWPWM100.00 885.00YNN0A9SY NUC 1161.33 END ROE 1.00 FARE USD 1161.00 ZP JFK YYZ YOW EWR XT 5.50YC 7.00XY 3.96XA 87.08US 16.40ZP 5.60AY 0.40RC 3.00SQ 9.00XF JFK4.50 EWR4.50",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD1298.94",
+    "id": "7IZuUu939m0Uik1IuFLhXO007",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 670,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 108,
+        "flight": {
+         "carrier": "WS",
+         "number": "6337"
+        },
+        "id": "GesR4wIghDmLayGB",
+        "cabin": "COACH",
+        "bookingCode": "M",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LUfrr0WMXF+OB62R",
+          "aircraft": "CR9",
+          "arrivalTime": "2017-06-15T09:17-04:00",
+          "departureTime": "2017-06-15T07:29-04:00",
+          "origin": "JFK",
+          "destination": "YYZ",
+          "originTerminal": "4",
+          "destinationTerminal": "3",
+          "duration": 108,
+          "operatingDisclosure": "OPERATED BY ENDEAVOR AIR DBA DELTA CONNECTION",
+          "mileage": 365,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 163
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 66,
+        "flight": {
+         "carrier": "WS",
+         "number": "3464"
+        },
+        "id": "GRZHGzqcK-xGv3Ng",
+        "cabin": "COACH",
+        "bookingCode": "I",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LT3xOzms3fzPxkjB",
+          "aircraft": "DH4",
+          "arrivalTime": "2017-06-15T13:06-04:00",
+          "departureTime": "2017-06-15T12:00-04:00",
+          "origin": "YYZ",
+          "destination": "YOW",
+          "originTerminal": "3",
+          "duration": 66,
+          "operatingDisclosure": "OPERATED BY WESTJET ENCORE",
+          "mileage": 225
+         }
+        ],
+        "connectionDuration": 83
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 99,
+        "flight": {
+         "carrier": "UA",
+         "number": "4720"
+        },
+        "id": "GTcEd5XQfJZhuL3v",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LKw60aR2FmD301u-",
+          "aircraft": "ERJ",
+          "arrivalTime": "2017-06-15T16:08-04:00",
+          "departureTime": "2017-06-15T14:29-04:00",
+          "origin": "YOW",
+          "destination": "IAD",
+          "duration": 99,
+          "operatingDisclosure": "OPERATED BY TRANS STATES AIRLINES DBA UNITED EXPRESS",
+          "mileage": 449,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 57
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 94,
+        "flight": {
+         "carrier": "UA",
+         "number": "4790"
+        },
+        "id": "G+8EBy8rUFcpHB7H",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lpw3qW00bYi9o2Kb",
+          "aircraft": "ERJ",
+          "arrivalTime": "2017-06-15T18:39-04:00",
+          "departureTime": "2017-06-15T17:05-04:00",
+          "origin": "IAD",
+          "destination": "PWM",
+          "duration": 94,
+          "operatingDisclosure": "OPERATED BY TRANS STATES AIRLINES DBA UNITED EXPRESS",
+          "mileage": 492,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AIxYtZAmNBMLjKJFBnycYRoUtk2hiG7qfnzhFbQnFC/",
+        "carrier": "WS",
+        "origin": "NYC",
+        "destination": "YTO",
+        "basisCode": "MO21"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ADbq8IMp/HJ4cryYvb3vefZ78fPrFddzjVW8+Rg2PEKfzNoCR",
+        "carrier": "WS",
+        "origin": "YTO",
+        "destination": "YOW",
+        "basisCode": "IA14UM"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A3m21MjwFbz21wil9C/GVkZjhCXLltHuwF2eog3Esv0Bj+o",
+        "carrier": "UA",
+        "origin": "YOW",
+        "destination": "PWM",
+        "basisCode": "YNN0A9SY"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AIxYtZAmNBMLjKJFBnycYRoUtk2hiG7qfnzhFbQnFC/",
+        "segmentId": "GesR4wIghDmLayGB"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A3m21MjwFbz21wil9C/GVkZjhCXLltHuwF2eog3Esv0Bj+o",
+        "segmentId": "GTcEd5XQfJZhuL3v"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A3m21MjwFbz21wil9C/GVkZjhCXLltHuwF2eog3Esv0Bj+o",
+        "segmentId": "G+8EBy8rUFcpHB7H"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ADbq8IMp/HJ4cryYvb3vefZ78fPrFddzjVW8+Rg2PEKfzNoCR",
+        "segmentId": "GRZHGzqcK-xGv3Ng"
+       }
+      ],
+      "baseFareTotal": "USD1161.00",
+      "saleFareTotal": "USD1161.00",
+      "saleTaxTotal": "USD137.94",
+      "saleTotal": "USD1298.94",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD83.01"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD4.07"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD16.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RC",
+        "chargeType": "GOVERNMENT",
+        "code": "RC",
+        "country": "CA",
+        "salePrice": "USD0.40"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SQ",
+        "chargeType": "GOVERNMENT",
+        "code": "SQ",
+        "country": "CA",
+        "salePrice": "USD3.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YC",
+        "chargeType": "GOVERNMENT",
+        "code": "YC",
+        "country": "US",
+        "salePrice": "USD5.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XY",
+        "chargeType": "GOVERNMENT",
+        "code": "XY",
+        "country": "US",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XA",
+        "chargeType": "GOVERNMENT",
+        "code": "XA",
+        "country": "US",
+        "salePrice": "USD3.96"
+       }
+      ],
+      "fareCalculation": "JFK WS X/YTO 122.00MO21 WS X/YOW 54.33IA14UM UA X/WAS UA PWM Q YOWPWM100.00 885.00YNN0A9SY NUC 1161.33 END ROE 1.00 FARE USD 1161.00 ZP JFK YYZ YOW IAD XT 5.50YC 7.00XY 3.96XA 87.08US 16.40ZP 5.60AY 0.40RC 3.00SQ 9.00XF JFK4.50 IAD4.50",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD1408.59",
+    "id": "7IZuUu939m0Uik1IuFLhXO00A",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 642,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 115,
+        "flight": {
+         "carrier": "WS",
+         "number": "6469"
+        },
+        "id": "GB998dGt7WQKwxbA",
+        "cabin": "COACH",
+        "bookingCode": "G",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LC0VKFT2NvxQcX8E",
+          "aircraft": "CR9",
+          "arrivalTime": "2017-06-15T13:55-04:00",
+          "departureTime": "2017-06-15T12:00-04:00",
+          "origin": "JFK",
+          "destination": "YQB",
+          "originTerminal": "4",
+          "duration": 115,
+          "operatingDisclosure": "OPERATED BY ENDEAVOR AIR DBA DELTA CONNECTION",
+          "mileage": 441,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 232
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 99,
+        "flight": {
+         "carrier": "UA",
+         "number": "4185"
+        },
+        "id": "GbWuNKZ3DZKXKr9F",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lk28UF9JPSs4PqIY",
+          "aircraft": "ERJ",
+          "arrivalTime": "2017-06-15T19:26-04:00",
+          "departureTime": "2017-06-15T17:47-04:00",
+          "origin": "YQB",
+          "destination": "EWR",
+          "destinationTerminal": "B",
+          "duration": 99,
+          "operatingDisclosure": "OPERATED BY EXPRESSJET AIRLINES DBA UNITED EXPRESS",
+          "mileage": 443,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 109
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 87,
+        "flight": {
+         "carrier": "UA",
+         "number": "3804"
+        },
+        "id": "GrdOAhWaNrvoaUaj",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LlH2DFnkvyWbmW9-",
+          "aircraft": "ERJ",
+          "arrivalTime": "2017-06-15T22:42-04:00",
+          "departureTime": "2017-06-15T21:15-04:00",
+          "origin": "EWR",
+          "destination": "PWM",
+          "originTerminal": "A",
+          "duration": 87,
+          "operatingDisclosure": "OPERATED BY EXPRESSJET AIRLINES DBA UNITED EXPRESS",
+          "mileage": 283,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A7qIsLwTICxsVHATw14qfVcmL+QvzlOi7s9lWbYsr3E",
+        "carrier": "WS",
+        "origin": "NYC",
+        "destination": "YQB",
+        "basisCode": "GO30"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AYx7IRiiPG5t+scAudSUC0mCxUBlhoaw4BeW95nxAaRPm8U",
+        "carrier": "UA",
+        "origin": "YQB",
+        "destination": "PWM",
+        "basisCode": "YNN0A9SY"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AYx7IRiiPG5t+scAudSUC0mCxUBlhoaw4BeW95nxAaRPm8U",
+        "segmentId": "GbWuNKZ3DZKXKr9F"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A7qIsLwTICxsVHATw14qfVcmL+QvzlOi7s9lWbYsr3E",
+        "segmentId": "GB998dGt7WQKwxbA"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AYx7IRiiPG5t+scAudSUC0mCxUBlhoaw4BeW95nxAaRPm8U",
+        "segmentId": "GrdOAhWaNrvoaUaj"
+       }
+      ],
+      "baseFareTotal": "USD1263.00",
+      "saleFareTotal": "USD1263.00",
+      "saleTaxTotal": "USD145.59",
+      "saleTotal": "USD1408.59",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD94.73"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XA",
+        "chargeType": "GOVERNMENT",
+        "code": "XA",
+        "country": "US",
+        "salePrice": "USD3.96"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XY",
+        "chargeType": "GOVERNMENT",
+        "code": "XY",
+        "country": "US",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YC",
+        "chargeType": "GOVERNMENT",
+        "code": "YC",
+        "country": "US",
+        "salePrice": "USD5.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD7.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD12.30"
+       }
+      ],
+      "fareCalculation": "JFK WS X/YQB 177.00GO30 UA X/EWR UA PWM Q YQBPWM100.00 986.00YNN0A9SY USD 1263.00 END ZP JFK YQB EWR XT 5.50YC 7.00XY 3.96XA 94.73US 12.30ZP 5.60AY 7.50YQ 9.00XF JFK4.50 EWR4.50",
+      "latestTicketingTime": "2017-01-11T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   }
+  ]
+ }
+}
